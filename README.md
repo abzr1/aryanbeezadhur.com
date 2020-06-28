@@ -1,2 +1,2 @@
 # AryanBeezadhur
-My personal site, hosted with Vercel
+My personal site, hosted with Vercel.

@@ -53,7 +53,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 
     <style type="text/css">
-        /* CSS Snippet For Custom Scrollbar */
+        /* CUSTOM SCROLLBAR */
 
         /* Width */
         ::-webkit-scrollbar {
@@ -67,33 +67,17 @@
 
         /* Handle */
         ::-webkit-scrollbar-thumb {
-            background-color: #FFC300;
+            background-color: var(--theme-color);
         }
 
         /* END OF CSS SNIPPET */
 
-        /* CSS Snippet For .text-link Border On Hover */
-
-        .text-link {
-            display: inline-block;
+        :root {
+            --theme-color: #FFDB64;
         }
-
-        .text-link:after {
-            display: block;
-            content: '';
-            border-bottom: solid 2px #FFC300;
-            transform: scaleX(0);
-            transition: transform 250ms ease-in-out;
-        }
-
-        .text-link:hover:after {
-            transform: scaleX(1);
-        }
-
-        /* END OF CSS SNIPPET */
 
         ::selection {
-            background-color: #FFC300;
+            background-color: var(--theme-color);
             color: #FFFFFF;
         }
 
@@ -114,17 +98,15 @@
             font-family: 'Inter', sans-serif;
         }
 
-        a {
+        .text-link {
             text-decoration: none;
-            color: #FFC300;
+            color: var(--theme-color);
+            border-bottom: 1px dotted var(--theme-color);
+            transition: all 0.1s;
         }
 
-        a:focus {
-            color: #FFC300;
-        }
-
-        a:visited {
-            color: #FFC300;
+        .text-link:hover {
+            border-bottom: 2px solid var(--theme-color);
         }
 
         h1 {
@@ -157,6 +139,8 @@
             margin: 20px 50px 20px 50px;
             font-weight: bold;
             font-size: 20px;
+            border-bottom: 2px solid transparent;
+            transition: all 0.1s;
         }
 
         #top-section {
@@ -181,7 +165,7 @@
         }
 
         #top-section-header-2 {
-            color: #FFC300;
+            color: var(--theme-color);
         }
 
         .box-section {
@@ -240,14 +224,15 @@
 
                 <p>
                     I build web apps and websites using the latest technologies without the limits of a WordPress or Wix
-                    template, allowing total control over the content and format. I verify my sites using
-                    <a class="text-link" href="http://web.dev">web.dev</a>, the Google standard in web SEO and
-                    accessibility.
-                    I have experience with developing HTML5 sites and JavaScript, Python and PHP web apps.
+                    template, allowing total control over the content and format.
                 </p>
 
                 <p>
-                    I can also host your site or web app for free on vercel.app or netlify.app
+                    Skills
+                </p>
+
+                <p>
+                    I can host your site or web app for free on vercel.app or netlify.app
                 </p>
 
                 <p>Contact me on</p>

@@ -62,7 +62,7 @@
 
         /* Track */
         ::-webkit-scrollbar-track {
-            background: #000000;
+            background: #010101;
         }
 
         /* Handle */
@@ -73,12 +73,12 @@
         /* END OF CSS SNIPPET */
 
         :root {
-            --theme-color: #FEFE3F;
+            --theme-color: #FBC220;
         }
 
         ::selection {
             background-color: var(--theme-color);
-            color: #FFFFFF;
+            color: #F5F5F7;
         }
 
         html {
@@ -90,8 +90,8 @@
             margin: 0;
             font-family: 'Montserrat', sans-serif;
             -webkit-font-smoothing: antialiased;
-            background-color: #010101;
-            color: #FFFFFF;
+            background-color: #111111;
+            color: #F5F5F7;
         }
 
         p {
@@ -114,77 +114,34 @@
             margin: 0;
         }
 
-        .scrolled-to {
-            scroll-margin-top: 5rem;
+        #logo {
+            height: 75px;
+            border-radius: 75px;
+            margin: 4.1vh 0 0 13.7vh;
+            transition: all 1s;
         }
 
-        #navbar {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: #010101;
-            height: 70px;
-            width: 100%;
-            position: fixed;
-            z-index: 1;
-            border-bottom: 1px solid #FFFFFF;
-        }
-
-        #navbar-icon {
-            height: 50px;
-            border-radius: 50px;
-        }
-
-        .navbar-link {
-            margin: 20px 50px 20px 50px;
-            font-weight: bold;
-            font-size: 20px;
-            border-bottom: 2px solid transparent;
-            transition: all 0.1s;
+        #logo:hover {
+            transform: rotate(360deg);
         }
 
         #top-section {
-            height: 600px;
+            height: 100vh;
+            margin: 9.6vh 0 0 13.7vh;
         }
 
         .top-section-header {
-            font-size: 75px;
-            position: relative;
-            animation: 1s slide-down;
-            animation-fill-mode: forwards;
-        }
-
-        @keyframes slide-down {
-            from {
-                top: -700px;
-            }
-
-            to {
-                top: 130px;
-            }
+            font-size: 10vh;
         }
 
         #top-section-header-2 {
             color: var(--theme-color);
         }
 
-        .box-section {
-            background-color: #111111;
+        .section {
             padding: 50px;
             margin: 7vw;
             line-height: 30px;
-            border-radius: 50px;
-            box-shadow: 50px 50px #0E0E0E;
-            transition: all 0.5s;
-        }
-
-        .box-section:hover {
-            box-shadow: 20px 20px #0E0E0E;
-        }
-
-        .box-section-header {
-            font-size: 50px;
-            margin-bottom: 50px;
         }
     </style>
 
@@ -193,29 +150,19 @@
 <body>
 
     <header>
-        <center id="navbar">
-            <a href="https://aryanbeezadhur.vercel.app"><img id="navbar-icon" src="assets/icon.jpg" alt="Icon" /></a>
-            <a href="#about" class="navbar-link text-link">ABOUT</a>
-            <a href="#portfolio" class="navbar-link text-link">PORTFOLIO</a>
-        </center>
+        <a href="https://aryanbeezadhur.vercel.app"><img id="logo" src="assets/icon.jpg" alt="Icon" /></a>
     </header>
 
     <main>
 
         <section id="top-section">
-            <center>
-                <h1 class="top-section-header">Aryan Beezadhur</h1>
-            </center>
-            <center>
-                <h1 id="top-section-header-2" class="top-section-header">Full-Stack Developer</h1>
-            </center>
+            <h1 class="top-section-header">Aryan Beezadhur</h1>
+            <h1 id="top-section-header-2" class="top-section-header">Full-Stack Developer</h1>
         </section>
 
-        <section id="about" class="scrolled-to">
+        <section>
 
-            <center class="box-section">
-
-                <h1 class="box-section-header">ABOUT</h1>
+            <center class="section">
 
                 <p>
                     My name is Aryan, and I am a young and dynamic full-stack developer. I have built many projects and
@@ -244,11 +191,9 @@
 
         </section>
 
-        <section id="portfolio" class="scrolled-to">
+        <section>
 
-            <center class="box-section">
-
-                <h1 class="box-section-header">PORTFOLIO</h1>
+            <center class="section">
 
                 <h1>SurfGuard</h1>
                 <p>A website for my project SurfGuard:</p>
@@ -299,7 +244,7 @@
 
     <footer>
         <center>
-            <p>&copy; 2016 &mdash; 2020 Aryan Beezadhur</p>
+            <p>&copy; 2016&mdash;present Aryan Beezadhur</p>
         </center>
     </footer>
 </body>

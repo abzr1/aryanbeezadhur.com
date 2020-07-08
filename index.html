@@ -27,7 +27,7 @@
     <meta name="keywords"
         content="web developer, web designer, website developer, website designer, front end, front-end, frontend, back end, back-end, backend, full stack, full-stack, fullstack">
     <!-- Theme color for android search engines -->
-    <meta name="theme-color" content="#FFC300" />
+    <meta name="theme-color" content="#FBC220" />
 
     <!-- Facebook card -->
     <meta property="og:title" content="Aryan Beezadhur|Full-Stack Developer" />
@@ -60,24 +60,26 @@
             width: 10px;
         }
 
-        /* Track */
-        ::-webkit-scrollbar-track {
-            background: #010101;
-        }
-
         /* Handle */
         ::-webkit-scrollbar-thumb {
-            background-color: var(--theme-color);
+            background-color: var(--yellow);
+            border-radius: 10px;
         }
 
         /* END OF CSS SNIPPET */
 
-        :root {
-            --theme-color: #FBC220;
+        ::selection {
+            background-color: var(--yellow);
+            color: #F5F5F7;
         }
 
-        ::selection {
-            background-color: var(--theme-color);
+        :root {
+            --yellow: #FBC220;
+        }
+
+        * {
+            font-family: 'Inter', sans-serif;
+            background-color: #111111;
             color: #F5F5F7;
         }
 
@@ -88,25 +90,22 @@
         body {
             padding: 0;
             margin: 0;
-            font-family: 'Montserrat', sans-serif;
             -webkit-font-smoothing: antialiased;
-            background-color: #111111;
-            color: #F5F5F7;
         }
 
-        p {
-            font-family: 'Inter', sans-serif;
+        h1 {
+            font-family: 'Montserrat', sans-serif;
         }
 
         .text-link {
             text-decoration: none;
-            color: var(--theme-color);
-            border-bottom: 1px dotted var(--theme-color);
+            color: var(--yellow);
+            border-bottom: 1px dotted var(--yellow);
             transition: all 0.1s;
         }
 
         .text-link:hover {
-            border-bottom: 2px solid var(--theme-color);
+            border-bottom: 2px solid var(--yellow);
         }
 
         h1 {
@@ -117,8 +116,8 @@
         #logo {
             height: 75px;
             border-radius: 75px;
-            margin: 4.1vh 0 0 13.7vh;
-            transition: all 1s;
+            margin-bottom: 30px;
+            transition: all 0.6s;
         }
 
         #logo:hover {
@@ -126,8 +125,11 @@
         }
 
         #top-section {
-            height: 100vh;
-            margin: 9.6vh 0 0 13.7vh;
+            height: 70vh;
+            width: 85vw;
+            margin-top: 9.6vh;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .top-section-header {
@@ -135,7 +137,7 @@
         }
 
         #top-section-header-2 {
-            color: var(--theme-color);
+            color: var(--yellow);
         }
 
         .section {
@@ -143,51 +145,62 @@
             margin: 7vw;
             line-height: 30px;
         }
+
+        .section h1 {
+            font-size: 7vh;
+            margin-bottom: 30px;
+        }
+
+        .contact-btn {
+            cursor: pointer;
+            outline: none;
+            height: 50px;
+            width: 170px;
+            border: 2px solid var(--yellow);
+            border-radius: 5px;
+            transition: all 0.1s;
+        }
+
+        .contact-btn:hover {
+            background-color: var(--yellow);
+        }
     </style>
 
 </head>
 
 <body>
 
-    <header>
-        <a href="https://aryanbeezadhur.vercel.app"><img id="logo" src="assets/icon.jpg" alt="Icon" /></a>
-    </header>
-
     <main>
 
         <section id="top-section">
+            <a href="https://aryanbeezadhur.vercel.app"><img id="logo" src="assets/icon.jpg" alt="Icon" /></a>
             <h1 class="top-section-header">Aryan Beezadhur</h1>
             <h1 id="top-section-header-2" class="top-section-header">Full-Stack Developer</h1>
         </section>
 
-        <section>
+        <section class="section">
 
-            <center class="section">
+            <h1>ABOUT</h1>
 
-                <p>
-                    My name is Aryan, and I am a young and dynamic full-stack developer. I have built many projects and
-                    sites, and I have also had a work placement experience with Sage Foundation.
-                </p>
+            <p>
+                My name is Aryan, and I am a young and dynamic Full-Stack developer. I have built many projects and
+                sites, and I have also had a work placement experience with Sage Foundation.
+            </p>
 
-                <p>
-                    I build web apps and websites using the latest technologies without the limits of a WordPress or Wix
-                    template, allowing total control over the content and format.
-                </p>
+            <p>
+                I build web apps and websites using the latest technologies without the limits of a WordPress or Wix
+                template, allowing total control over the content and format.
+            </p>
 
-                <p>
-                    Skills
-                </p>
+            <p>
+                Skills
+            </p>
 
-                <p>
-                    I can host your site or web app for free on vercel.app or netlify.app
-                </p>
+            <p>
+                I can host your site or web app for free on vercel.app or netlify.app
+            </p>
 
-                <p>Contact me on</p>
-                <a class="text-link" href="mailto:aryanbeezadhur@gmail.com">Email</a> &mdash;
-                <a class="text-link" href="https://www.fiverr.com/aryanbeezadhur">Fiverr</a> &mdash;
-                <a class="text-link" href="https://www.freelancer.com/u/aryanbeezadhur">Freelancer</a>
-
-            </center>
+            <button class="contact-btn">Contact</button>
 
         </section>
 
@@ -247,6 +260,14 @@
             <p>&copy; 2016&mdash;present Aryan Beezadhur</p>
         </center>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+        $(".contact-btn").on("click", () => {
+            window.open("mailto:aryanbeezadhur@gmail.com");
+        });
+    </script>
 </body>
 
 </html>

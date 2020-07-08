@@ -95,22 +95,18 @@
 
         h1 {
             font-family: 'Montserrat', sans-serif;
+            padding: 0;
+            margin: 0;
         }
 
-        .text-link {
+        a {
             text-decoration: none;
-            color: var(--yellow);
-            border-bottom: 1px dotted var(--yellow);
+            border-bottom: 1px dotted;
             transition: all 0.1s;
         }
 
-        .text-link:hover {
-            border-bottom: 2px solid var(--yellow);
-        }
-
-        h1 {
-            padding: 0;
-            margin: 0;
+        a:hover {
+            border-bottom: 2px solid;
         }
 
         #logo {
@@ -141,8 +137,8 @@
         }
 
         .section {
-            padding: 50px;
-            margin: 7vw;
+            margin: 10.98vw;
+            width: 50vw;
             line-height: 30px;
         }
 
@@ -151,17 +147,21 @@
             margin-bottom: 30px;
         }
 
-        .contact-btn {
+        .button {
             cursor: pointer;
             outline: none;
+            font-size: 17px;
             height: 50px;
-            width: 170px;
+            padding: 10px;
+            margin-top: 20px;
             border: 2px solid var(--yellow);
             border-radius: 5px;
-            transition: all 0.1s;
+            transition: all 0.2s;
         }
 
-        .contact-btn:hover {
+        .button:hover {
+            margin-left: 10px;
+            color: #111111;
             background-color: var(--yellow);
         }
     </style>
@@ -193,63 +193,38 @@
             </p>
 
             <p>
-                Skills
-            </p>
-
-            <p>
                 I can host your site or web app for free on vercel.app or netlify.app
             </p>
 
-            <button class="contact-btn">Contact</button>
+            <button class="button" id="contact-btn">Contact &nbsp; &rarr;</button>
 
         </section>
 
-        <section>
+        <section class="section">
 
-            <center class="section">
+            <h1>Projects</h1>
 
-                <h1>SurfGuard</h1>
-                <p>A website for my project SurfGuard:</p>
-                <a class="text-link" href="https://surfguard.now.sh">
-                    surfguard.now.sh
+            <h2>SurfGuard</h2>
+            <p>A website for my project SurfGuard:</p>
+            <a href="https://surfguard.now.sh">
+                surfguard.now.sh &rarr;
+            </a>
 
-                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        class="feather feather-arrow-right">
-                        <line x1="5" y1="12" x2="19" y2="12"></line>
-                        <polyline points="12 5 19 12 12 19"></polyline>
-                    </svg>
-                </a>
+            <br /><br />
 
-                <br /><br />
+            <h2>BMM</h2>
+            <p>A website for the Bass Music Movement YouTube channel:</p>
+            <a href="https://bmm.now.sh">
+                bmm.now.sh &rarr;
+            </a>
 
-                <h1>BMM</h1>
-                <p>A website for the Bass Music Movement YouTube channel:</p>
-                <a class="text-link" href="https://bmm.now.sh">
-                    bmm.now.sh
-                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        class="feather feather-arrow-right">
-                        <line x1="5" y1="12" x2="19" y2="12"></line>
-                        <polyline points="12 5 19 12 12 19"></polyline>
-                    </svg>
-                </a>
+            <br /><br />
 
-                <br /><br />
-
-                <h1>Car Music</h1>
-                <p>A website for the Car Music YouTube channel:</p>
-                <a class="text-link" href="https://carmusic.vercel.app">
-                    carmusic.vercel.app
-                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        class="feather feather-arrow-right">
-                        <line x1="5" y1="12" x2="19" y2="12"></line>
-                        <polyline points="12 5 19 12 12 19"></polyline>
-                    </svg>
-                </a>
-
-            </center>
+            <h2>Car Music</h2>
+            <p>A website for the Car Music YouTube channel:</p>
+            <a href="https://carmusic.vercel.app">
+                carmusic.vercel.app &rarr;
+            </a>
 
         </section>
 
@@ -261,10 +236,8 @@
         </center>
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
     <script>
-        $(".contact-btn").on("click", () => {
+        document.getElementById("contact-btn").addEventListener("click", () => {
             window.open("mailto:aryanbeezadhur@gmail.com");
         });
     </script>

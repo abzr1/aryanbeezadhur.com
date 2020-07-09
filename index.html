@@ -90,6 +90,7 @@
         body {
             padding: 0;
             margin: 0;
+            overflow-x: hidden;
             -webkit-font-smoothing: antialiased;
         }
 
@@ -103,11 +104,12 @@
             outline: none;
             text-decoration: none;
             border-bottom: 1px dotted;
-            transition: all 0.1s;
+            transition: all 0.2s;
         }
 
         a:hover {
             border-bottom: 2px solid;
+            margin-left: 10px;
         }
 
         #logo {
@@ -128,7 +130,7 @@
         }
 
         #icons a:hover {
-            transform: rotate(30deg);
+            transform: rotate(20deg);
         }
 
         #top-section {
@@ -137,19 +139,22 @@
             margin-top: 9.6vh;
             margin-left: auto;
             margin-right: auto;
+            position: relative;
+            animation: brighten 1s forwards;
         }
 
         .top-section-header {
-            font-size: 10vh;
+            font-size: 9vh;
         }
 
         #top-section-header-2 {
+            margin-top: 20px;
             color: var(--yellow);
         }
 
         .section {
             margin: 10.98vw;
-            width: 50vw;
+            font-size: 2.5vh;
             line-height: 30px;
         }
 
@@ -175,6 +180,26 @@
             color: #111111;
             background-color: var(--yellow);
         }
+
+        @keyframes brighten {
+            0% {
+                opacity: 0;
+                left: -200px;
+            }
+
+            33% {
+                left: 20px;
+            }
+
+            66% {
+                left: -10px;
+            }
+
+            100% {
+                opacity: 1;
+                left: 0;
+            }
+        }
     </style>
 
 </head>
@@ -187,6 +212,7 @@
             <div id="icons">
                 <img id="logo" src="assets/icon.jpg" alt="icon" />
                 <a href="https://twitter.com/AryanBeezadhur"><img src="assets/twitter.svg" /></a>
+                <a href="https://github.com/AryanBeezadhur"><img src="assets/github.svg" /></a>
             </div>
 
             <h1 class="top-section-header">Aryan Beezadhur</h1>
@@ -198,8 +224,8 @@
             <h1>ABOUT</h1>
 
             <p>
-                My name is Aryan, and I am a young and dynamic Full-Stack developer. I have built many projects and
-                sites, and I have also had a work placement experience with Sage Foundation.
+                My name is Aryan, and I am a young and dynamic Full-Stack developer. I have had a work placement with
+                <a href="https://www.sage.com/en-gb/">Sage Foundation</a>.
             </p>
 
             <p>
@@ -219,8 +245,10 @@
 
             <h1>Projects</h1>
 
+            <br />
+
             <h2>SurfGuard</h2>
-            <p>A website for my project SurfGuard:</p>
+            <p>A website for my project SurfGuard</p>
             <a href="https://surfguard.now.sh">
                 surfguard.now.sh &rarr;
             </a>
@@ -228,7 +256,7 @@
             <br /><br />
 
             <h2>BMM</h2>
-            <p>A website for the Bass Music Movement YouTube channel:</p>
+            <p>A website for the Bass Music Movement YouTube channel</p>
             <a href="https://bmm.now.sh">
                 bmm.now.sh &rarr;
             </a>
@@ -236,7 +264,7 @@
             <br /><br />
 
             <h2>Car Music</h2>
-            <p>A website for the Car Music YouTube channel:</p>
+            <p>A website for the Car Music YouTube channel</p>
             <a href="https://carmusic.vercel.app">
                 carmusic.vercel.app &rarr;
             </a>

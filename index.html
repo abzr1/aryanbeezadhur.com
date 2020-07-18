@@ -3,16 +3,6 @@
 
 <head>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156538327-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-156538327-1');
-    </script>
-
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -49,8 +39,8 @@
     <meta name="twitter:url" content="https://aryanbeezadhur.vercel.app" />
 
     <!-- Import Font -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hind+Madurai&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
     <style type="text/css">
         /* CUSTOM SCROLLBAR */
@@ -78,7 +68,7 @@
         }
 
         * {
-            font-family: 'Inter', sans-serif;
+            font-family: 'Hind Madurai', sans-serif;
             background-color: #111111;
             color: #F5F5F7;
         }
@@ -109,7 +99,24 @@
 
         a:hover {
             border-bottom: 2px solid;
-            margin-left: 10px;
+        }
+
+        .contact-btn {
+            cursor: pointer;
+            outline: none;
+            font-size: 17px;
+            height: 50px;
+            padding: 10px;
+            margin-top: 20px;
+            border: 2px solid var(--yellow);
+            border-radius: 5px;
+            transition: all 0.2s;
+        }
+
+        .contact-btn:hover {
+            margin-left: 15px;
+            color: #111111;
+            background-color: var(--yellow);
         }
 
         #top-section {
@@ -136,11 +143,6 @@
         #icons a {
             border: none;
             margin: 0 0 30px 30px;
-            transition: all 0.5s;
-        }
-
-        #icons a:hover {
-            transform: rotate(20deg);
         }
 
         .top-section-header {
@@ -154,7 +156,7 @@
 
         .section {
             margin: 10.98vw;
-            font-size: 2.5vh;
+            font-size: 3vh;
             line-height: 30px;
         }
 
@@ -163,28 +165,14 @@
             margin-bottom: 30px;
         }
 
-        .button {
-            cursor: pointer;
-            outline: none;
-            font-size: 17px;
-            height: 50px;
-            padding: 10px;
-            margin-top: 20px;
-            border: 2px solid var(--yellow);
-            border-radius: 5px;
-            transition: all 0.2s;
-        }
-
-        .button:hover {
-            margin-left: 10px;
-            color: #111111;
-            background-color: var(--yellow);
+        .project-link:hover {
+            margin-left: 15px;
         }
 
         @keyframes slide {
             0% {
                 opacity: 0;
-                left: -100px;
+                left: -150px;
             }
 
             100% {
@@ -239,20 +227,24 @@
             <h1>ABOUT</h1>
 
             <p>
-                My name is Aryan, and I am a young and dynamic Full-Stack developer. I have had a work placement with
+                I am Aryan, and I am a young and dynamic full-stack developer. I have had a work placement with
                 <a href="https://www.sage.com/en-gb/">Sage Foundation</a>.
             </p>
 
             <p>
-                I build web apps and websites using the latest technologies without the limits of a WordPress or Wix
-                template, allowing total control over the content and format.
+                I build web apps and websites using the latest web technologies without the constraints of a WordPress
+                or Wix template, providing total control over the content and display.
             </p>
 
             <p>
-                I can host your site or web app for free on vercel.app or netlify.app
+                I host sites and web apps using the generous
+                <a href="https://vercel.com/pricing">Vercel</a>
+                or
+                <a href="https://netlify.com/pricing">Netlify</a>
+                free plan.
             </p>
 
-            <button class="button" id="contact-btn">Contact &nbsp; &rarr;</button>
+            <button class="contact-btn" id="contact-btn">Contact &nbsp; &rarr;</button>
 
         </section>
 
@@ -264,7 +256,7 @@
 
             <h2>SurfGuard</h2>
             <p>A website for my project SurfGuard</p>
-            <a href="https://surfguard.now.sh">
+            <a class="project-link" href="https://surfguard.now.sh">
                 surfguard.now.sh &rarr;
             </a>
 
@@ -272,7 +264,7 @@
 
             <h2>BMM</h2>
             <p>A website for the Bass Music Movement YouTube channel</p>
-            <a href="https://bmm.now.sh">
+            <a class="project-link" href="https://bmm.now.sh">
                 bmm.now.sh &rarr;
             </a>
 
@@ -280,7 +272,7 @@
 
             <h2>Car Music</h2>
             <p>A website for the Car Music YouTube channel</p>
-            <a href="https://carmusic.vercel.app">
+            <a class="project-link" href="https://carmusic.vercel.app">
                 carmusic.vercel.app &rarr;
             </a>
 
@@ -295,6 +287,7 @@
     </footer>
 
     <script>
+        // Open mail app when user clicks on .contact-btn
         document.getElementById("contact-btn").addEventListener("click", () => {
             window.location.assign("mailto:aryanbeezadhur@gmail.com");
         });

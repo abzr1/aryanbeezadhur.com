@@ -52,28 +52,28 @@
 
         /* Handle */
         ::-webkit-scrollbar-thumb {
-            background-color: var(--yellow);
+            background: var(--yellow);
             border-radius: 10px;
         }
 
         /* END OF CSS SNIPPET */
 
         ::selection {
-            background-color: var(--yellow);
+            background: var(--yellow);
             color: #F5F5F7;
         }
 
         :root {
             --yellow: #FBC220;
             --black: #010101;
-            --white: #DDDDDD;
-            --grey: #ACBBCF;
+            --white: #FFFFFF;
+            --grey: #CEDFE0;
         }
 
         * {
             font-family: 'Inter', sans-serif;
-            background-color: var(--black);
-            color: var(--white);
+            background: var(--black);
+            color: var(--grey);
         }
 
         html {
@@ -87,7 +87,7 @@
             -webkit-font-smoothing: antialiased;
         }
 
-        h1 {
+        h1, h2, h3, h4, h5, h6 {
             font-family: 'Montserrat', sans-serif;
             padding: 0;
             margin: 0;
@@ -115,12 +115,15 @@
             color: var(--white);
             border: 2px solid var(--yellow);
             border-radius: 5px;
-            transition: all 0.2s;
+            background: linear-gradient(to right, var(--yellow) 50%, transparent 50%);
+            background-size: 200% 100%;
+            background-position: right bottom;
+            transition: all 0.3s;
         }
 
         .contact-btn:hover {
             margin-left: 15px;
-            background-color: var(--yellow);
+            background-position: left bottom;
         }
 
         #top-section {
@@ -266,7 +269,7 @@
                 surfguard.now.sh &rarr;
             </a>
 
-            <br /><br />
+            <br /><br /><br />
 
             <h2>BMM</h2>
             <p>A website for the Bass Music Movement YouTube channel</p>
@@ -274,7 +277,7 @@
                 bmm.now.sh &rarr;
             </a>
 
-            <br /><br />
+            <br /><br /><br />
 
             <h2>Car Music</h2>
             <p>A website for the Car Music YouTube channel</p>

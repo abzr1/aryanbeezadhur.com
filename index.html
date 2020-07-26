@@ -1,309 +1,412 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- Browser tab: Title and icon -->
+	<title>Aryan Beezadhur|Full-Stack Dev</title>
+	<link rel="shortcut icon" type="image/x-icon" href="assets/icon.jpg" />
 
-    <!-- Browser tab: Title and icon -->
-    <title>Aryan Beezadhur|Full-Stack Dev</title>
-    <link rel="shortcut icon" type="image/x-icon" href="assets/icon.jpg" />
+	<!-- SEO (Google, Bing, Yahoo, Ask) -->
+	<meta name="description" content="Full-Stack Developer" />
+	<meta name="title" content="Aryan Beezadhur|Full-Stack Developer" />
+	<meta name="robots" content="index, follow" />
+	<meta name="keywords"
+		content="web developer, web designer, website developer, website designer, front end, front-end, frontend, back end, back-end, backend, full stack, full-stack, fullstack" />
+	<!-- Theme color for android search engines -->
+	<meta name="theme-color" content="#FBC220" />
 
-    <!-- SEO (Google, Bing, Yahoo, Ask) -->
-    <meta name="description" content="Full-Stack Developer" />
-    <meta name="title" content="Aryan Beezadhur|Full-Stack Developer">
-    <meta name="robots" content="index, follow" />
-    <meta name="keywords"
-        content="web developer, web designer, website developer, website designer, front end, front-end, frontend, back end, back-end, backend, full stack, full-stack, fullstack">
-    <!-- Theme color for android search engines -->
-    <meta name="theme-color" content="#FBC220" />
+	<!-- Facebook card -->
+	<meta property="og:title" content="Aryan Beezadhur|Full-Stack Developer" />
+	<meta property="og:image" content="https://aryanb.now.sh/assets/icon.jpg" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://aryanb.now.sh" />
+	<meta property="og:site_name" content="Aryan Beezadhur|Full-Stack Developer" />
+	<meta property="og:description" content="Full-Stack Developer" />
 
-    <!-- Facebook card -->
-    <meta property="og:title" content="Aryan Beezadhur|Full-Stack Developer" />
-    <meta property="og:image" content="https://aryanb.now.sh/assets/icon.jpg" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://aryanb.now.sh" />
-    <meta property="og:site_name" content="Aryan Beezadhur|Full-Stack Developer" />
-    <meta property="og:description" content="Full-Stack Developer" />
+	<!-- Twitter card -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@AryanBeezadhur" />
+	<meta name="twitter:creator" content="@AryanBeezadhur" />
+	<meta name="twitter:domain" content="aryanb.now.sh" />
+	<meta name="twitter:title" content="Aryan Beezadhur|Full-Stack Developer" />
+	<meta name="twitter:description" content="Full-Stack Developer" />
+	<meta name="twitter:image" content="https://aryanb.now.sh/assets/icon.jpg" />
+	<meta name="twitter:image:alt" content="Full-Stack Developer" />
+	<meta name="twitter:url" content="https://aryanb.now.sh" />
 
-    <!-- Twitter card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@AryanBeezadhur" />
-    <meta name="twitter:creator" content="@AryanBeezadhur" />
-    <meta name="twitter:domain" content="aryanb.now.sh" />
-    <meta name="twitter:title" content="Aryan Beezadhur|Full-Stack Developer" />
-    <meta name="twitter:description" content="Full-Stack Developer" />
-    <meta name="twitter:image" content="https://aryanb.now.sh/assets/icon.jpg" />
-    <meta name="twitter:image:alt" content="Full-Stack Developer" />
-    <meta name="twitter:url" content="https://aryanb.now.sh" />
+	<!-- Import Font -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet" />
 
-    <!-- Import Font -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	<!-- Import AOS stylesheet -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <style>
-        /* CUSTOM SCROLLBAR */
+	<style>
+		/* CUSTOM SCROLLBAR */
 
-        /* Width */
-        ::-webkit-scrollbar {
-            width: 10px;
-        }
+		/* Width */
+		::-webkit-scrollbar {
+			width: 10px;
+		}
 
-        /* Handle */
-        ::-webkit-scrollbar-thumb {
-            background: var(--yellow);
-            border-radius: 10px;
-        }
+		/* Handle */
+		::-webkit-scrollbar-thumb {
+			background: var(--yellow);
+			border-radius: 10px;
+		}
 
-        /* END OF CSS SNIPPET */
+		/* END OF CSS SNIPPET */
 
-        ::selection {
-            background: var(--yellow);
-            color: #F5F5F7;
-        }
+		::selection {
+			background: var(--yellow);
+			color: var(--white);
+		}
 
-        :root {
-            --yellow: #FBC220;
-            --black: #010101;
-            --white: #FFFFFF;
-            --grey: #CEDFE0;
-        }
+		:root {
+			--yellow: #FBC220;
+			--black: #010101;
+			--white: #FFFFFF;
+			--grey: #CEDFE0;
+		}
 
-        * {
-            font-family: 'Poppins', sans-serif;
-            background: var(--black);
-            color: var(--grey);
-        }
+		* {
+			-webkit-font-smoothing: antialiased;
+			font-family: 'Poppins', sans-serif;
+			background: var(--black);
+			color: var(--grey);
+		}
 
-        html {
-            scroll-behavior: smooth;
-        }
+		html {
+			scroll-behavior: smooth;
+		}
 
-        body {
-            padding: 0;
-            margin: 0;
-            overflow-x: hidden;
-            -webkit-font-smoothing: antialiased;
-        }
+		body {
+			padding: 0;
+			margin: 0;
+			overflow-x: hidden;
+		}
 
-        h1 {
-            font-family: 'Montserrat', sans-serif;
-        }
+		h1 {
+			font-family: 'Montserrat', sans-serif;
+		}
 
-        h1, h2, h3, h4, h5, h6 {
-            padding: 0;
-            margin: 0;
-            color: var(--white);
-        }
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			padding: 0;
+			margin: 0;
+			color: var(--white);
+		}
 
-        a {
-            outline: none;
-            text-decoration: none;
-            border-bottom: 1px dotted;
-            transition: all 0.2s;
-        }
+		a {
+			outline: none;
+			text-decoration: none;
+			color: var(--grey);
+			border-bottom: 1px dotted;
+			transition: all 500ms;
+		}
 
-        a:hover {
-            border-bottom: 2px solid;
-        }
+		a:hover {
+			border-bottom: 2px solid;
+			margin-left: 15px;
+		}
 
-        .contact-btn {
-            cursor: pointer;
-            outline: none;
-            font-size: 17px;
-            height: 50px;
-            padding: 10px;
-            margin-top: 20px;
-            color: var(--white);
-            border: 2px solid var(--yellow);
-            border-radius: 5px;
-            background: linear-gradient(to right, var(--yellow) 50%, transparent 50%);
-            background-size: 200% 100%;
-            background-position: right bottom;
-            transition: all 0.3s;
-        }
+		#top-section {
+			height: 100vh;
+			width: 85vw;
+			margin-top: 9.6vh;
+			margin-left: auto;
+			margin-right: auto;
+			position: relative;
+			animation: slide 1200ms forwards;
+		}
 
-        .contact-btn:hover {
-            margin-left: 15px;
-            background-position: left bottom;
-        }
+		#logo {
+			height: 75px;
+			border-radius: 75px;
+			margin-bottom: 30px;
+		}
 
-        #top-section {
-            height: 100vh;
-            width: 85vw;
-            margin-top: 9.6vh;
-            margin-left: auto;
-            margin-right: auto;
-            position: relative;
-            animation: slide 1s forwards;
-        }
+		#icons {
+			display: flex;
+			align-items: center;
+		}
 
-        #logo {
-            height: 75px;
-            border-radius: 75px;
-            margin-bottom: 30px;
-        }
+		#icons a {
+			border: none;
+			margin: 0 0 30px 30px;
+		}
 
-        #icons {
-            display: flex;
-            align-items: center;
-        }
+		.top-section-header {
+			font-size: 9vh;
+		}
 
-        #icons a {
-            border: none;
-            margin: 0 0 30px 30px;
-        }
+		#top-section-header-2 {
+			margin-top: 20px;
+			color: var(--yellow);
+		}
 
-        .top-section-header {
-            font-size: 9vh;
-        }
+		.section {
+			margin: 10.98vw;
+			font-size: 2.7vh;
+			line-height: 30px;
+		}
 
-        #top-section-header-2 {
-            margin-top: 20px;
-            color: var(--yellow);
-        }
+		.section h1 {
+			font-size: 7vh;
+			margin-bottom: 40px;
+		}
 
-        .section {
-            margin: 10.98vw;
-            font-size: 2.7vh;
-            line-height: 30px;
-        }
+		.section h1,
+		.section h2 {
+			margin-top: 40px;
+		}
 
-        .section h1 {
-            font-size: 7vh;
-            margin-bottom: 30px;
-        }
+		#contact-btn {
+			cursor: pointer;
+			outline: none;
+			font-size: 17px;
+			height: 50px;
+			padding: 10px;
+			margin-top: 30px;
+			color: var(--white);
+			border: 2px solid var(--yellow);
+			border-radius: 5px;
+			background: linear-gradient(to right, var(--yellow) 50%, transparent 50%);
+			background-size: 200% 100%;
+			background-position: right bottom;
+			transition: all 500ms;
+		}
 
-        .project-link:hover {
-            margin-left: 15px;
-        }
+		#contact-btn:hover {
+			margin-left: 15px;
+			background-position: left bottom;
+		}
 
-        @keyframes slide {
-            0% {
-                opacity: 0;
-                left: -150px;
-            }
+		.flex-container {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
 
-            100% {
-                opacity: 1;
-                left: 0;
-            }
-        }
-    </style>
+		.flex-item {
+			flex: 200px;
+			text-align: center;
+			padding: 20px;
+			margin: 10px;
+			border-radius: 10px;
+			font-weight: 900;
+		}
 
+		.flex-item svg {
+			height: 14vh;
+			width: auto;
+		}
+
+		@keyframes slide {
+			0% {
+				opacity: 0;
+				left: -150px;
+			}
+
+			100% {
+				opacity: 1;
+				left: 0;
+			}
+		}
+	</style>
 </head>
 
 <body>
+	<main>
+		<section id="top-section">
+			<div id="icons">
+				<img id="logo" src="assets/icon.jpg" alt="icon" />
 
-    <main>
+				<a href="https://twitter.com/AryanBeezadhur">
+					<svg fill="#1DA1F2" role="img" width="30" height="30" viewBox="0 0 24 24"
+						xmlns="http://www.w3.org/2000/svg">
+						<title>Twitter icon</title>
+						<path
+							d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z" />
+					</svg>
+				</a>
+				<a href="https://github.com/AryanBeezadhur">
+					<svg fill="#F5F5F7" role="img" width="30" height="30" viewBox="0 0 24 24"
+						xmlns="http://www.w3.org/2000/svg">
+						<title>GitHub icon</title>
+						<path
+							d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+					</svg>
+				</a>
+				<a href="https://stackoverflow.com/users/12860895/aryan-beezadhur">
+					<svg fill="#FE7A16" role="img" width="30" height="30" viewBox="0 0 24 24"
+						xmlns="http://www.w3.org/2000/svg">
+						<title>Stack Overflow icon</title>
+						<path
+							d="M18.986 21.865v-6.404h2.134V24H1.844v-8.539h2.13v6.404h15.012zM6.111 19.731H16.85v-2.137H6.111v2.137zm.259-4.852l10.48 2.189.451-2.07-10.478-2.187-.453 2.068zm1.359-5.056l9.705 4.53.903-1.95-9.706-4.53-.902 1.936v.014zm2.715-4.785l8.217 6.855 1.359-1.62-8.216-6.853-1.35 1.617-.01.001zM15.751 0l-1.746 1.294 6.405 8.604 1.746-1.294L15.749 0h.002z" />
+					</svg>
+				</a>
+			</div>
 
-        <section id="top-section">
-            <div id="icons">
-                <img id="logo" src="assets/icon.jpg" alt="icon" />
-                <a href="https://twitter.com/AryanBeezadhur">
+			<h1 class="top-section-header">Aryan Beezadhur</h1>
+			<h1 id="top-section-header-2" class="top-section-header">
+				Full-Stack Developer
+			</h1>
+		</section>
 
-                    <svg fill="#1DA1F2" role="img" width="30" height="30" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <title>Twitter icon</title>
-                        <path
-                            d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z" />
-                    </svg>
-                </a>
-                <a href="https://github.com/AryanBeezadhur">
-                    <svg fill="#F5F5F7" role="img" width="30" height="30" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <title>GitHub icon</title>
-                        <path
-                            d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
-                    </svg>
-                </a>
-                <a href="https://stackoverflow.com/users/12860895/aryan-beezadhur">
-                    <svg fill="#FE7A16" role="img" width="30" height="30" viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <title>Stack Overflow icon</title>
-                        <path
-                            d="M18.986 21.865v-6.404h2.134V24H1.844v-8.539h2.13v6.404h15.012zM6.111 19.731H16.85v-2.137H6.111v2.137zm.259-4.852l10.48 2.189.451-2.07-10.478-2.187-.453 2.068zm1.359-5.056l9.705 4.53.903-1.95-9.706-4.53-.902 1.936v.014zm2.715-4.785l8.217 6.855 1.359-1.62-8.216-6.853-1.35 1.617-.01.001zM15.751 0l-1.746 1.294 6.405 8.604 1.746-1.294L15.749 0h.002z" />
-                    </svg>
-                </a>
-            </div>
+		<section data-aos="fade-up" class="section">
+			<h1>ABOUT</h1>
 
-            <h1 class="top-section-header">Aryan Beezadhur</h1>
-            <h1 id="top-section-header-2" class="top-section-header">Full-Stack Developer</h1>
-        </section>
+			<p>Hi! I'm Aryan, a young and dynamic full-stack developer.</p>
 
-        <section class="section">
+			<p>
+				I build versatile, fluid web apps and websites using the latest web
+				technologies, exercising complete control over the content and
+				display.
+			</p>
 
-            <h1>ABOUT</h1>
+			<p>
+				I had a 10-month work placement with the Sage Foundation as a front-end developer with HTML5,
+				CSS3, and JavaScript, and as a back-end developer with Git CLI, Python, and the Heroku platform.
+			</p>
 
-            <p>Hi! I'm Aryan, a young and dynamic full-stack developer.</p>
+			<p>
+				<a href="#skills">My skills and technologies I'm learning &rarr;</a>
+			</p>
 
-            <p>
-                I build versatile, fluid web apps and websites using the latest web technologies, exercising complete
-                control over the content and display.
-            </p>
+			<button id="contact-btn">
+				Contact me &nbsp; &rarr;
+			</button>
+		</section>
 
-            <p>My skills are:</p>
+		<section data-aos="fade-up" class="section" id="skills" style="scroll-margin-top: 150px;">
+			<h1>SKILLS</h1>
 
-            <ul>
-                <li>HTML5</li>
-                <li>CSS 3</li>
-                <li>Semantics, Grid and Flexbox</li>
-                <li>Responsive and fluid design</li>
-                <li>Git, GitHub, Netlify and Vercel</li>
-                <li>WordPress, Wix and Webflow</li>
-            </ul>
+			<div class="flex-container">
+				<div data-aos="flip-up" class="flex-item">
+					<svg role="img" fill="#E34F26" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+						<title>HTML5 icon</title>
+						<path
+							d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z" />
+					</svg>
 
-            <p>I have had a work placement with the Sage Foundation.</p>
+					<br />
+					<span>HTML5</span>
+				</div>
 
-            <button class="contact-btn" id="contact-btn">Contact me &nbsp; &rarr;</button>
+				<div data-aos="flip-up" class="flex-item">
+					<svg role="img" fill="#1572B6" viewBox=" 0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+						<title>CSS3 icon</title>
+						<path
+							d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z" />
+					</svg>
 
-        </section>
+					<br />
+					<span>CSS3</span>
+				</div>
 
-        <section class="section">
+				<div data-aos="flip-up" class="flex-item">
+					<svg role="img" fill="#F7DF1E" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+						<title>JavaScript icon</title>
+						<path
+							d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z" />
+					</svg>
 
-            <h1>Projects</h1>
+					<br />
+					<span>JavaScript</span>
+				</div>
 
-            <br />
+				<div data-aos="flip-up" class="flex-item">
+					<svg role="img" fill="#0769AD" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+						<title>jQuery icon</title>
+						<path
+							d="M1.534 5.874c-2.123 3.05-1.86 7.017-.237 10.256.037.079.078.154.118.229.023.052.049.1.077.149.013.028.031.057.047.083.026.052.054.102.081.152l.157.265c.029.049.057.097.09.146.055.094.12.187.177.281.026.039.05.078.079.117a6.36 6.36 0 0 0 .31.444c.078.107.156.211.24.315.027.038.057.076.085.114l.221.269c.027.031.054.067.083.099.098.118.202.233.306.349 0 .002.003.004.005.007a3.13 3.13 0 0 0 .424.44c.08.082.16.164.245.244l.101.097c.111.104.222.208.339.308.002 0 .003.002.005.003l.057.05c.102.089.205.178.31.26l.125.105c.085.068.173.133.26.2l.136.104c.093.07.192.139.287.207.035.025.07.05.106.073l.029.023.281.185.12.08c.147.094.293.183.438.271.042.021.084.044.123.068.108.062.22.125.329.183.06.034.122.063.184.094.075.042.153.083.233.125a.324.324 0 0 1 .056.023c.033.015.064.031.096.047.12.06.245.117.375.174.024.01.05.02.076.034.144.063.288.123.437.182.034.01.07.027.105.04.135.051.274.103.411.152l.05.018c.153.052.304.102.459.15.036.01.073.023.111.033.159.048.313.105.473.136 10.26 1.87 13.242-6.169 13.242-6.169-2.505 3.262-6.95 4.122-11.16 3.165-.156-.036-.312-.086-.469-.132a13.522 13.522 0 0 1-.567-.181l-.062-.024c-.136-.046-.267-.097-.4-.148a1.613 1.613 0 0 0-.11-.041c-.147-.059-.29-.12-.432-.183-.031-.01-.057-.024-.088-.036a23.41 23.41 0 0 1-.361-.17c-.037-.016-.07-.033-.106-.052-.094-.044-.188-.094-.28-.142a3.942 3.942 0 0 1-.187-.096c-.113-.06-.226-.125-.339-.187-.034-.024-.073-.044-.112-.066a15.902 15.902 0 0 1-.438-.269 2.104 2.104 0 0 1-.118-.079 6.002 6.002 0 0 1-.312-.206c-.035-.023-.067-.048-.103-.073a9.541 9.541 0 0 1-.294-.212c-.042-.034-.087-.066-.132-.1-.088-.069-.177-.135-.265-.208l-.118-.094a10.58 10.58 0 0 1-.334-.281.258.258 0 0 0-.037-.03l-.347-.316-.1-.094c-.082-.083-.166-.163-.25-.245l-.097-.1a9.07 9.07 0 0 1-.309-.323l-.015-.016c-.106-.116-.209-.234-.313-.354-.027-.031-.052-.064-.08-.097l-.226-.277a21.248 21.248 0 0 1-.34-.448C2.16 11.786 1.315 7.386 3.184 3.777M8.121 3.305c-1.539 2.209-1.452 5.163-.254 7.499a9.1 9.1 0 0 0 .677 1.132c.23.33.484.72.792.986.107.122.223.24.344.359l.09.09c.114.11.231.218.35.325l.015.013a9.855 9.855 0 0 0 .414.342c.034.023.063.05.096.073.14.108.281.212.427.315l.015.009c.062.045.128.086.198.13.028.018.06.042.09.06.106.068.21.132.317.197.017.007.032.016.048.023.09.055.188.108.282.157.033.02.065.035.099.054.067.033.133.068.197.102l.032.014c.135.066.273.128.408.19.034.013.063.024.092.038.111.048.224.094.335.137.05.017.097.037.144.052.102.038.209.073.31.108l.14.045c.146.045.294.104.448.129 7.92 1.313 9.754-4.787 9.754-4.787-1.651 2.376-4.846 3.508-8.251 2.624a8.03 8.03 0 0 1-.448-.13c-.048-.013-.09-.028-.136-.042-.104-.036-.211-.071-.312-.109l-.144-.054c-.112-.045-.226-.087-.335-.135-.034-.015-.065-.025-.091-.04-.14-.063-.281-.125-.417-.192l-.206-.107-.119-.06c-.092-.048-.177-.098-.265-.15a.62.62 0 0 1-.062-.034c-.106-.066-.216-.13-.317-.198-.034-.019-.065-.042-.097-.062l-.208-.136c-.144-.1-.285-.208-.427-.312-.032-.029-.063-.053-.094-.079-1.497-1.177-2.678-2.786-3.238-4.608-.59-1.894-.46-4.018.559-5.742M13.66 1.384c-.908 1.332-.995 2.986-.37 4.455.664 1.56 2.022 2.785 3.604 3.365.065.025.128.046.195.07l.088.027c.092.029.185.063.28.084 4.376.844 5.56-2.247 5.879-2.701-1.042 1.496-2.789 1.855-4.932 1.334a4.844 4.844 0 0 1-.516-.16 6.344 6.344 0 0 1-.617-.254 6.521 6.521 0 0 1-1.08-.66c-1.92-1.454-3.109-4.23-1.857-6.491" />
+					</svg>
 
-            <h2>SurfGuard</h2>
-            <p>A website for my project SurfGuard</p>
-            <a class="project-link" href="https://surfguard.now.sh">
-                surfguard.now.sh &rarr;
-            </a>
+					<br />
+					<span>jQuery</span>
+				</div>
 
-            <br /><br /><br />
+				<div data-aos="flip-up" class="flex-item">
+					<svg role="img" fill="#777BB4" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+						<title>PHP icon</title>
+						<path
+							d="M7.01 10.207h-.944l-.515 2.648h.838c.556 0 .97-.105 1.242-.314.272-.21.455-.559.55-1.049.092-.47.05-.802-.124-.995-.175-.193-.523-.29-1.047-.29zM12 5.688C5.373 5.688 0 8.514 0 12s5.373 6.313 12 6.313S24 15.486 24 12c0-3.486-5.373-6.312-12-6.312zm-3.26 7.451c-.261.25-.575.438-.917.551-.336.108-.765.164-1.285.164H5.357l-.327 1.681H3.652l1.23-6.326h2.65c.797 0 1.378.209 1.744.628.366.418.476 1.002.33 1.752a2.836 2.836 0 0 1-.305.847c-.143.255-.33.49-.561.703zm4.024.715l.543-2.799c.063-.318.039-.536-.068-.651-.107-.116-.336-.174-.687-.174H11.46l-.704 3.625H9.388l1.23-6.327h1.367l-.327 1.682h1.218c.767 0 1.295.134 1.586.401s.378.7.263 1.299l-.572 2.944h-1.389zm7.597-2.265a2.782 2.782 0 0 1-.305.847c-.143.255-.33.49-.561.703a2.44 2.44 0 0 1-.917.551c-.336.108-.765.164-1.286.164h-1.18l-.327 1.682h-1.378l1.23-6.326h2.649c.797 0 1.378.209 1.744.628.366.417.477 1.001.331 1.751zM17.766 10.207h-.943l-.516 2.648h.838c.557 0 .971-.105 1.242-.314.272-.21.455-.559.551-1.049.092-.47.049-.802-.125-.995s-.524-.29-1.047-.29z" />
+					</svg>
 
-            <h2>BMM</h2>
-            <p>A website for the Bass Music Movement YouTube channel</p>
-            <a class="project-link" href="https://bmm.now.sh">
-                bmm.now.sh &rarr;
-            </a>
+					<br />
+					<span>PHP</span>
+				</div>
+			</div>
 
-            <br /><br /><br />
+			<ul>
+				<li>PHP and Apache</li>
+				<li>Semantics and Flexbox</li>
+				<li>Responsive and fluid design</li>
+				<li>Git, GitHub, Netlify and Vercel</li>
+				<li>WordPress, Wix and Webflow</li>
+			</ul>
 
-            <h2>Car Music</h2>
-            <p>A website for the Car Music YouTube channel</p>
-            <a class="project-link" href="https://carmusic.now.sh">
-                carmusic.now.sh &rarr;
-            </a>
+			<h2>Technologies I'm Learning</h2>
 
-        </section>
+			<ul>
+				<li>Node.js and NPM</li>
+				<li>Python backend with Heroku</li>
+				<li>CSS Grid layouts</li>
+				<li>Responsive and fluid design</li>
+				<li>Git, GitHub, Netlify and Vercel</li>
+				<li>WordPress, Wix and Webflow</li>
+			</ul>
+		</section>
 
-    </main>
+		<section data-aos="fade-up" class="section">
+			<h1>Projects</h1>
 
-    <footer>
-        <center>
-            <p>&copy; 2016&mdash;present Aryan Beezadhur</p>
-        </center>
-    </footer>
+			<h2>SurfGuard</h2>
+			<p>A website for my project SurfGuard</p>
+			<a href="https://surfguard.now.sh">
+				surfguard.now.sh &rarr;
+			</a>
 
-    <script>
-        // Open mail app when user clicks on .contact-btn
-        document.getElementById("contact-btn").addEventListener("click", () => {
-            window.location.assign("mailto:aryanbeezadhur@gmail.com");
-        });
-    </script>
+			<h2>BMM</h2>
+			<p>A website for the Bass Music Movement YouTube channel</p>
+			<a href="https://bmm.now.sh">
+				bmm.now.sh &rarr;
+			</a>
+
+			<h2>Car Music</h2>
+			<p>A website for the Car Music YouTube channel</p>
+			<a href="https://carmusic.now.sh">
+				carmusic.now.sh &rarr;
+			</a>
+		</section>
+	</main>
+
+	<footer>
+		<center>
+			<p>&copy; 2016&mdash;present Aryan Beezadhur</p>
+		</center>
+	</footer>
+
+	<!-- Import AOS scripts -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+	<script>
+		AOS.init({
+			duration: 1200
+		});
+
+		document.getElementById("contact-btn").addEventListener("click", () => {
+			window.location.assign("mailto:aryanbeezadhur@gmail.com");
+		});
+	</script>
 </body>
 
 </html>

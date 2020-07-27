@@ -10,8 +10,8 @@ My skills are:
 * Git, GitHub, Netlify and Vercel
 * WordPress, Wix and Webflow
 
-I have had a work placement with the Sage Foundation.
+I had a 10-month work placement with the Sage Foundation as a front-end developer with HTML5, CSS3, and JavaScript, and as a back-end developer with Git CLI, Python, and the Heroku platform.
 
-Portfolio: https://aryanb.now.sh
+Portfolio: https://aryanb.vercel.app
 
-&copy; 2016 &mdash; 2020 [Aryan Beezadhur](https://aryanb.now.sh)
+&copy; 2016 &mdash; 2020 [Aryan Beezadhur](https://aryanb.vercel.app)

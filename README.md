@@ -42,10 +42,21 @@ A list of all the hardware, software, programs, languages, libraries, extensions
 * Android Studio [![&rarr;](https://i.imgur.com/Is9F42h.png)](https://developer.android.com/studio)
 
 ### Git
+* GitHub [![&rarr;](https://i.imgur.com/Is9F42h.png)](https://github.com)
 * GitHub Desktop [![&rarr;](https://i.imgur.com/Is9F42h.png)](https://desktop.github.com/)
 * Git for Windows [![&rarr;](https://i.imgur.com/Is9F42h.png)](https://git-scm.com/download/win)
 
+### Communication and Social
+* Gmail [![&rarr;](https://i.imgur.com/Is9F42h.png)](https://www.google.com/intl/en-GB/gmail/about/)
 * Discord [![&rarr;](https://i.imgur.com/Is9F42h.png)](https://discord.com)
+* Slack [![&rarr;](https://i.imgur.com/Is9F42h.png)](https://slack.com)
+* Twitter [![&rarr;](https://i.imgur.com/Is9F42h.png)](https://twitter.com)
+* DEV [![&rarr;](https://i.imgur.com/Is9F42h.png)](https://dev.to)
+* Medium [![&rarr;](https://i.imgur.com/Is9F42h.png)](https://medium.com)
+* Reddit [![&rarr;](https://i.imgur.com/Is9F42h.png)](https://reddit.com)
+* YouTube [![&rarr;](https://i.imgur.com/Is9F42h.png)](https://youtube.com)
+* Stack Overflow [![&rarr;](https://i.imgur.com/Is9F42h.png)](https://stackoverflow.com)
+* Stack Exchange network [![&rarr;](https://i.imgur.com/Is9F42h.png)](https://stackexchange.com)
 
 <hr />
 

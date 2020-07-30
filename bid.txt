@@ -1,5 +1,4 @@
-Hi [client name],
-I'm Aryan, a young and dynamic full-stack developer.
+Hi, I'm Aryan, a young and dynamic full-stack developer.
 I build versatile, fluid web apps and websites using the latest web technologies, exercising complete control over the content and display.
 
 I have reviewed your project description, and I'm ready to start working on your site as soon as possible.

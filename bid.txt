@@ -22,7 +22,7 @@ I had a 10-month work placement with the Sage Foundation as a front-end develope
 * Fast load times, high performance on Google Lighthouse
 
 # Portfolio projects:
-* https://www.freelancer.com/u/aryanbeezadhur
+* https://www.freelancer.com/u/aryanbeezadhur#:~:text=portfolio%20items
 * https://aryanbeezadhur.com
 * https://surfguard.now.sh
 * https://ecotravel.vercel.app

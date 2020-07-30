@@ -1,0 +1,30 @@
+Hi [client name],
+I'm Aryan, a young and dynamic full-stack developer.
+I build versatile, fluid web apps and websites using the latest web technologies, exercising complete control over the content and display.
+
+I have reviewed your project description, and I'm ready to start working on your site as soon as possible.
+
+# Experience:
+I had a 10-month work placement with the Sage Foundation as a front-end developer with HTML5, CSS3, and JavaScript, and as a back-end developer with Git CLI, Python, and the Heroku platform.
+
+# Skills:
+* HTML5, CSS3, and JavaScript
+* WordPress
+* GitHub and Vercel platform
+* Flexbox, CSS Grid and semantics
+* Responsive and fluid design
+* Fast load times, high performance on Google Lighthouse
+
+# Portfolio projects:
+* https://www.freelancer.com/u/aryanbeezadhur
+* https://aryanbeezadhur.com
+* https://surfguard.now.sh
+* https://ecotravel.vercel.app
+* https://bmm.now.sh
+* https://carmusic.vercel.app
+
+[Elaborate on what I can do for the client]
+
+We can further discuss project details in chat.
+Thanks
+Aryan

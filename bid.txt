@@ -14,9 +14,8 @@ Here are my experience, skills and projects:
 I had a 10-month work placement with the Sage Foundation as a front-end developer with HTML5, CSS3, and JavaScript, and as a back-end developer with Git CLI, Python, and the Heroku platform.
 
 # Skills:
-* HTML5, CSS3, and JavaScript
 * WordPress
-* GitHub and Vercel platform
+* HTML5, CSS3, and JavaScript
 * Flexbox, CSS Grid and semantics
 * Responsive and fluid design
 * Fast load times, high performance on Google Lighthouse

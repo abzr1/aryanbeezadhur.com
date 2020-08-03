@@ -23,7 +23,7 @@ I had a 10-month work placement with the Sage Foundation as a front-end develope
 # Portfolio projects:
 * https://www.freelancer.com/u/aryanbeezadhur
 * https://aryanbeezadhur.com
-* https://foodswitch.vercel.app
+* https://eathealthy.vercel.app
 * https://surfguard.now.sh
 * https://ecotravel.vercel.app
 * https://bmm.now.sh

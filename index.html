@@ -89,6 +89,10 @@
 			overflow-x: hidden;
 		}
 
+		:not(h1) {
+			font-weight: 400;
+		}
+
 		h1 {
 			font-family: 'Montserrat', sans-serif;
 		}
@@ -158,12 +162,11 @@
 
 		.section h1 {
 			font-size: 7vh;
-			margin-bottom: 40px;
 		}
 
 		.section h1,
 		.section h2 {
-			margin-top: 40px;
+			margin: 70px 0 40px 0;
 		}
 
 		#hire-now {
@@ -198,12 +201,12 @@
 			text-align: center;
 			margin: 60px;
 			border-radius: 10px;
-			font-weight: 900;
 		}
 
 		.flex-item svg {
 			height: 12vh;
 			width: auto;
+			margin: 10px;
 		}
 
 		#lighthouse-report {
@@ -235,7 +238,7 @@
 
 	<main>
 
-		<section data-aos="fade-down" id="top-section">
+		<section data-aos="fade-right" id="top-section">
 
 			<div id="icons">
 
@@ -282,7 +285,7 @@
 
 		</section>
 
-		<section data-aos="fade-up" class="section">
+		<section data-aos="fade-right" class="section">
 
 			<h1>ABOUT</h1>
 
@@ -311,13 +314,13 @@
 
 		</section>
 
-		<section data-aos="fade-up" class="section" id="skills" style="scroll-margin-top: 150px;">
+		<section data-aos="fade-right" class="section" id="skills" style="scroll-margin-top: 150px;">
 
 			<h1>SKILLS</h1>
 
 			<div class="flex-container">
 
-				<div data-aos="fade-up" class="flex-item">
+				<div class="flex-item">
 
 					<svg role="img" fill="#E34F26" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 						<title>HTML5 icon</title>
@@ -330,7 +333,7 @@
 
 				</div>
 
-				<div data-aos="fade-up" class="flex-item">
+				<div class="flex-item">
 
 					<svg role="img" fill="#1572B6" viewBox=" 0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 						<title>CSS3 icon</title>
@@ -343,7 +346,7 @@
 
 				</div>
 
-				<div data-aos="fade-up" class="flex-item">
+				<div class="flex-item">
 
 					<svg role="img" fill="#F7DF1E" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 						<title>JavaScript icon</title>
@@ -356,7 +359,7 @@
 
 				</div>
 
-				<div data-aos="fade-up" class="flex-item">
+				<div class="flex-item">
 
 					<svg role="img" fill="#21759B" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 						<title>WordPress icon</title>
@@ -369,7 +372,7 @@
 
 				</div>
 
-				<div data-aos="fade-up" class="flex-item">
+				<div class="flex-item">
 
 					<svg role="img" fill="#FF7139" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 						<title>Firefox Browser icon</title>
@@ -382,7 +385,7 @@
 
 				</div>
 
-				<div data-aos="fade-up" class="flex-item">
+				<div class="flex-item">
 
 					<svg role="img" fill="#FFFFFF" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 						<title>GitHub icon</title>
@@ -395,7 +398,7 @@
 
 				</div>
 
-				<div data-aos="fade-up" class="flex-item">
+				<div class="flex-item">
 
 					<svg role="img" fill="#FFFFFF" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 						<title>Vercel icon</title>
@@ -430,13 +433,13 @@
 
 		</section>
 
-		<section data-aos="fade-up" class="section">
+		<section data-aos="fade-right" class="section">
 
 			<h1>FEATURES</h1>
 
 			<div class="flex-container">
 
-				<div data-aos="fade-up" class="flex-item">
+				<div class="flex-item">
 
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF"
 						stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid">
@@ -451,7 +454,7 @@
 
 				</div>
 
-				<div data-aos="fade-up" class="flex-item">
+				<div class="flex-item">
 
 					<svg role="img" fill="#757575" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 						<title>Material Design icon</title>
@@ -464,7 +467,7 @@
 
 				</div>
 
-				<div data-aos="fade-up" class="flex-item">
+				<div class="flex-item">
 
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF"
 						stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -479,27 +482,23 @@
 				</div>
 
 				<p id="lighthouse-report">
-					&darr;
-					<a href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Faryanbeezadhur.com">
+					<a
+						href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Faryanbeezadhur.com">
 						View this site's audit on Google Lighthouse &gt;
 					</a>
-
-					<br />
-
-					<img alt="Lighthouse Scores" src="assets/lighthouse.jpg">
 				</p>
 
 			</div>
 
 		</section>
 
-		<section data-aos="fade-up" class="section">
+		<section data-aos="fade-right" class="section">
 
 			<h1>Projects</h1>
 
-			<div class="project">
+			<div data-aos="fade" class="project">
 
-				<h2>NutrEat</h2>
+				<h2>Nutreat</h2>
 
 				<p>We help you find healthier substitutes for the food you love with AI powered inspiration</p>
 
@@ -509,7 +508,7 @@
 
 			</div>
 
-			<div class="project">
+			<div data-aos="fade" class="project">
 
 				<h2>EcoTravel</h2>
 
@@ -521,7 +520,7 @@
 
 			</div>
 
-			<div class="project">
+			<div data-aos="fade" class="project">
 
 				<h2>SurfGuard</h2>
 
@@ -533,7 +532,7 @@
 
 			</div>
 
-			<div class="project">
+			<div data-aos="fade" class="project">
 
 				<h2>Bass Music Movement</h2>
 
@@ -545,7 +544,7 @@
 
 			</div>
 
-			<div class="project">
+			<div data-aos="fade" class="project">
 
 				<h2>Car Music</h2>
 

@@ -1,3 +1,5 @@
+&copy; 2016&mdash;present [Aryan Beezadhur](https://aryanbeezadhur.com)
+
 # About Me
 Hi! I'm Aryan, a young and dynamic full-stack developer.
 
@@ -57,7 +59,3 @@ A list of all the hardware, software, programs, languages, libraries, extensions
 * YouTube [![&rarr;](https://i.imgur.com/Is9F42h.png)](https://youtube.com)
 * Stack Overflow [![&rarr;](https://i.imgur.com/Is9F42h.png)](https://stackoverflow.com)
 * Stack Exchange network [![&rarr;](https://i.imgur.com/Is9F42h.png)](https://stackexchange.com)
-
-<hr />
-
-&copy; 2016 &mdash; 2020 [Aryan Beezadhur](https://aryanb.vercel.app)

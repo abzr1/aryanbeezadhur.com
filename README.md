@@ -15,13 +15,13 @@ My skills are:
 
 I had a 10-month work placement with the Sage Foundation as a front-end developer with HTML5, CSS3, and JavaScript, and as a back-end developer with Git CLI, Python, and the Heroku platform.
 
-Portfolio: https://aryanb.vercel.app
+Portfolio: https://aryanbeezadhur.com
 
 # Tech Stack
 A list of all the hardware, software, programs, languages, libraries, extensions, and tools that I use regularly:
 
 ### Hardware
-* Laptop: [Windows 10](https://www.microsoft.com/en-gb/windows/get-windows-10)
+* OS: [Windows 10](https://www.microsoft.com/en-gb/windows/get-windows-10)
 * Keyboard: [LogiTech](https://www.logitech.com/en-gb)
 * Mouse: [LogiTech](https://www.logitech.com/en-gb)
 

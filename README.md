@@ -1,9 +1,9 @@
 &copy; 2016&mdash;present [Aryan Beezadhur](https://aryanbeezadhur.com)
 
 # About Me
-Hi! I'm Aryan, a young and dynamic full-stack developer.
+Hi! I'm Aryan, a young and dynamic developer and designer.
 
-I build versatile, fluid web apps and websites using the latest web technologies, exercising complete control over the content and display.
+I build full-stack responsive web apps and websites using PHP and the Jamstack, allowing complete control over the content and display that off-the-shelf CMS's don't provide.
 
 My skills are:
 * HTML5

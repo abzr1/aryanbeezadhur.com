@@ -1,5 +1,7 @@
 &copy; 2016&mdash;present [Aryan Beezadhur](https://aryanbeezadhur.com)
 
+![https://github-readme-stats.vercel.app/api?username=AryanBeezadhur&show_icons=true&count_private=true&theme=dark](https://github-readme-stats.vercel.app/api?username=AryanBeezadhur&show_icons=true&count_private=true&theme=dark)
+
 # About Me
 Hi! I'm Aryan, a young and dynamic developer and designer.
 

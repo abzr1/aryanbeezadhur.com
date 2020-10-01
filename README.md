@@ -1,5 +1,3 @@
-&copy; 2016&mdash;present [Aryan Beezadhur](https://aryanbeezadhur.com)
-
 ![GitHub Readme Stats](https://github-readme-stats.vercel.app/api?username=AryanBeezadhur&show_icons=true&count_private=true&theme=tokyonight)
 
 # About Me

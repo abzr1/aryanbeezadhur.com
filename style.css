@@ -93,7 +93,7 @@ a {
 }
 
 .top-header {
-    font-size: 9vh;
+    font-size: 7vh;
     margin: 20px 0 20px 0;
 }
 
@@ -128,7 +128,6 @@ a {
 }
 
 #hire-now:hover {
-    margin-left: 15px;
     background-position: left bottom;
 }
 
@@ -145,27 +144,9 @@ a {
     border-radius: 10px;
 }
 
-.flex-item svg {
+.flex-item img {
     height: 12vh;
-    width: auto;
     margin: 10px;
-}
-
-#lighthouse-report {
-    margin-top: 50px;
-}
-
-#lighthouse-report img {
-    margin-top: 50px;
-    border-radius: 10px;
-}
-
-.project h2 {
-    margin-top: 100px;
-}
-
-.project p {
-    margin: 20px 0 20px 0;
 }
 
 @media only screen and (max-width: 770px) {

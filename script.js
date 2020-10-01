@@ -1,11 +1,11 @@
 AOS.init({
-    duration: 1200,
+    duration: 1000,
     once: true
-});
+})
 
-document.getElementById("hire-now").addEventListener("click", () => {
-    window.open("https://freelancer.com/u/aryanbeezadhur");
-});
+document.getElementById('hire-now').addEventListener('click', () => {
+    window.open('https://freelancer.com/u/aryanbeezadhur')
+})
 
 // Begin of Chaport Live Chat code
 (function (w, d, v3) {

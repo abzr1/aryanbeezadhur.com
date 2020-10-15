@@ -4,5 +4,6 @@ AOS.init({
 })
 
 document.getElementById('hire-now').addEventListener('click', () => {
+    _gs('event', 'Hire button clicked')
     window.open('https://freelancer.com/u/aryanbeezadhur')
 })

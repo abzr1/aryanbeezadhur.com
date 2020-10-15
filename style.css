@@ -28,7 +28,7 @@
 
 * {
     -webkit-font-smoothing: antialiased;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif !important;
     font-weight: 400;
     background: transparent;
     color: var(--white);

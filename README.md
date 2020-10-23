@@ -3,7 +3,7 @@
 # About Me
 I'm Aryan, a young and dynamic developer and designer.
 
-I build full-stack responsive web apps and websites using PHP and the Jamstack, allowing control over the content and display that off-the-shelf CMS's don't provide.
+I specialise in HTML5, CSS4, JavaScript, React, Next.js, Node.js and the Jamstack.
 
 My skills are:
 * HTML5

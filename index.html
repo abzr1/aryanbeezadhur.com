@@ -11,29 +11,29 @@
 	<link rel="shortcut icon" type="image/x-icon" href="assets/icon.jpg" />
 
 	<!-- SEO -->
-	<meta name="description" content="Developer and Designer" />
-	<meta name="title" content="Aryan Beezadhur - Developer and Designer" />
+	<meta name="description" content="Junior web developer" />
+	<meta name="title" content="Aryan Beezadhur - Junior web developer" />
 	<meta name="robots" content="index, follow" />
 	<!-- Theme color for android search engines -->
 	<meta name="theme-color" content="#FBC220" />
 
 	<!-- OpenGraph -->
-	<meta property="og:title" content="Aryan Beezadhur - Developer and Designer" />
+	<meta property="og:title" content="Aryan Beezadhur - Junior web developer" />
 	<meta property="og:image" content="https://aryanbeezadhur.com/assets/icon.jpg" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://aryanbeezadhur.com" />
 	<meta property="og:site_name" content="www.aryanbeezadhur.com" />
-	<meta property="og:description" content="Developer and Designer" />
+	<meta property="og:description" content="Junior web developer" />
 
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="@AryanBeezadhur" />
 	<meta name="twitter:creator" content="@AryanBeezadhur" />
 	<meta name="twitter:domain" content="aryanbeezadhur.com" />
-	<meta name="twitter:title" content="Aryan Beezadhur - Developer and Designer" />
-	<meta name="twitter:description" content="Developer and Designer" />
+	<meta name="twitter:title" content="Aryan Beezadhur - Junior web developer" />
+	<meta name="twitter:description" content="Junior web developer" />
 	<meta name="twitter:image" content="https://aryanbeezadhur.com/assets/icon.jpg" />
-	<meta name="twitter:image:alt" content="Developer and Designer" />
+	<meta name="twitter:image:alt" content="Junior web developer" />
 	<meta name="twitter:url" content="https://aryanbeezadhur.com" />
 
 	<!-- CSS -->
@@ -53,39 +53,45 @@
 
 		_gs('GSN-893999-O');
 		_gs('set', 'useCookies', false);
+		_gs('set', 'anonymizeIP', true);
 	</script>
 </head>
 
 <body>
 
+	<header id="navbar">
+		<nav>
+			<ul>
+				<li>
+					<a href="/" id="navbar-logo-link"><img id="navbar-logo" src="assets/icon.jpg" alt="Logo" /></a>
+				</li>
+				<li>
+					<a href="#" class="navbar-link hide-mobile">About</a>
+				</li>
+				<li>
+					<a href="#" class="navbar-link hide-mobile">Skills</a>
+				</li>
+				<li>
+					<a href="#" class="navbar-link hide-mobile">Portfolio</a>
+				</li>
+				<li>
+					<button id="navbar-hire-btn">Hire me</button>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
 	<main>
 
-		<section data-aos="fade-right" id="top">
+		<section data-aos="fade-down" id="top">
 
-			<div id="top-icons">
+			<center>
 
-				<img id="my-logo" src="assets/icon.jpg" alt="Logo" />
+				<h1 class="top-header">Aryan Beezadhur</h1>
 
-				<a onclick="_gs('event', 'Twitter profile visited')" class="social-link"
-					href="https://twitter.com/AryanBeezadhur">
-					<img class="social-icon" src="assets/twitter.svg" alt="Twitter">
-				</a>
+				<h1 class="top-header">Junior web developer</h1>
 
-				<a onclick="_gs('event', 'GitHub profile visited')" class="social-link"
-					href="https://github.com/AryanBeezadhur">
-					<img class="social-icon" src="assets/github.svg" alt="GitHub">
-				</a>
-
-				<a onclick="_gs('event', 'Stack Overflow profile visited')" class="social-link"
-					href="https://stackoverflow.com/users/12860895/aryan-beezadhur">
-					<img class="social-icon" src="assets/stackoverflow.svg" alt="Stack Overflow">
-				</a>
-
-			</div>
-
-			<h1 class="top-header">Aryan Beezadhur</h1>
-
-			<h1 class="top-header">Developer and Designer</h1>
+			</center>
 
 		</section>
 
@@ -94,7 +100,7 @@
 			<h1>About</h1>
 
 			<p>
-				Hi! I'm Aryan, a young and dynamic developer and designer.
+				Hi! I'm Aryan, a young and dynamic developer.
 			</p>
 
 			<p>
@@ -107,8 +113,9 @@
 				CSS4, and JavaScript, and as a back-end developer with Git CLI, Python, and the Heroku platform.
 			</p>
 
-			<button id="hire-now">
-				Hire me &nbsp; &gt;
+			<button onclick="_gs('event', 'Hire button clicked');window.open('https://freelancer.com/u/aryanbeezadhur')"
+				id="hire-now">
+				Hire me
 			</button>
 
 		</section>
@@ -179,7 +186,7 @@
 
 			<h1>Portfolio</h1>
 
-			<div class="project">
+			<div class="portfolio-item">
 
 				<h2>TinyLink</h2>
 
@@ -190,14 +197,14 @@
 				</p>
 
 				<p>
-					<a onclick="_gs('event', 'TinyLink project visited')" href="https://tinylink.now.sh">
-						tinylink.now.sh &gt;
+					<a onclick="_gs('event', 'TinyLink portfolio-item visited')" href="https://tinylink.now.sh">
+						tinylink.now.sh
 					</a>
 				</p>
 
 			</div>
 
-			<div class="project">
+			<div class="portfolio-item">
 
 				<h2>Surfguard</h2>
 
@@ -208,14 +215,14 @@
 				</p>
 
 				<p>
-					<a onclick="_gs('event', 'Surfguard project visited')" href="https://surfguard.now.sh">
-						surfguard.now.sh &gt;
+					<a onclick="_gs('event', 'Surfguard portfolio-item visited')" href="https://surfguard.now.sh">
+						surfguard.now.sh
 					</a>
 				</p>
 
 			</div>
 
-			<div class="project">
+			<div class="portfolio-item">
 
 				<h2>BMM</h2>
 
@@ -226,14 +233,14 @@
 				</p>
 
 				<p>
-					<a onclick="_gs('event', 'BMM.now.sh project visited')" href="https://bmm.now.sh">
-						bmm.now.sh &gt;
+					<a onclick="_gs('event', 'BMM.now.sh portfolio-item visited')" href="https://bmm.now.sh">
+						bmm.now.sh
 					</a>
 				</p>
 
 			</div>
 
-			<div class="project">
+			<div class="portfolio-item">
 
 				<h2>CarMusic</h2>
 
@@ -244,8 +251,8 @@
 				</p>
 
 				<p>
-					<a onclick="_gs('event', 'Carmusic.now.sh project visited')" href="https://carmusic.now.sh">
-						carmusic.now.sh &gt;
+					<a onclick="_gs('event', 'Carmusic.now.sh portfolio-item visited')" href="https://carmusic.now.sh">
+						carmusic.now.sh
 					</a>
 				</p>
 
@@ -256,6 +263,23 @@
 	</main>
 
 	<footer>
+
+		<center id="social-links">
+
+			<a onclick="_gs('event', 'Twitter profile visited')" href="https://twitter.com/AryanBeezadhur">
+				<img class="social-icon" src="assets/twitter.svg" alt="Twitter">
+			</a>
+
+			<a onclick="_gs('event', 'GitHub profile visited')" href="https://github.com/AryanBeezadhur">
+				<img class="social-icon" src="assets/github.svg" alt="GitHub">
+			</a>
+
+			<a onclick="_gs('event', 'Stack Overflow profile visited')"
+				href="https://stackoverflow.com/users/12860895/aryan-beezadhur">
+				<img class="social-icon" src="assets/stackoverflow.svg" alt="Stack Overflow">
+			</a>
+
+		</center>
 
 		<center>
 

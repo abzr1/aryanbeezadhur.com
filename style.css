@@ -220,7 +220,7 @@ a {
 
 @supports not (backdrop-filter: blur(5px)) {
     #navbar {
-        background: rgba(0, 0, 20, 0.8);
+        background: rgba(0, 0, 20, 0.9);
     }
 }
 

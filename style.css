@@ -218,6 +218,12 @@ a {
     margin: 30px;
 }
 
+@supports not (backdrop-filter: blur(5px)) {
+    #navbar {
+        background: rgba(0, 0, 20, 0.8);
+    }
+}
+
 @media only screen and (max-width: 770px) {
     .hide-mobile {
         display: none;

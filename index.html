@@ -42,19 +42,15 @@
 
 	<!-- GoSquared -->
 	<script>
-		!function (g, s, q, r, d) {
-			r = g[r] = g[r] || function () {
-				(r.q = r.q || []).push(
-					arguments)
-			}; d = s.createElement(q); q = s.getElementsByTagName(q)[0];
-			d.src = '//d1l6p2sc9645hc.cloudfront.net/tracker.js'; q.parentNode.
-				insertBefore(d, q)
-		}(window, document, 'script', '_gs');
-
+		!function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
+		arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
+		d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
+		insertBefore(d,q)}(window,document,'script','_gs');
+	  
 		_gs('GSN-893999-O');
-		_gs('set', 'useCookies', false);
 		_gs('set', 'anonymizeIP', true);
-	</script>
+		_gs('set', 'useCookies', false);
+	  </script>
 </head>
 
 <body>
@@ -66,13 +62,13 @@
 					<a href="/" id="navbar-logo-link"><img id="navbar-logo" src="assets/icon.jpg" alt="Logo" /></a>
 				</li>
 				<li>
-					<a href="#" class="navbar-link hide-mobile">About</a>
+					<a href="#about" class="navbar-link hide-mobile">About</a>
 				</li>
 				<li>
-					<a href="#" class="navbar-link hide-mobile">Skills</a>
+					<a href="#skills" class="navbar-link hide-mobile">Skills</a>
 				</li>
 				<li>
-					<a href="#" class="navbar-link hide-mobile">Portfolio</a>
+					<a href="#projects" class="navbar-link hide-mobile">Projects</a>
 				</li>
 				<li>
 					<button id="navbar-hire-btn" onclick="hire()">Hire me</button>
@@ -95,7 +91,7 @@
 
 		</section>
 
-		<section data-aos="fade-right" class="section">
+		<section id="about" data-aos="fade-right" class="section">
 
 			<h1>About</h1>
 
@@ -117,7 +113,7 @@
 
 		</section>
 
-		<section data-aos="zoom-out-up" class="section">
+		<section id="skills" data-aos="zoom-out-up" class="section">
 
 			<center>
 
@@ -179,11 +175,11 @@
 
 		</section>
 
-		<section data-aos="fade-right" class="section">
+		<section id="projects" data-aos="fade-right" class="section">
 
-			<h1>Portfolio</h1>
+			<h1>Projects</h1>
 
-			<div class="portfolio-item">
+			<div>
 
 				<h2>TinyLink</h2>
 
@@ -194,14 +190,14 @@
 				</p>
 
 				<p>
-					<a onclick="_gs('event', 'TinyLink portfolio-item visited')" href="https://tinylink.now.sh">
+					<a onclick="_gs('event', 'TinyLink project visited')" href="https://tinylink.now.sh">
 						tinylink.now.sh
 					</a>
 				</p>
 
 			</div>
 
-			<div class="portfolio-item">
+			<div>
 
 				<h2>BMM</h2>
 
@@ -212,14 +208,14 @@
 				</p>
 
 				<p>
-					<a onclick="_gs('event', 'BMM.now.sh portfolio-item visited')" href="https://bmm.now.sh">
+					<a onclick="_gs('event', 'BMM.now.sh project visited')" href="https://bmm.now.sh">
 						bmm.now.sh
 					</a>
 				</p>
 
 			</div>
 
-			<div class="portfolio-item">
+			<div>
 
 				<h2>Surfguard</h2>
 
@@ -230,14 +226,14 @@
 				</p>
 
 				<p>
-					<a onclick="_gs('event', 'Surfguard portfolio-item visited')" href="https://surfguard.now.sh">
+					<a onclick="_gs('event', 'Surfguard project visited')" href="https://surfguard.now.sh">
 						surfguard.now.sh
 					</a>
 				</p>
 
 			</div>
 
-			<div class="portfolio-item">
+			<div>
 
 				<h2>CarMusic</h2>
 
@@ -248,14 +244,14 @@
 				</p>
 
 				<p>
-					<a onclick="_gs('event', 'Carmusic.now.sh portfolio-item visited')" href="https://carmusic.now.sh">
+					<a onclick="_gs('event', 'Carmusic.now.sh project visited')" href="https://carmusic.now.sh">
 						carmusic.now.sh
 					</a>
 				</p>
 
 			</div>
 
-			<div class="portfolio-item">
+			<div>
 
 				<h2>DiscordEmbed.now.sh</h2>
 
@@ -266,7 +262,7 @@
 				</p>
 
 				<p>
-					<a onclick="_gs('event', 'Discordembed.now.sh portfolio-item visited')" href="https://discord-embed.now.sh">
+					<a onclick="_gs('event', 'Discordembed.now.sh project visited')" href="https://discord-embed.now.sh">
 						discord-embed.now.sh
 					</a>
 				</p>

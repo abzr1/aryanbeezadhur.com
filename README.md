@@ -41,8 +41,8 @@ Portfolio: [aryanbeezadhur.com](https://aryanbeezadhur.com)
 * [Firefox Developer Edition](https://www.mozilla.org/en-GB/firefox/developer/)
 
 * [Visual Studio Code](https://code.visualstudio.com/)
-  * [GitLens](https://gitlens.amod.io/)
-  * [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)
+  * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+  * [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu)
   * [Discord Presence](https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode)
 
 * [Git for Windows](https://git-scm.com/download/win)

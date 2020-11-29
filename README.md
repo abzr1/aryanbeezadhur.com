@@ -52,19 +52,19 @@ Portfolio: [aryanbeezadhur.com](https://aryanbeezadhur.com)
   * [Vercel](https://vercel.com/download): `npm i -g vercel`
   * [Sanity](https://create.sanity.io): `npm i -g @sanity/cli`
 
+* [Bitwarden](https://bitwarden.com)
+
 * [Discord](https://discord.com)
 
 ### Pinned tabs on Chrome:
-* *One*tab
-* [Bitwarden](https://bitwarden.com)
+* [*One*tab](https://one-tab.com)
 * [Gmail](https://gmail.com)
 * [Notion](https://notion.so)
 * [Todoist](https://todoist.com)
-* [Freelancer](https://freelancer.com)
 * [GoSquared](https://gosquared.com)
-* [DeepSource](https://deepsource.io)
-* [Imgbot!](https://imgbot.net)
-* [LGTM](https://lgtm.com)
+* [Sanity Studio](https://sanity.studio)
+* [Indie Hackers](https://indiehackers.com)
+* [Fauna](https://fauna.com)
 * [GitHub](https://github.com)
-* [Stack Overflow](https://stackoverflow.com)
-* [Vercel dashboard](https://vercel.com/dashboard)
+* [Vercel Dashboard](https://vercel.com/dashboard)
+* [Freelancer](https://freelancer.com)

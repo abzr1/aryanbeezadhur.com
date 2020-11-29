@@ -1,19 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-/* CUSTOM SCROLLBAR */
-
-/* Width */
 ::-webkit-scrollbar {
     width: 10px;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
     background: var(--yellow);
     border-radius: 10px;
 }
-
-/* END OF CSS SNIPPET */
 
 ::selection {
     background: var(--yellow);
@@ -31,6 +25,7 @@
     -webkit-font-smoothing: antialiased;
     font-family: 'Inter', sans-serif !important;
     font-weight: 400;
+    font-size: large;
     background: transparent;
     color: var(--white);
     outline: none;

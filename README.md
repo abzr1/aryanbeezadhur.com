@@ -42,7 +42,7 @@ Portfolio: [aryanbeezadhur.com](https://aryanbeezadhur.com)
 
 * [Visual Studio Code](https://code.visualstudio.com/)
   * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-  * [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu)
+  * [Ayu](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu)
   * [Discord Presence](https://marketplace.visualstudio.com/items?itemName=icrawl.discord-vscode)
 
 * [Git for Windows](https://git-scm.com/download/win)

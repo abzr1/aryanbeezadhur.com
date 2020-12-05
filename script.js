@@ -4,6 +4,6 @@ AOS.init({
 })
 
 function hire() {
-    _gs('event', 'Hire button clicked')
+    panelbear('track', 'HireButtonClicked')
     window.open('https://freelancer.com/u/aryanbeezadhur')
 }

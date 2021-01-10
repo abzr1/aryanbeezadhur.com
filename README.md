@@ -56,15 +56,14 @@ Portfolio: [aryanbeezadhur.com](https://aryanbeezadhur.com)
 
 * [Discord](https://discord.com)
 
+* [ShareX](https://getsharex.com)
+
 ### Pinned tabs on Chrome:
 * [*One*tab](https://one-tab.com)
 * [Gmail](https://gmail.com)
 * [Notion](https://notion.so)
 * [Todoist](https://todoist.com)
-* [GoSquared](https://gosquared.com)
-* [Sanity Studio](https://sanity.studio)
+* [Panelbear](https://panelbear.com)
+* [Sanity Dashboard](https://manage.sanity.io)
+* [Sanity Teams](https://sanity.io/teams)
 * [Indie Hackers](https://indiehackers.com)
-* [Fauna](https://fauna.com)
-* [GitHub](https://github.com)
-* [Vercel Dashboard](https://vercel.com/dashboard)
-* [Freelancer](https://freelancer.com)

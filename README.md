@@ -1,7 +1,6 @@
-![GitHub Readme Stats](https://github-readme-stats.vercel.app/api?username=AryanBeezadhur&show_icons=true&count_private=true&theme=tokyonight)
-
 # About
-I'm Aryan, a young and dynamic web developer.
+
+Hi! I'm Aryan, a young and dynamic web developer.
 
 I build web apps and websites using HTML5, CSS4, JavaScript, jQuery, React and NextJS, providing flexibility and functionality that CMS's can't provide.
 
@@ -59,6 +58,7 @@ Portfolio: [aryanbeezadhur.com](https://aryanbeezadhur.com)
 * [ShareX](https://getsharex.com)
 
 ### Pinned tabs on Chrome:
+
 * [*One*tab](https://one-tab.com)
 * [Gmail](https://gmail.com)
 * [Notion](https://notion.so)

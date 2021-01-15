@@ -4,6 +4,6 @@ AOS.init({
 })
 
 function hire() {
-    panelbear('track', 'HireButtonClicked')
+    window.splitbee.track('Click hire button')
     window.open('https://freelancer.com/u/aryanbeezadhur')
 }

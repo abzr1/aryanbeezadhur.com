@@ -35,7 +35,6 @@ Portfolio: [aryanbeezadhur.com](https://aryanbeezadhur.com)
   * [uBlock Origin](https://github.com/gorhill/ublock)
   * [BuiltWith Technology Profiler](https://builtwith.com)
   * [Wappalyzer](https://wappalyzer.com)
-  * [Refined GitHub](https://github.com/sindresorhus/refined-github)
 
 * [Firefox Developer Edition](https://www.mozilla.org/en-GB/firefox/developer/)
 

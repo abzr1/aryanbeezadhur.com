@@ -9,6 +9,7 @@ My skills are:
 * CSS4
 * JavaScript
 * React
+* Next.js
 * GitHub
 * Vercel / Netlify
 * WordPress, Wix and Webflow
@@ -62,5 +63,4 @@ Portfolio: [aryanbeezadhur.com](https://aryanbeezadhur.com)
 * [*One*tab](https://one-tab.com)
 * [Gmail](https://gmail.com)
 * [Notion](https://notion.so)
-* [Todoist](https://todoist.com)
 * [Splitbee](https://splitbee.io)

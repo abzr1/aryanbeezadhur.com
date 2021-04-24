@@ -37,12 +37,12 @@ Portfolio: [aryanbeezadhur.com](https://aryanbeezadhur.com)
 * [Google Chrome](https://www.google.com/chrome)
   * [*One*Tab](https://www.one-tab.com)
   * [ColorZilla](https://www.colorzilla.com)
-  * [Amino: Live CSS Editor](https://aminoeditor.com)
   * [Tampermonkey](https://www.tampermonkey.net)
   * [uBlock Origin](https://github.com/gorhill/ublock)
   * [BuiltWith Technology Profiler](https://builtwith.com)
   * [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
   * [Wappalyzer](https://wappalyzer.com)
+  * [Microsoft Editor](https://chrome.google.com/webstore/detail/microsoft-editor-spelling/gpaiobkfhnonedkhhfjpmhdalgeoebfa)
 
 * [Firefox Developer Edition](https://www.mozilla.org/en-GB/firefox/developer/)
 

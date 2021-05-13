@@ -61,6 +61,7 @@ Portfolio: [aryanbeezadhur.com](https://aryanbeezadhur.com)
 * [Bitwarden](https://bitwarden.com)
 
 * [Discord](https://discord.com)
+  * [Better Discord](https://betterdiscord.app)
 
 * [ShareX](https://getsharex.com)
 

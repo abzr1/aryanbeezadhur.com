@@ -43,6 +43,7 @@ Portfolio: [aryanbeezadhur.com](https://aryanbeezadhur.com)
   * [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
   * [Wappalyzer](https://wappalyzer.com)
   * [Microsoft Editor](https://chrome.google.com/webstore/detail/microsoft-editor-spelling/gpaiobkfhnonedkhhfjpmhdalgeoebfa)
+  * [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh)
 
 * [Firefox Developer Edition](https://www.mozilla.org/en-GB/firefox/developer/)
 

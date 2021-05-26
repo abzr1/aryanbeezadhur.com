@@ -65,10 +65,3 @@ Portfolio: [aryanbeezadhur.com](https://aryanbeezadhur.com)
   * [Better Discord](https://betterdiscord.app)
 
 * [ShareX](https://getsharex.com)
-
-### Pinned tabs on Chrome:
-
-* [*One*tab](https://one-tab.com)
-* [Gmail](https://gmail.com)
-* [Notion](https://notion.so)
-* [Splitbee](https://splitbee.io)

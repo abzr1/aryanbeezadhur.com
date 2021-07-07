@@ -38,6 +38,7 @@ Portfolio: [aryanbeezadhur.com](https://aryanbeezadhur.com)
   * [Wappalyzer](https://www.wappalyzer.com/)
   * [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh)
   * [Grammarly](https://www.grammarly.com)
+  * [Bitwarden](https://bitwarden.com)
 
 * [Visual Studio Code](https://code.visualstudio.com/)
   * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
@@ -48,8 +49,6 @@ Portfolio: [aryanbeezadhur.com](https://aryanbeezadhur.com)
 * [GitHub Desktop](https://desktop.github.com/)
 
 * [Node.js](https://nodejs.org) LTS
-
-* [Bitwarden](https://bitwarden.com)
 
 * [Discord](https://discord.com)
 

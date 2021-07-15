@@ -36,9 +36,10 @@ Portfolio: [aryanbeezadhur.com](https://aryanbeezadhur.com)
   * [BuiltWith Technology Profiler](https://builtwith.com)
   * [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
   * [Wappalyzer](https://www.wappalyzer.com/)
-  * [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh)
   * [Grammarly](https://www.grammarly.com)
   * [Bitwarden](https://bitwarden.com)
+  * [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh)
+  * [Dark Scrollbar](https://chrome.google.com/webstore/detail/dark-scrollbar/eafmdhegblfeilejhmieheapmlpdeklm)
 
 * [Visual Studio Code](https://code.visualstudio.com/)
   * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
@@ -48,7 +49,7 @@ Portfolio: [aryanbeezadhur.com](https://aryanbeezadhur.com)
 * [Git for Windows](https://git-scm.com/download/win)
 * [GitHub Desktop](https://desktop.github.com/)
 
-* [Node.js](https://nodejs.org) LTS
+* [Node.js v15](https://nodejs.org)
 
 * [Discord](https://discord.com)
 

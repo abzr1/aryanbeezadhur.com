@@ -39,7 +39,6 @@ Portfolio: [aryanbeezadhur.com](https://aryanbeezadhur.com)
   * [Grammarly](https://www.grammarly.com)
   * [Bitwarden](https://bitwarden.com)
   * [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh)
-  * [Dark Scrollbar](https://chrome.google.com/webstore/detail/dark-scrollbar/eafmdhegblfeilejhmieheapmlpdeklm)
 
 * [Visual Studio Code](https://code.visualstudio.com/)
   * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)

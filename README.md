@@ -1,6 +1,6 @@
 # About
 
-Hi! I'm Aryan, a young and dynamic web developer and aspiring entrepreneur.
+I'm a young and dynamic full-stack developer.
 
 My skills are:
 * HTML

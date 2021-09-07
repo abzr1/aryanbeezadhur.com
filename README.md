@@ -1,6 +1,6 @@
 # About
 
-I'm a young and dynamic developer and designer.
+I'm a young and dynamic full-stack developer.
 
 My skills are:
 
@@ -15,6 +15,7 @@ My skills are:
 * MySQL
 * PostgreSQL
 * MongoDB
+* Git
 
 I had a 10-month work placement with the Sage Foundation as a full-stack web developer with HTML, CSS, JavaScript, Git CLI, Django, PostgreSQL and Heroku.
 

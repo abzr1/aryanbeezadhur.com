@@ -12,6 +12,13 @@ export default function Portfolio() {
             <p>Apps and sites I've built.</p>
 
             <Item
+                title="AryanBeezadhur"
+                description="My portfolio site built with React and Next.js, deployed with Vercel."
+                site="https://www.aryanbeezadhur.com"
+                code="https://github.com/AryanBeezadhur/AryanBeezadhur"
+            />
+
+            <Item
                 title="Linkpad"
                 description="Shorten multiple links into one short URL. Powered by TinyURL."
                 site="https://linkpad.vercel.app"

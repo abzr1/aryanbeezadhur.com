@@ -13,21 +13,21 @@ export default function Contact() {
                 <p>Send me a message.</p>
 
                 <p>
-                    <a href="mailto:aryanbeezadhur@gmail.com">
+                    <a href="mailto:aryanbeezadhur@gmail.com" target="_blank" rel="noopener noreferrer">
                         Email
                         <Mail />
                     </a>
                 </p>
 
                 <p>
-                    <a href="https://github.com/AryanBeezadhur">
+                    <a href="https://github.com/AryanBeezadhur" target="_blank" rel="noopener noreferrer">
                         GitHub
                         <GitHub />
                     </a>
                 </p>
 
                 <p>
-                    <a href="https://twitter.com/AryanBeezadhur">
+                    <a href="https://twitter.com/AryanBeezadhur" target="_blank" rel="noopener noreferrer">
                         Twitter
                         <Twitter />
                     </a>

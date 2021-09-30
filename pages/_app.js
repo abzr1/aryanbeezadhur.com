@@ -1,8 +1,8 @@
-import { useEffect } from 'react'
 import { useRouter } from 'next/router'
+import { useEffect } from 'react'
+import NProgress from 'nprogress'
 import splitbee from '@splitbee/web'
 import Head from 'next/head'
-import NProgress from 'nprogress'
 
 import '../public/theme.css'
 import '../public/nprogress.css'

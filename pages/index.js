@@ -25,6 +25,12 @@ export default function Index() {
                     </li>
 
                     <li>
+                        <Link href="/contact">
+                            <a>Contact</a>
+                        </Link>
+                    </li>
+
+                    <li>
                         <Link href="/snippets">
                             <a>Snippets</a>
                         </Link>

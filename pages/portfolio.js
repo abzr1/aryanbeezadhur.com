@@ -9,7 +9,7 @@ export default function Portfolio() {
 
             <h1>Portfolio</h1>
 
-            <p>Projects that I am working on.</p>
+            <p>Apps and sites I've built.</p>
 
             <Item
                 title="Linkpad"

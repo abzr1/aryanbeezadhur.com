@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
+import splitbee from '@splitbee/web'
 import Head from 'next/head'
 import NProgress from 'nprogress'
 
@@ -29,6 +30,14 @@ export default function MyApp({ Component, pageProps }) {
             router.events.off('routeChangeError', handleStop)
         }
     }, [router])
+
+    useEffect(() => {
+        splitbee.init({
+            scriptUrl: '/bee.js',
+            apiUrl: '/_hive',
+            disableCookie: true
+        })
+    }, [])
 
     return (
         <>

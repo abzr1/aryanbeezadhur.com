@@ -46,11 +46,11 @@ export default function MyApp({ Component, pageProps }) {
 
                 <meta name="description" content="I'm a young and dynamic full-stack developer." />
                 <meta name="title" content="Aryan Beezadhur | Full-Stack Developer" />
-                <meta name="theme-color" content="#000000" />
+                <meta name="theme-color" content="#1C1917" />
                 <meta name="robots" content="index, follow" />
 
                 <meta property="og:title" content="Aryan Beezadhur | Full-Stack Developer" />
-                <meta property="og:image" content="https://www.aryanbeezadhur.com/favicon.ico" />
+                <meta property="og:image" content="https://www.aryanbeezadhur.com/opengraph.png" />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://www.aryanbeezadhur.com" />
                 <meta property="og:site_name" content="www.aryanbeezadhur.com" />
@@ -62,7 +62,7 @@ export default function MyApp({ Component, pageProps }) {
                 <meta name="twitter:domain" content="www.aryanbeezadhur.com" />
                 <meta name="twitter:title" content="Aryan Beezadhur | Full-Stack Developer" />
                 <meta name="twitter:description" content="I'm a young and dynamic full-stack developer." />
-                <meta name="twitter:image" content="https://www.aryanbeezadhur.com/favicon.ico" />
+                <meta name="twitter:image" content="https://www.aryanbeezadhur.com/opengraph.png" />
                 <meta name="twitter:image:alt" content="https://aryanbeezadhur.com" />
                 <meta name="twitter:url" content="https://www.aryanbeezadhur.com" />
             </Head>

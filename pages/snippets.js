@@ -9,27 +9,32 @@ export default function Snippets({ snippets }) {
 
             <h1>Snippets</h1>
 
-            <p>A collection of code snippets I commonly use. Imported from the GitHub Gists REST API.</p>
+            <p>
+                A collection of code snippets I commonly use. Imported from the
+                GitHub Gists REST API.
+            </p>
 
-            {snippets.map(snippet =>
+            {snippets.map((snippet) => (
                 <Item
                     key={snippet.title}
                     title={snippet.title}
                     description={snippet.description}
                     code={snippet.code}
                 />
-            )}
+            ))}
         </Wrapper>
     )
 }
 
 export async function getServerSideProps() {
-    const gists = await fetch('https://api.github.com/users/AryanBeezadhur/gists')
+    const gists = await fetch(
+        'https://api.github.com/users/AryanBeezadhur/gists'
+    )
     const gistsJson = await gists.json()
 
     const snippets = []
 
-    gistsJson.map(gist => {
+    gistsJson.map((gist) => {
         snippets.push({
             title: gist.files[Object.keys(gist.files)[0]].filename,
             description: gist.description,
@@ -38,6 +43,6 @@ export async function getServerSideProps() {
     })
 
     return {
-        props: { snippets }
+        props: { snippets },
     }
 }

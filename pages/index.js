@@ -10,11 +10,21 @@ export default function Index() {
 
             <h1>Aryan Beezadhur</h1>
 
-            <p>I'm a young and dynamic full-stack developer based in London, UK.</p>
+            <p>
+                I'm a young and dynamic full-stack developer based in London,
+                UK.
+            </p>
 
-            <p>I had a 10-month work placement with the Sage Foundation as a full-stack web developer with HTML, CSS, JavaScript, Git CLI, Django, PostgreSQL and Heroku.</p>
+            <p>
+                I had a 10-month work placement with the Sage Foundation as a
+                full-stack web developer with HTML, CSS, JavaScript, Git CLI,
+                Django, PostgreSQL and Heroku.
+            </p>
 
-            <p>Technologies: HTML, CSS, JavaScript, Node.js, React, Next.js, PostgreSQL, MySQL, MongoDB, Git.</p>
+            <p>
+                Technologies: HTML, CSS, JavaScript, Node.js, React, Next.js,
+                PostgreSQL, MySQL, MongoDB, Git.
+            </p>
 
             <nav>
                 <ul>

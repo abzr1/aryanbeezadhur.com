@@ -35,7 +35,7 @@ export default function MyApp({ Component, pageProps }) {
         splitbee.init({
             scriptUrl: '/bee.js',
             apiUrl: '/_hive',
-            disableCookie: true
+            disableCookie: true,
         })
     }, [])
 
@@ -44,27 +44,63 @@ export default function MyApp({ Component, pageProps }) {
             <Head>
                 <title>Aryan Beezadhur | Full-Stack Developer</title>
 
-                <meta name="description" content="I'm a young and dynamic full-stack developer." />
-                <meta name="title" content="Aryan Beezadhur | Full-Stack Developer" />
+                <meta
+                    name="description"
+                    content="I'm a young and dynamic full-stack developer."
+                />
+                <meta
+                    name="title"
+                    content="Aryan Beezadhur | Full-Stack Developer"
+                />
                 <meta name="theme-color" content="#1C1917" />
                 <meta name="robots" content="index, follow" />
 
-                <meta property="og:title" content="Aryan Beezadhur | Full-Stack Developer" />
-                <meta property="og:image" content="https://www.aryanbeezadhur.com/opengraph.png" />
+                <meta
+                    property="og:title"
+                    content="Aryan Beezadhur | Full-Stack Developer"
+                />
+                <meta
+                    property="og:image"
+                    content="https://www.aryanbeezadhur.com/opengraph.png"
+                />
                 <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://www.aryanbeezadhur.com" />
-                <meta property="og:site_name" content="www.aryanbeezadhur.com" />
-                <meta property="og:description" content="I'm a young and dynamic full-stack developer." />
+                <meta
+                    property="og:url"
+                    content="https://www.aryanbeezadhur.com"
+                />
+                <meta
+                    property="og:site_name"
+                    content="www.aryanbeezadhur.com"
+                />
+                <meta
+                    property="og:description"
+                    content="I'm a young and dynamic full-stack developer."
+                />
 
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:site" content="@AryanBeezadhur" />
                 <meta name="twitter:creator" content="@AryanBeezadhur" />
                 <meta name="twitter:domain" content="www.aryanbeezadhur.com" />
-                <meta name="twitter:title" content="Aryan Beezadhur | Full-Stack Developer" />
-                <meta name="twitter:description" content="I'm a young and dynamic full-stack developer." />
-                <meta name="twitter:image" content="https://www.aryanbeezadhur.com/opengraph.png" />
-                <meta name="twitter:image:alt" content="https://aryanbeezadhur.com" />
-                <meta name="twitter:url" content="https://www.aryanbeezadhur.com" />
+                <meta
+                    name="twitter:title"
+                    content="Aryan Beezadhur | Full-Stack Developer"
+                />
+                <meta
+                    name="twitter:description"
+                    content="I'm a young and dynamic full-stack developer."
+                />
+                <meta
+                    name="twitter:image"
+                    content="https://www.aryanbeezadhur.com/opengraph.png"
+                />
+                <meta
+                    name="twitter:image:alt"
+                    content="https://aryanbeezadhur.com"
+                />
+                <meta
+                    name="twitter:url"
+                    content="https://www.aryanbeezadhur.com"
+                />
             </Head>
 
             <Component {...pageProps} />
@@ -84,7 +120,11 @@ export default function MyApp({ Component, pageProps }) {
                 }
 
                 a {
-                    background-image: linear-gradient(to right, var(--warm-gray-500), var(--warm-gray-500));
+                    background-image: linear-gradient(
+                        to right,
+                        var(--warm-gray-500),
+                        var(--warm-gray-500)
+                    );
                     background-size: 100% 2px;
                     background-position: 0 100%;
                     background-repeat: no-repeat;

@@ -2,7 +2,7 @@ import { useRouter } from 'next/router'
 import { useEffect } from 'react'
 import NProgress from 'nprogress'
 import splitbee from '@splitbee/web'
-import Head from 'next/head'
+import { DefaultSeo } from 'next-seo'
 
 import '../public/theme.css'
 import '../public/nprogress.css'
@@ -41,67 +41,32 @@ export default function MyApp({ Component, pageProps }) {
 
     return (
         <>
-            <Head>
-                <title>Aryan Beezadhur | Full-Stack Developer</title>
-
-                <meta
-                    name="description"
-                    content="I'm a young and dynamic full-stack developer."
-                />
-                <meta
-                    name="title"
-                    content="Aryan Beezadhur | Full-Stack Developer"
-                />
-                <meta name="theme-color" content="#1C1917" />
-                <meta name="robots" content="index, follow" />
-
-                <meta
-                    property="og:title"
-                    content="Aryan Beezadhur | Full-Stack Developer"
-                />
-                <meta
-                    property="og:image"
-                    content="https://www.aryanbeezadhur.com/opengraph.png"
-                />
-                <meta property="og:type" content="website" />
-                <meta
-                    property="og:url"
-                    content="https://www.aryanbeezadhur.com"
-                />
-                <meta
-                    property="og:site_name"
-                    content="www.aryanbeezadhur.com"
-                />
-                <meta
-                    property="og:description"
-                    content="I'm a young and dynamic full-stack developer."
-                />
-
-                <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:site" content="@AryanBeezadhur" />
-                <meta name="twitter:creator" content="@AryanBeezadhur" />
-                <meta name="twitter:domain" content="www.aryanbeezadhur.com" />
-                <meta
-                    name="twitter:title"
-                    content="Aryan Beezadhur | Full-Stack Developer"
-                />
-                <meta
-                    name="twitter:description"
-                    content="I'm a young and dynamic full-stack developer."
-                />
-                <meta
-                    name="twitter:image"
-                    content="https://www.aryanbeezadhur.com/opengraph.png"
-                />
-                <meta
-                    name="twitter:image:alt"
-                    content="https://aryanbeezadhur.com"
-                />
-                <meta
-                    name="twitter:url"
-                    content="https://www.aryanbeezadhur.com"
-                />
-            </Head>
+            <DefaultSeo
+                title="Aryan Beezadhur | Full-Stack Developer"
+                canonical="https://www.aryanbeezadhur.com"
+                description="I'm a young and dynamic full-stack developer."
+                openGraph={{
+                    type: 'website',
+                    locale: 'en_GB',
+                    url: 'https://www.aryanbeezadhur.com',
+                    site_name: 'Aryan Beezadhur',
+                    images: ['https://www.aryanbeezadhur.com/favicon.ico'],
+                    description: 'Full-Stack Developer',
+                    images: [
+                        {
+                            url: 'https://www.aryanbeezadhur.com/favicon.ico',
+                            width: 132,
+                            height: 137,
+                            alt: 'www.aryanbeezadhur.com',
+                        },
+                    ],
+                }}
+                twitter={{
+                    handle: '@AryanBeezadhur',
+                    site: '@AryanBeezadhur',
+                    cardType: 'summary_large_image',
+                }}
+            />
 
             <Component {...pageProps} />
 

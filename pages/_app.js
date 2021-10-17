@@ -50,7 +50,6 @@ export default function MyApp({ Component, pageProps }) {
                     locale: 'en_GB',
                     url: 'https://www.aryanbeezadhur.com',
                     site_name: 'Aryan Beezadhur',
-                    images: ['https://www.aryanbeezadhur.com/favicon.ico'],
                     description: 'Full-Stack Developer',
                     images: [
                         {

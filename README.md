@@ -1,6 +1,6 @@
 # About Me
 
-I'm a young and dynamic full-stack developer based in London, UK.
+I am a young and dynamic full-stack developer based in London, UK.
 
 I had a 10-month work placement with the Sage Foundation as a full-stack web developer with HTML, CSS, JavaScript, Git CLI, Django, PostgreSQL and Heroku.
 

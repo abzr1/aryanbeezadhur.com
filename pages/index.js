@@ -9,7 +9,7 @@ export default function Index() {
         <Wrapper>
             <NextSeo
                 title="Full-Stack Developer"
-                description="I'm a young and dynamic full-stack developer."
+                description="I am a young and dynamic full-stack developer."
             />
 
             <Header />
@@ -17,7 +17,7 @@ export default function Index() {
             <h1>Aryan Beezadhur</h1>
 
             <p>
-                I'm a young and dynamic full-stack developer based in London,
+                I am a young and dynamic full-stack developer based in London,
                 UK.
             </p>
 

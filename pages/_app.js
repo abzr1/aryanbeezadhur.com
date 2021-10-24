@@ -45,7 +45,7 @@ export default function MyApp({ Component, pageProps }) {
                 titleTemplate="AryanBeezadhur.com - %s"
                 defaultTitle="AryanBeezadhur.com"
                 canonical="https://www.aryanbeezadhur.com"
-                description="I'm a young and dynamic full-stack developer."
+                description="I am a young and dynamic full-stack developer."
                 openGraph={{
                     type: 'website',
                     locale: 'en_GB',

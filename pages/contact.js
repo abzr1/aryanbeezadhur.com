@@ -1,16 +1,20 @@
+import { NextSeo } from 'next-seo'
+import { GitHub, Twitter, Mail } from 'react-feather'
+
 import Wrapper from '../components/wrapper'
 import Header from '../components/header'
-import { GitHub, Twitter, Mail } from 'react-feather'
 
 export default function Contact() {
     return (
         <Wrapper>
+            <NextSeo title="Contact" description="Get in touch." />
+
             <Header />
 
             <div>
                 <h1>Contact and social</h1>
 
-                <p>Send me a message.</p>
+                <p>Get in touch.</p>
 
                 <p>
                     <a

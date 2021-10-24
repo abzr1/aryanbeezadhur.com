@@ -1,3 +1,4 @@
+import { NextSeo } from 'next-seo'
 import Link from 'next/link'
 
 import Wrapper from '../components/wrapper'
@@ -6,6 +7,11 @@ import Header from '../components/header'
 export default function Index() {
     return (
         <Wrapper>
+            <NextSeo
+                title="Full-Stack Developer"
+                description="I'm a young and dynamic full-stack developer."
+            />
+
             <Header />
 
             <h1>Aryan Beezadhur</h1>
@@ -47,8 +53,8 @@ export default function Index() {
                     </li>
 
                     <li>
-                        <Link href="/how-i-built-this-site">
-                            <a>How I Built This Site</a>
+                        <Link href="/how-i-built-my-site">
+                            <a>How I Built My Site</a>
                         </Link>
                     </li>
                 </ul>

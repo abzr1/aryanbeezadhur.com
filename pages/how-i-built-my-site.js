@@ -1,15 +1,22 @@
+import { NextSeo } from 'next-seo'
+
 import Header from '../components/header'
 import Wrapper from '../components/wrapper'
 
-export default function HowIBuiltThisSite() {
+export default function HowIBuiltMySite() {
     return (
         <Wrapper>
+            <NextSeo
+                title="How I Built My Site"
+                description="Using React and Next.js."
+            />
+
             <Header />
 
-            <h1>How I Built This Site</h1>
+            <h1>How I Built My Site</h1>
 
             <p>
-                I built this site using{' '}
+                I built my site using{' '}
                 <a
                     href="https://reactjs.org"
                     target="_blank"

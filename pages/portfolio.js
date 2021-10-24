@@ -1,3 +1,5 @@
+import { NextSeo } from 'next-seo'
+
 import Wrapper from '../components/wrapper'
 import Header from '../components/header'
 import Item from '../components/item'
@@ -5,6 +7,11 @@ import Item from '../components/item'
 export default function Portfolio() {
     return (
         <Wrapper>
+            <NextSeo
+                title="Portfolio"
+                description="Apps and sites I've built."
+            />
+
             <Header />
 
             <h1>Portfolio</h1>

@@ -42,14 +42,15 @@ export default function MyApp({ Component, pageProps }) {
     return (
         <>
             <DefaultSeo
-                title="Aryan Beezadhur | Full-Stack Developer"
+                titleTemplate="AryanBeezadhur.com - %s"
+                defaultTitle="AryanBeezadhur.com"
                 canonical="https://www.aryanbeezadhur.com"
                 description="I'm a young and dynamic full-stack developer."
                 openGraph={{
                     type: 'website',
                     locale: 'en_GB',
                     url: 'https://www.aryanbeezadhur.com',
-                    site_name: 'Aryan Beezadhur',
+                    site_name: 'AryanBeezadhur.com',
                     description: 'Full-Stack Developer',
                     images: [
                         {

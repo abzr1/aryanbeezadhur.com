@@ -29,7 +29,7 @@ export default function Index() {
 
             <p>
                 Technologies: HTML, CSS, JavaScript, Node.js, React, Next.js,
-                PostgreSQL, MySQL, MongoDB, Git.
+                Prisma, Git, Docker, Dokku, Kubernetes.
             </p>
 
             <nav>

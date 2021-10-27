@@ -14,6 +14,9 @@ Technologies:
 -   Next.js
 -   Prisma
 -   Git
+-   Docker
+-   Dokku
+-   Kubernetes
 
 Portfolio: https://aryanbeezadhur.com
 

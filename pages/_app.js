@@ -1,8 +1,8 @@
 import { useRouter } from 'next/router'
 import { useEffect } from 'react'
 import NProgress from 'nprogress'
-import splitbee from '@splitbee/web'
 import { DefaultSeo } from 'next-seo'
+import mixpanel from 'mixpanel-browser'
 
 import '../public/theme.css'
 import '../public/nprogress.css'
@@ -32,11 +32,7 @@ export default function MyApp({ Component, pageProps }) {
     }, [router])
 
     useEffect(() => {
-        splitbee.init({
-            scriptUrl: '/bee.js',
-            apiUrl: '/_hive',
-            disableCookie: true,
-        })
+        mixpanel.init('5edb783624f408e37c660eda91f6fb0e', { debug: true })
     }, [])
 
     return (

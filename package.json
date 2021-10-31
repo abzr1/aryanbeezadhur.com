@@ -9,7 +9,7 @@
         "lint": "next lint"
     },
     "dependencies": {
-        "@splitbee/web": "^0.3.0",
+        "mixpanel-browser": "^2.41.0",
         "next": "latest",
         "next-seo": "^4.28.1",
         "nprogress": "^0.2.0",

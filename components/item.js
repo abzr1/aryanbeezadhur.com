@@ -9,7 +9,16 @@ export default function Item({ title, description, site, code }) {
 
             {site && (
                 <>
-                    <a href={site} target="_blank" rel="noopener noreferrer">
+                    <a
+                        href={site}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={() =>
+                            splitbee.track(`Visit ${title}`, {
+                                page: '/portfolio or /snippets'
+                            })
+                        }
+                    >
                         Site
                         <ExternalLink />
                     </a>
@@ -18,7 +27,16 @@ export default function Item({ title, description, site, code }) {
                 </>
             )}
 
-            <a href={code} target="_blank" rel="noopener noreferrer">
+            <a
+                href={code}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() =>
+                    splitbee.track(`Visit ${title} code`, {
+                        page: '/portfolio or /snippets'
+                    })
+                }
+            >
                 Code
                 <GitHub />
             </a>

@@ -35,7 +35,7 @@ export default function MyApp({ Component, pageProps }) {
         splitbee.init({
             scriptUrl: '/bee.js',
             apiUrl: '/_hive',
-            disableCookie: true,
+            disableCookie: true
         })
     }, [])
 
@@ -57,14 +57,14 @@ export default function MyApp({ Component, pageProps }) {
                             url: 'https://www.aryanbeezadhur.com/favicon.ico',
                             width: 132,
                             height: 137,
-                            alt: 'www.aryanbeezadhur.com',
-                        },
-                    ],
+                            alt: 'www.aryanbeezadhur.com'
+                        }
+                    ]
                 }}
                 twitter={{
                     handle: '@AryanBeezadhur',
                     site: '@AryanBeezadhur',
-                    cardType: 'summary_large_image',
+                    cardType: 'summary_large_image'
                 }}
             />
 

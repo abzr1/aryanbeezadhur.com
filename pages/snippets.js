@@ -45,11 +45,11 @@ export async function getServerSideProps() {
         snippets.push({
             title: gist.files[Object.keys(gist.files)[0]].filename,
             description: gist.description,
-            code: gist.html_url,
+            code: gist.html_url
         })
     })
 
     return {
-        props: { snippets },
+        props: { snippets }
     }
 }

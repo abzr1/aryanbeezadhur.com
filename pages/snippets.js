@@ -9,7 +9,7 @@ export default function Snippets({ snippets }) {
         <Wrapper>
             <NextSeo
                 title="Snippets"
-                description="A collection of code snippets I commonly use. Imported from the GitHub Gists REST API."
+                description="A collection of code snippets I often use. Imported from the GitHub Gists REST API."
             />
 
             <Header />

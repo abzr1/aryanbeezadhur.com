@@ -17,7 +17,7 @@ export default function Snippets({ snippets }) {
             <h1>Snippets</h1>
 
             <p>
-                A collection of code snippets I commonly use. Imported from the
+                A collection of code snippets I often use. Imported from the
                 GitHub Gists REST API.
             </p>
 

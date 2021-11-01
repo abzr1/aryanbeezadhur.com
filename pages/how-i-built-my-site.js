@@ -22,11 +22,7 @@ export default function HowIBuiltMySite() {
                     href="https://reactjs.org"
                     target="_blank"
                     rel="noopener noreferrer"
-                    onClick={() =>
-                        splitbee.track('Visit React site', {
-                            page: '/how-i-built-my-site'
-                        })
-                    }
+                    onClick={() => splitbee.track('Visit React site')}
                 >
                     React
                 </a>
@@ -40,11 +36,7 @@ export default function HowIBuiltMySite() {
                     href="https://nextjs.org"
                     target="_blank"
                     rel="noopener noreferrer"
-                    onClick={() =>
-                        splitbee.track('Visit Next.js site', {
-                            page: '/how-i-built-my-site'
-                        })
-                    }
+                    onClick={() => splitbee.track('Visit Next.js site')}
                 >
                     Next.js
                 </a>

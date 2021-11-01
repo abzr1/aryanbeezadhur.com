@@ -22,11 +22,7 @@ export default function Contact() {
                         href="mailto:aryanbeezadhur@gmail.com"
                         target="_blank"
                         rel="noopener noreferrer"
-                        onClick={() =>
-                            splitbee.track('Click email', {
-                                page: '/contact'
-                            })
-                        }
+                        onClick={() => splitbee.track('Click email')}
                     >
                         Email
                         <Mail />
@@ -38,11 +34,7 @@ export default function Contact() {
                         href="https://github.com/AryanBeezadhur"
                         target="_blank"
                         rel="noopener noreferrer"
-                        onClick={() =>
-                            splitbee.track('Visit GitHub', {
-                                page: '/contact'
-                            })
-                        }
+                        onClick={() => splitbee.track('Visit GitHub')}
                     >
                         GitHub
                         <GitHub />
@@ -54,11 +46,7 @@ export default function Contact() {
                         href="https://twitter.com/AryanBeezadhur"
                         target="_blank"
                         rel="noopener noreferrer"
-                        onClick={() =>
-                            splitbee.track('Visit Twitter', {
-                                page: '/contact'
-                            })
-                        }
+                        onClick={() => splitbee.track('Visit Twitter')}
                     >
                         Twitter
                         <Twitter />

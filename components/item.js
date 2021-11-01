@@ -13,11 +13,7 @@ export default function Item({ title, description, site, code }) {
                         href={site}
                         target="_blank"
                         rel="noopener noreferrer"
-                        onClick={() =>
-                            splitbee.track(`Visit ${title}`, {
-                                page: '/portfolio or /snippets'
-                            })
-                        }
+                        onClick={() => splitbee.track(`Visit ${title}`)}
                     >
                         Site
                         <ExternalLink />
@@ -31,11 +27,7 @@ export default function Item({ title, description, site, code }) {
                 href={code}
                 target="_blank"
                 rel="noopener noreferrer"
-                onClick={() =>
-                    splitbee.track(`Visit ${title} code`, {
-                        page: '/portfolio or /snippets'
-                    })
-                }
+                onClick={() => splitbee.track(`Visit ${title} code`)}
             >
                 Code
                 <GitHub />

@@ -33,7 +33,7 @@ export default function Snippets({ snippets }) {
     )
 }
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
     const gists = await fetch(
         'https://api.github.com/users/AryanBeezadhur/gists'
     )
@@ -50,6 +50,7 @@ export async function getServerSideProps() {
     })
 
     return {
-        props: { snippets }
+        props: { snippets },
+        revalidate: 60
     }
 }

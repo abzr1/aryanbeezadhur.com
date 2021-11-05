@@ -84,6 +84,12 @@ export default function MyApp({ Component, pageProps }) {
                     font-family: 'DM Serif Display', var(--font-default);
                 }
 
+                svg {
+                    display: inline-block;
+                    width: 1.2rem;
+                    margin: 0 0 0 0.2rem;
+                }
+
                 a {
                     background-image: linear-gradient(
                         to right,
@@ -94,7 +100,7 @@ export default function MyApp({ Component, pageProps }) {
                     background-position: 0 100%;
                     background-repeat: no-repeat;
 
-                    transition: 100ms;
+                    transition: 200ms;
                 }
 
                 a:hover {

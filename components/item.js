@@ -58,12 +58,6 @@ export default function Item({ title, description, site, code }) {
                     display: inline-block;
                     margin: 0.5rem 0;
                 }
-
-                div :global(svg) {
-                    display: inline-block;
-                    width: 1.2rem;
-                    margin: 0 0 0 0.3rem;
-                }
             `}</style>
         </div>
     )

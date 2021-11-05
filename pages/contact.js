@@ -1,5 +1,5 @@
 import { NextSeo } from 'next-seo'
-import { GitHub, Twitter, Mail } from 'react-feather'
+import { Mail, Twitter, GitHub, Code } from 'react-feather'
 import splitbee from '@splitbee/web'
 
 import Wrapper from '../components/wrapper'
@@ -13,7 +13,7 @@ export default function Contact() {
             <Header />
 
             <div>
-                <h1>Contact and social</h1>
+                <h1>Contact</h1>
 
                 <p>Get in touch.</p>
 
@@ -31,6 +31,18 @@ export default function Contact() {
 
                 <p>
                     <a
+                        href="https://twitter.com/AryanBeezadhur"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={() => splitbee.track('Visit Twitter')}
+                    >
+                        Twitter
+                        <Twitter />
+                    </a>
+                </p>
+
+                <p>
+                    <a
                         href="https://github.com/AryanBeezadhur"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -43,23 +55,15 @@ export default function Contact() {
 
                 <p>
                     <a
-                        href="https://twitter.com/AryanBeezadhur"
+                        href="https://stackoverflow.com/users/12860895"
                         target="_blank"
                         rel="noopener noreferrer"
-                        onClick={() => splitbee.track('Visit Twitter')}
+                        onClick={() => splitbee.track('Visit Stack Overflow')}
                     >
-                        Twitter
-                        <Twitter />
+                        Stack Overflow
+                        <Code />
                     </a>
                 </p>
-
-                <style jsx>{`
-                    div :global(svg) {
-                        display: inline-block;
-                        width: 1.2rem;
-                        margin: 0 0 0 0.3rem;
-                    }
-                `}</style>
             </div>
         </Wrapper>
     )

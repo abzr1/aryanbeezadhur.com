@@ -1,5 +1,6 @@
 import { NextSeo } from 'next-seo'
 import Link from 'next/link'
+import { ArrowRight } from 'react-feather'
 
 import Wrapper from '../components/wrapper'
 import Header from '../components/header'
@@ -36,25 +37,37 @@ export default function Index() {
                 <ul>
                     <li>
                         <Link href="/portfolio">
-                            <a>Portfolio</a>
+                            <a>
+                                Portfolio
+                                <ArrowRight />
+                            </a>
                         </Link>
                     </li>
 
                     <li>
                         <Link href="/contact">
-                            <a>Contact</a>
+                            <a>
+                                Contact
+                                <ArrowRight />
+                            </a>
                         </Link>
                     </li>
 
                     <li>
                         <Link href="/snippets">
-                            <a>Snippets</a>
+                            <a>
+                                Snippets
+                                <ArrowRight />
+                            </a>
                         </Link>
                     </li>
 
                     <li>
                         <Link href="/how-i-built-my-site">
-                            <a>How I Built My Site</a>
+                            <a>
+                                How I Built My Site
+                                <ArrowRight />
+                            </a>
                         </Link>
                     </li>
                 </ul>

@@ -27,12 +27,6 @@ export default function Header() {
                     width: 4.6875rem;
                     border-radius: var(--br-full);
                 }
-
-                div :global(svg) {
-                    display: inline-block;
-                    width: 1.2rem;
-                    margin: 0 0.3rem 0 0;
-                }
             `}</style>
         </div>
     )

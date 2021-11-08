@@ -31,6 +31,13 @@ export default function Portfolio() {
                 site="https://linkpad.vercel.app"
                 code="https://github.com/AryanBeezadhur/linkpad"
             />
+
+            <Item
+                title="next-project-template"
+                description="A simple template for Next.js projects."
+                site="https://next-project-template.vercel.app"
+                code="https://github.com/AryanBeezadhur/next-project-template"
+            />
         </Wrapper>
     )
 }

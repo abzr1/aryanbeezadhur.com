@@ -96,7 +96,7 @@ export default function MyApp({ Component, pageProps }) {
                         var(--warm-gray-500),
                         var(--warm-gray-500)
                     );
-                    background-size: 100% 2px;
+                    background-size: 100% 0.125rem;
                     background-position: 0 100%;
                     background-repeat: no-repeat;
 
@@ -108,13 +108,13 @@ export default function MyApp({ Component, pageProps }) {
                 }
 
                 ::-webkit-scrollbar {
-                    width: 15px;
+                    width: 0.9375rem;
                 }
 
                 ::-webkit-scrollbar-thumb {
-                    border: 5px solid rgba(0, 0, 0, 0);
+                    border: 0.3125rem solid rgba(0, 0, 0, 0);
                     background-clip: padding-box;
-                    border-radius: 9999px;
+                    border-radius: 1000rem;
                     background-color: var(--yellow-200);
                 }
 

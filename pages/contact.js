@@ -1,5 +1,12 @@
 import { NextSeo } from 'next-seo'
-import { Mail, Twitter, GitHub, Code } from 'react-feather'
+import { Mail } from 'react-feather'
+import {
+    Twitter,
+    Github,
+    Stackoverflow,
+    Linkedin,
+    Reddit
+} from '@icons-pack/react-simple-icons'
 import splitbee from '@splitbee/web'
 
 import Wrapper from '../components/wrapper'
@@ -22,7 +29,7 @@ export default function Contact() {
                         href="mailto:aryanbeezadhur@gmail.com"
                         target="_blank"
                         rel="noopener noreferrer"
-                        onClick={() => splitbee.track('Click email')}
+                        onClick={() => splitbee.track('Click email link')}
                     >
                         Email
                         <Mail />
@@ -34,7 +41,7 @@ export default function Contact() {
                         href="https://twitter.com/AryanBeezadhur"
                         target="_blank"
                         rel="noopener noreferrer"
-                        onClick={() => splitbee.track('Visit Twitter')}
+                        onClick={() => splitbee.track('Visit Twitter account')}
                     >
                         Twitter
                         <Twitter />
@@ -46,10 +53,10 @@ export default function Contact() {
                         href="https://github.com/AryanBeezadhur"
                         target="_blank"
                         rel="noopener noreferrer"
-                        onClick={() => splitbee.track('Visit GitHub')}
+                        onClick={() => splitbee.track('Visit GitHub account')}
                     >
                         GitHub
-                        <GitHub />
+                        <Github />
                     </a>
                 </p>
 
@@ -58,10 +65,36 @@ export default function Contact() {
                         href="https://stackoverflow.com/users/12860895"
                         target="_blank"
                         rel="noopener noreferrer"
-                        onClick={() => splitbee.track('Visit Stack Overflow')}
+                        onClick={() =>
+                            splitbee.track('Visit Stack Overflow account')
+                        }
                     >
                         Stack Overflow
-                        <Code />
+                        <Stackoverflow />
+                    </a>
+                </p>
+
+                <p>
+                    <a
+                        href="https://www.linkedin.com/in/aryan-beezadhur-833b34171/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={() => splitbee.track('Visit LinkedIn account')}
+                    >
+                        LinkedIn
+                        <Linkedin />
+                    </a>
+                </p>
+
+                <p>
+                    <a
+                        href="https://www.reddit.com/user/realAryanBeezadhur"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={() => splitbee.track('Visit Reddit account')}
+                    >
+                        Reddit
+                        <Reddit />
                     </a>
                 </p>
             </div>

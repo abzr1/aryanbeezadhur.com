@@ -1,4 +1,5 @@
-import { ExternalLink, GitHub } from 'react-feather'
+import { ExternalLink, Code } from 'react-feather'
+import splitbee from '@splitbee/web'
 
 export default function Item({ title, description, site, code }) {
     return (
@@ -30,7 +31,7 @@ export default function Item({ title, description, site, code }) {
                 onClick={() => splitbee.track(`Visit ${title} code`)}
             >
                 Code
-                <GitHub />
+                <Code />
             </a>
 
             <style jsx>{`

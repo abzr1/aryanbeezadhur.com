@@ -1,5 +1,6 @@
 import { NextSeo } from 'next-seo'
 import splitbee from '@splitbee/web'
+import Link from 'next/link'
 
 import Header from '../components/header'
 import Wrapper from '../components/wrapper'
@@ -45,6 +46,54 @@ export default function HowIBuiltMySite() {
                 experience and search engine optimisation (SEO). Next.js also
                 supports client-side routing, which makes page transitions
                 faster.
+            </p>
+
+            <p>
+                For the{' '}
+                <Link href="/snippets">
+                    <a>
+                        <code>/snippets</code> page
+                    </a>
+                </Link>
+                , data is fetched from the{' '}
+                <a
+                    href="https://docs.github.com/en/rest/reference/gists"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() =>
+                        splitbee.track('Visit GitHub Gists REST API Docs')
+                    }
+                >
+                    GitHub Gists REST API
+                </a>{' '}
+                using Next.js{' '}
+                <a
+                    href="https://nextjs.org/docs/basic-features/data-fetching#incremental-static-regeneration"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() =>
+                        splitbee.track(
+                            'Visit Next.js Incremental Static Regeneration Docs'
+                        )
+                    }
+                >
+                    incremental static regeneration
+                </a>
+                , which generates a static version of the page at build time,
+                and regenerates the page in the background after a certain
+                amount of time (
+                <a
+                    href="https://github.com/AryanBeezadhur/AryanBeezadhur/blob/master/pages/snippets.js#L54"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() =>
+                        splitbee.track('Visit snippets.js `revalidate` line')
+                    }
+                >
+                    in my case I've set it to every 60 seconds
+                </a>
+                ). This means that the page is always blazing fast because it is
+                static HTML, but still has accurate data.
             </p>
         </Wrapper>
     )

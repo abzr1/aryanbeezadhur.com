@@ -107,6 +107,11 @@ export default function MyApp({ Component, pageProps }) {
                     color: var(--warm-gray-500);
                 }
 
+                ::selection {
+                    background: var(--yellow-200);
+                    color: var(--warm-gray-900);
+                }
+
                 ::-webkit-scrollbar {
                     width: 0.9375rem;
                 }
@@ -116,11 +121,6 @@ export default function MyApp({ Component, pageProps }) {
                     background-clip: padding-box;
                     border-radius: 1000rem;
                     background-color: var(--yellow-200);
-                }
-
-                ::selection {
-                    background: var(--yellow-200);
-                    color: var(--warm-gray-900);
                 }
             `}</style>
         </>

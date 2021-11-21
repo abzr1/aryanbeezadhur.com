@@ -1,6 +1,9 @@
 import { useRouter } from 'next/router'
+import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowLeft } from 'react-feather'
+
+import icon from '../public/icon.jpg'
 
 export default function Header() {
     const router = useRouter()
@@ -8,7 +11,13 @@ export default function Header() {
     return (
         <div>
             {router.pathname === '/' ? (
-                <img src="icon.jpg" alt="Logo" />
+                <Image
+                    src={icon}
+                    alt="Icon"
+                    width={100}
+                    height={103.79}
+                    className="icon"
+                />
             ) : (
                 <Link href="/">
                     <a>
@@ -23,8 +32,7 @@ export default function Header() {
                     padding: 3rem 0;
                 }
 
-                img {
-                    width: 4.6875rem;
+                :global(.icon) {
                     border-radius: var(--br-full);
                 }
             `}</style>

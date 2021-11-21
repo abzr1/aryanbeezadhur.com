@@ -1,12 +1,12 @@
 import { NextSeo } from 'next-seo'
 import { Mail } from 'react-feather'
 import {
-    Twitter,
-    Github,
-    Stackoverflow,
-    Linkedin,
-    Reddit
-} from '@icons-pack/react-simple-icons'
+    GitHub,
+    LinkedIn,
+    Reddit,
+    StackOverflow,
+    Twitter
+} from '../components/icons'
 import splitbee from '@splitbee/web'
 
 import Wrapper from '../components/wrapper'
@@ -56,7 +56,7 @@ export default function Contact() {
                         onClick={() => splitbee.track('Visit GitHub account')}
                     >
                         GitHub
-                        <Github />
+                        <GitHub />
                     </a>
                 </p>
 
@@ -70,7 +70,7 @@ export default function Contact() {
                         }
                     >
                         Stack Overflow
-                        <Stackoverflow />
+                        <StackOverflow />
                     </a>
                 </p>
 
@@ -82,7 +82,7 @@ export default function Contact() {
                         onClick={() => splitbee.track('Visit LinkedIn account')}
                     >
                         LinkedIn
-                        <Linkedin />
+                        <LinkedIn />
                     </a>
                 </p>
 

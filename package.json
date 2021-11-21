@@ -9,7 +9,6 @@
         "lint": "next lint"
     },
     "dependencies": {
-        "@icons-pack/react-simple-icons": "^4.6.1",
         "@splitbee/web": "^0.3.0",
         "next": "latest",
         "next-seo": "^4.28.1",

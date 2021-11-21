@@ -16,7 +16,7 @@ export default function Portfolio() {
 
             <h1>Portfolio</h1>
 
-            <p>Apps and sites I've built.</p>
+            <p>Apps and sites I&apos;ve built.</p>
 
             <Item
                 title="AryanBeezadhur"

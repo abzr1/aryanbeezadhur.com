@@ -90,7 +90,7 @@ export default function HowIBuiltMySite() {
                         splitbee.track('Visit snippets.js `revalidate` line')
                     }
                 >
-                    in my case I've set it to every 60 seconds
+                    in my case I&apos;ve set it to every 60 seconds
                 </a>
                 ). This means that the page is always blazing fast because it is
                 static HTML, but still has accurate data.

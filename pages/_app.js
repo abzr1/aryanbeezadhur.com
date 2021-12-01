@@ -6,7 +6,7 @@ import { DefaultSeo } from 'next-seo'
 
 import '../public/theme.css'
 import '../public/nprogress.css'
-import '../public/preflight.css'
+import '../public/base.css'
 
 export default function MyApp({ Component, pageProps }) {
     const router = useRouter()

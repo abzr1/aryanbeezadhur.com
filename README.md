@@ -10,13 +10,11 @@ Technologies:
 -   CSS
 -   JavaScript
 -   Node.js
+-   Express
 -   React
 -   Next.js
 -   Prisma
 -   Git
--   Docker
--   Dokku
--   Kubernetes
 
 Portfolio: https://aryanbeezadhur.com
 

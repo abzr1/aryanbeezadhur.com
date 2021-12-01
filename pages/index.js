@@ -29,8 +29,8 @@ export default function Index() {
             </p>
 
             <p>
-                Technologies: HTML, CSS, JavaScript, Node.js, React, Next.js,
-                Prisma, Git, Docker, Dokku, Kubernetes.
+                Technologies: HTML, CSS, JavaScript, Node.js, Express, React,
+                Next.js, Prisma, Git.
             </p>
 
             <nav>

@@ -4,17 +4,7 @@ I am a young and dynamic full-stack developer based in London, UK.
 
 I had a 10-month work placement with the Sage Foundation as a full-stack web developer with HTML, CSS, JavaScript, Git CLI, Django, PostgreSQL and Heroku.
 
-Technologies:
-
--   HTML
--   CSS
--   JavaScript
--   Node.js
--   Express
--   React
--   Next.js
--   Prisma
--   Git
+Technologies: HTML, CSS, JavaScript, Node.js, Express, React, Next.js, Prisma, Git.
 
 Portfolio: https://aryanbeezadhur.com
 

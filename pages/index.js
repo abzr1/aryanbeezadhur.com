@@ -1,9 +1,8 @@
 import { NextSeo } from 'next-seo'
 import Link from 'next/link'
 import { ArrowRight } from 'react-feather'
-
-import Wrapper from '../components/wrapper'
 import Header from '../components/header'
+import Wrapper from '../components/wrapper'
 
 export default function Index() {
     return (

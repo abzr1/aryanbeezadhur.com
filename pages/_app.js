@@ -1,12 +1,11 @@
-import { useRouter } from 'next/router'
-import { useEffect } from 'react'
-import NProgress from 'nprogress'
 import splitbee from '@splitbee/web'
 import { DefaultSeo } from 'next-seo'
-
-import '../public/theme.css'
-import '../public/nprogress.css'
+import { useRouter } from 'next/router'
+import NProgress from 'nprogress'
+import { useEffect } from 'react'
 import '../public/base.css'
+import '../public/nprogress.css'
+import '../public/theme.css'
 
 export default function MyApp({ Component, pageProps }) {
     const router = useRouter()

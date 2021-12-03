@@ -1,8 +1,7 @@
 import { NextSeo } from 'next-seo'
-
-import Wrapper from '../components/wrapper'
 import Header from '../components/header'
 import Item from '../components/item'
+import Wrapper from '../components/wrapper'
 
 export default function Portfolio() {
     return (

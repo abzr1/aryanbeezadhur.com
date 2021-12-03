@@ -1,7 +1,6 @@
-import { NextSeo } from 'next-seo'
 import splitbee from '@splitbee/web'
+import { NextSeo } from 'next-seo'
 import Link from 'next/link'
-
 import Header from '../components/header'
 import Wrapper from '../components/wrapper'
 

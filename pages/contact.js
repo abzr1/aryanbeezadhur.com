@@ -1,5 +1,7 @@
+import splitbee from '@splitbee/web'
 import { NextSeo } from 'next-seo'
 import { Mail } from 'react-feather'
+import Header from '../components/header'
 import {
     GitHub,
     LinkedIn,
@@ -7,10 +9,7 @@ import {
     StackOverflow,
     Twitter
 } from '../components/icons'
-import splitbee from '@splitbee/web'
-
 import Wrapper from '../components/wrapper'
-import Header from '../components/header'
 
 export default function Contact() {
     return (

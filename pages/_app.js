@@ -3,6 +3,8 @@ import { DefaultSeo } from 'next-seo'
 import { useRouter } from 'next/router'
 import NProgress from 'nprogress'
 import { useEffect } from 'react'
+import Header from '../components/header'
+import Wrapper from '../components/wrapper'
 import '../public/base.css'
 import '../public/nprogress.css'
 import '../public/theme.css'
@@ -67,7 +69,11 @@ export default function MyApp({ Component, pageProps }) {
                 }}
             />
 
-            <Component {...pageProps} />
+            <Wrapper>
+                <Header />
+
+                <Component {...pageProps} />
+            </Wrapper>
 
             <style jsx global>{`
                 body {

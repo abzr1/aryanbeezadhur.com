@@ -1,17 +1,13 @@
 import { NextSeo } from 'next-seo'
-import Header from '../components/header'
 import Item from '../components/item'
-import Wrapper from '../components/wrapper'
 
 export default function Snippets({ snippets }) {
     return (
-        <Wrapper>
+        <>
             <NextSeo
                 title="Snippets"
                 description="A collection of code snippets I often use. Imported from the GitHub Gists REST API."
             />
-
-            <Header />
 
             <h1>Snippets</h1>
 
@@ -28,7 +24,7 @@ export default function Snippets({ snippets }) {
                     code={snippet.code}
                 />
             ))}
-        </Wrapper>
+        </>
     )
 }
 

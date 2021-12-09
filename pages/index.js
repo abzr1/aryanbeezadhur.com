@@ -1,18 +1,14 @@
 import { NextSeo } from 'next-seo'
 import Link from 'next/link'
 import { ArrowRight } from 'react-feather'
-import Header from '../components/header'
-import Wrapper from '../components/wrapper'
 
 export default function Index() {
     return (
-        <Wrapper>
+        <>
             <NextSeo
                 title="Full-Stack Developer"
                 description="I am a young and dynamic full-stack developer."
             />
-
-            <Header />
 
             <h1>Aryan Beezadhur</h1>
 
@@ -79,6 +75,6 @@ export default function Index() {
                     list-style-type: none;
                 }
             `}</style>
-        </Wrapper>
+        </>
     )
 }

@@ -1,7 +1,6 @@
 import splitbee from '@splitbee/web'
 import { NextSeo } from 'next-seo'
 import { Mail } from 'react-feather'
-import Header from '../components/header'
 import {
     GitHub,
     LinkedIn,
@@ -9,14 +8,11 @@ import {
     StackOverflow,
     Twitter
 } from '../components/icons'
-import Wrapper from '../components/wrapper'
 
 export default function Contact() {
     return (
-        <Wrapper>
+        <>
             <NextSeo title="Contact" description="Get in touch." />
-
-            <Header />
 
             <div>
                 <h1>Contact</h1>
@@ -97,6 +93,6 @@ export default function Contact() {
                     </a>
                 </p>
             </div>
-        </Wrapper>
+        </>
     )
 }

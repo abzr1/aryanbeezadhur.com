@@ -1,17 +1,13 @@
 import { NextSeo } from 'next-seo'
-import Header from '../components/header'
 import Item from '../components/item'
-import Wrapper from '../components/wrapper'
 
 export default function Portfolio() {
     return (
-        <Wrapper>
+        <>
             <NextSeo
                 title="Portfolio"
                 description="Apps and sites I've built."
             />
-
-            <Header />
 
             <h1>Portfolio</h1>
 
@@ -37,6 +33,6 @@ export default function Portfolio() {
                 site="https://next-project-template.vercel.app"
                 code="https://github.com/AryanBeezadhur/next-project-template"
             />
-        </Wrapper>
+        </>
     )
 }

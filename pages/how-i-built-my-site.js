@@ -1,18 +1,14 @@
 import splitbee from '@splitbee/web'
 import { NextSeo } from 'next-seo'
 import Link from 'next/link'
-import Header from '../components/header'
-import Wrapper from '../components/wrapper'
 
 export default function HowIBuiltMySite() {
     return (
-        <Wrapper>
+        <>
             <NextSeo
                 title="How I Built My Site"
                 description="Using React and Next.js."
             />
-
-            <Header />
 
             <h1>How I Built My Site</h1>
 
@@ -94,6 +90,6 @@ export default function HowIBuiltMySite() {
                 ). This means that the page is always blazing fast because it is
                 static HTML, but still has accurate data.
             </p>
-        </Wrapper>
+        </>
     )
 }

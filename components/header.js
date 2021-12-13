@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { ArrowLeft } from 'react-feather'
+import { ArrowLeft } from './icons'
 import icon from '../public/icon.jpg'
 
 export default function Header() {

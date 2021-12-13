@@ -1,6 +1,6 @@
 import { NextSeo } from 'next-seo'
 import Link from 'next/link'
-import { ArrowRight } from 'react-feather'
+import { ArrowRight } from '../components/icons'
 
 export default function Index() {
     return (

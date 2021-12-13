@@ -1,6 +1,6 @@
 import splitbee from '@splitbee/web'
 import { NextSeo } from 'next-seo'
-import { Mail } from 'react-feather'
+import { Mail } from '../components/icons'
 import {
     GitHub,
     LinkedIn,

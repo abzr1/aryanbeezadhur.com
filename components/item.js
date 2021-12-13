@@ -1,5 +1,5 @@
 import splitbee from '@splitbee/web'
-import { Code, ExternalLink } from 'react-feather'
+import { Code, ExternalLink } from './icons'
 
 export default function Item({ title, description, site, code }) {
     return (

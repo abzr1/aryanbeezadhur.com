@@ -1,37 +1,12 @@
 import splitbee from '@splitbee/web'
 import { DefaultSeo } from 'next-seo'
-import { useRouter } from 'next/router'
-import NProgress from 'nprogress'
 import { useEffect } from 'react'
 import Header from '../components/header'
 import Wrapper from '../components/wrapper'
 import '../public/base.css'
-import '../public/nprogress.css'
 import '../public/theme.css'
 
 export default function MyApp({ Component, pageProps }) {
-    const router = useRouter()
-
-    useEffect(() => {
-        const handleStart = (url) => {
-            console.log(`Loading: ${url}`)
-            NProgress.start()
-        }
-        const handleStop = () => {
-            NProgress.done()
-        }
-
-        router.events.on('routeChangeStart', handleStart)
-        router.events.on('routeChangeComplete', handleStop)
-        router.events.on('routeChangeError', handleStop)
-
-        return () => {
-            router.events.off('routeChangeStart', handleStart)
-            router.events.off('routeChangeComplete', handleStop)
-            router.events.off('routeChangeError', handleStop)
-        }
-    }, [router])
-
     useEffect(() => {
         splitbee.init({
             scriptUrl: '/bee.js',

@@ -56,15 +56,6 @@ export default function Index() {
                             </a>
                         </Link>
                     </li>
-
-                    <li>
-                        <Link href="/how-i-built-my-site">
-                            <a>
-                                How I Built My Site
-                                <ArrowRight />
-                            </a>
-                        </Link>
-                    </li>
                 </ul>
             </nav>
 

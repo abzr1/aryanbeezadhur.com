@@ -15,16 +15,16 @@ export default function Portfolio() {
 
             <Item
                 title="AryanBeezadhur"
-                description="My portfolio site built with React and Next.js, deployed with Vercel."
+                description="My portfolio site built with React and Next.js, deployed with Vercel"
                 site="https://www.aryanbeezadhur.com"
                 code="https://github.com/AryanBeezadhur/AryanBeezadhur"
             />
 
             <Item
-                title="Linkpad"
-                description="Shorten multiple links into one short URL. Powered by TinyURL."
-                site="https://linkpad.vercel.app"
-                code="https://github.com/AryanBeezadhur/linkpad"
+                title="Wordstats"
+                description="A web tool that display text stats, built with Alpine.js and Tailwind CSS"
+                site="https://wordstats.vercel.app"
+                code="https://github.com/AryanBeezadhur/wordstats"
             />
         </>
     )

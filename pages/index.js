@@ -19,13 +19,14 @@ export default function Index() {
 
             <p>
                 I had a 10-month work placement with the Sage Foundation as a
-                full-stack web developer with HTML, CSS, JavaScript, Git CLI,
-                Django, PostgreSQL and Heroku.
+                full-stack web developer with Python, Django, PostgreSQL and
+                Heroku.
             </p>
 
             <p>
-                Technologies: HTML, CSS, JavaScript, Node.js, Express, React,
-                Next.js, Prisma, Git.
+                Tech: HTML, HTMX, CSS, Tailwind CSS, JavaScript, Alpine.js,
+                React.js, Next.js, Svelte, SvelteKit, Python, Django, PHP,
+                Laravel
             </p>
 
             <nav>

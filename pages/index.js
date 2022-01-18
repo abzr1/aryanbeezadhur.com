@@ -24,8 +24,8 @@ export default function Index() {
             </p>
 
             <p>
-                Tech: HTMX, TailwindCSS, Alpine.js, React, Next.js, Svelte,
-                Django, Laravel.
+                Tech: Python, Django, PHP, Laravel, React, Next.js, TailwindCSS,
+                Alpine.js, HTMX.
             </p>
 
             <nav>

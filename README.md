@@ -4,7 +4,7 @@ I am a young and dynamic full-stack developer based in London, UK.
 
 I had a 10-month work placement with the Sage Foundation as a full-stack web developer with Python, Django, PostgreSQL and Heroku.
 
-Tech: HTML, HTMX, CSS, Tailwind CSS, JavaScript, Alpine.js, React.js, Next.js, Svelte, SvelteKit, Python, Django, PHP, Laravel.
+Tech: HTML, [HTMX](https://htmx.org), CSS, [Tailwind CSS](https://tailwindcss.com), JavaScript, [Alpine.js](https://alpinejs.dev), [React.js](https://reactjs.org), [Next.js](https://nextjs.org), [Svelte](https://svelte.dev), [SvelteKit](https://kit.svelte.dev), Python, [Django](https://djangoproject.com), PHP, [Laravel](https://laravel.com).
 
 Portfolio: https://aryanbeezadhur.com
 

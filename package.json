@@ -2,7 +2,12 @@
     "name": "aryanbeezadhur.com",
     "description": "My portfolio site built with React and Next.js",
     "version": "1.0.0",
-    "private": true,
+    "private": "true",
+    "license": "UNLICENSED",
+    "author": {
+        "name": "Aryan Beezadhur",
+        "url": "https://www.aryanbeezadhur.com"
+    },
     "scripts": {
         "dev": "next dev",
         "build": "next build",

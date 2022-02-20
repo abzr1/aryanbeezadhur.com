@@ -1,4 +1,3 @@
-import splitbee from '@splitbee/web'
 import { Code, ExternalLink } from './icons'
 
 export default function Item({ title, description, site, code }) {
@@ -10,12 +9,7 @@ export default function Item({ title, description, site, code }) {
 
             {site && (
                 <>
-                    <a
-                        href={site}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        onClick={() => splitbee.track(`Visit ${title}`)}
-                    >
+                    <a href={site} target="_blank" rel="noopener noreferrer">
                         Site
                         <ExternalLink />
                     </a>
@@ -24,12 +18,7 @@ export default function Item({ title, description, site, code }) {
                 </>
             )}
 
-            <a
-                href={code}
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => splitbee.track(`Visit ${title} code`)}
-            >
+            <a href={code} target="_blank" rel="noopener noreferrer">
                 Code
                 <Code />
             </a>

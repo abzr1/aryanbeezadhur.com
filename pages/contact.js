@@ -1,4 +1,3 @@
-import splitbee from '@splitbee/web'
 import { NextSeo } from 'next-seo'
 import { Mail } from '../components/icons'
 import {
@@ -24,7 +23,6 @@ export default function Contact() {
                         href="mailto:aryanbeezadhur@gmail.com"
                         target="_blank"
                         rel="noopener noreferrer"
-                        onClick={() => splitbee.track('Click email link')}
                     >
                         Email
                         <Mail />
@@ -36,7 +34,6 @@ export default function Contact() {
                         href="https://twitter.com/AryanBeezadhur"
                         target="_blank"
                         rel="noopener noreferrer"
-                        onClick={() => splitbee.track('Visit Twitter account')}
                     >
                         Twitter
                         <Twitter />
@@ -48,7 +45,6 @@ export default function Contact() {
                         href="https://github.com/AryanBeezadhur"
                         target="_blank"
                         rel="noopener noreferrer"
-                        onClick={() => splitbee.track('Visit GitHub account')}
                     >
                         GitHub
                         <GitHub />
@@ -60,9 +56,6 @@ export default function Contact() {
                         href="https://stackoverflow.com/users/12860895"
                         target="_blank"
                         rel="noopener noreferrer"
-                        onClick={() =>
-                            splitbee.track('Visit Stack Overflow account')
-                        }
                     >
                         Stack Overflow
                         <StackOverflow />
@@ -74,7 +67,6 @@ export default function Contact() {
                         href="https://www.linkedin.com/in/aryan-beezadhur-833b34171/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        onClick={() => splitbee.track('Visit LinkedIn account')}
                     >
                         LinkedIn
                         <LinkedIn />
@@ -86,7 +78,6 @@ export default function Contact() {
                         href="https://www.reddit.com/user/realAryanBeezadhur"
                         target="_blank"
                         rel="noopener noreferrer"
-                        onClick={() => splitbee.track('Visit Reddit account')}
                     >
                         Reddit
                         <Reddit />

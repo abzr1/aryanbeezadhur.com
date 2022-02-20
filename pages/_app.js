@@ -1,5 +1,5 @@
-import splitbee from '@splitbee/web'
 import { DefaultSeo } from 'next-seo'
+import posthog from 'posthog-js'
 import { useEffect } from 'react'
 import Header from '../components/header'
 import Wrapper from '../components/wrapper'
@@ -8,10 +8,8 @@ import '../public/theme.css'
 
 export default function MyApp({ Component, pageProps }) {
     useEffect(() => {
-        splitbee.init({
-            scriptUrl: '/bee.js',
-            apiUrl: '/_hive',
-            disableCookie: true
+        posthog.init('phc_ox3Yx9DEMYRwBchiyOXO2ePlVmgrJvk1V49JIMuh8wi', {
+            api_host: 'https://app.posthog.com'
         })
     }, [])
 

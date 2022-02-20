@@ -24,8 +24,8 @@ export default function Index() {
             </p>
 
             <p>
-                Tech: Python, Django, Node.js, Express, React, Next.js,
-                TailwindCSS, Alpine.js, HTMX.
+                Tech: HTML, CSS, JavaScript, Python, Django, Node.js, React,
+                Next.js, TailwindCSS.
             </p>
 
             <nav>

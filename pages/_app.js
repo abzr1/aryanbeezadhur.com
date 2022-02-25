@@ -1,18 +1,10 @@
 import { DefaultSeo } from 'next-seo'
-import posthog from 'posthog-js'
-import { useEffect } from 'react'
 import Header from '../components/header'
 import Wrapper from '../components/wrapper'
 import '../public/base.css'
 import '../public/theme.css'
 
 export default function MyApp({ Component, pageProps }) {
-    useEffect(() => {
-        posthog.init('phc_ox3Yx9DEMYRwBchiyOXO2ePlVmgrJvk1V49JIMuh8wi', {
-            api_host: 'https://app.posthog.com'
-        })
-    }, [])
-
     return (
         <>
             <DefaultSeo

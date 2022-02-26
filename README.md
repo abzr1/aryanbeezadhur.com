@@ -2,10 +2,6 @@
 
 I am a young and dynamic full-stack developer based in London, UK.
 
-I had a 10-month work placement with the Sage Foundation as a full-stack web developer with Python, Django, PostgreSQL and Heroku.
-
-Tech: Python, Django, Node.js, Express, React, Next.js, TailwindCSS, Alpine.js, HTMX.
-
 Portfolio: https://aryanbeezadhur.com
 
 # About My Site

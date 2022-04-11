@@ -45,13 +45,14 @@ export default function MyApp({ Component, pageProps }) {
                     background: var(--warm-gray-900);
                     color: var(--warm-gray-200);
 
-                    font-family: 'DM Sans', var(--font-default);
+                    font-family: 'Sora', var(--font-default);
                     font-weight: var(--fw-normal);
                     font-size: var(--fs-lg);
                 }
 
                 h1 {
-                    font-family: 'DM Serif Display', var(--font-default);
+                    font-family: 'Sora', var(--font-default);
+                    font-weight: var(--fw-bold);
                 }
 
                 svg {

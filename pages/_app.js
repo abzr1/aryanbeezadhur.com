@@ -45,13 +45,18 @@ export default function MyApp({ Component, pageProps }) {
                     background: var(--warm-gray-900);
                     color: var(--warm-gray-200);
 
-                    font-family: 'Sora', var(--font-default);
+                    font-family: 'Inter', var(--font-default);
                     font-weight: var(--fw-normal);
                     font-size: var(--fs-lg);
                 }
 
-                h1 {
-                    font-family: 'Sora', var(--font-default);
+                h1,
+                h2,
+                h3,
+                h4,
+                h5,
+                h6 {
+                    font-family: 'Space Grotesk', var(--font-default);
                     font-weight: var(--fw-bold);
                 }
 

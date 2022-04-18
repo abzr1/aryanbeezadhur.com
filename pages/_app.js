@@ -45,7 +45,7 @@ export default function MyApp({ Component, pageProps }) {
                     background: var(--warm-gray-900);
                     color: var(--warm-gray-200);
 
-                    font-family: 'Inter', var(--font-default);
+                    font-family: 'Public Sans', var(--font-default);
                     font-weight: var(--fw-normal);
                     font-size: var(--fs-lg);
                 }

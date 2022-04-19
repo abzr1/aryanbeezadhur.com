@@ -20,7 +20,6 @@ export default function Custom404() {
                     border-right: 2px solid var(--gray-600);
 
                     font-size: var(--fs-2xl);
-                    font-weight: var(--fw-semibold);
                 }
 
                 p {

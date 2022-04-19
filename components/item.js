@@ -33,7 +33,6 @@ export default function Item({ title, description, site, code }) {
                     padding: 0.5rem 0;
 
                     font-size: var(--fs-2xl);
-                    font-weight: var(--fw-bold);
                 }
 
                 p {

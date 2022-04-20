@@ -57,6 +57,7 @@ export default function MyApp({ Component, pageProps }) {
                 h5,
                 h6 {
                     font-family: 'Domine', var(--font-default);
+                    font-weight: var(--fw-semibold);
                 }
 
                 svg {

@@ -23,10 +23,7 @@ export default function Index() {
                 Heroku.
             </p>
 
-            <p>
-                Tech: PHP, Laravel, Python, Django, Node.js, React, Next.js,
-                TailwindCSS.
-            </p>
+            <p>Tech: Python, Django, Node.js, React, Next.js, TailwindCSS.</p>
 
             <nav>
                 <ul>

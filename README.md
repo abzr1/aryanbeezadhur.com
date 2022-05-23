@@ -2,7 +2,7 @@
 
 I am a young and dynamic full-stack developer based in London, UK.
 
-Portfolio: https://aryanbeezadhur.com
+Portfolio: https://www.aryanbeezadhur.com
 
 # About My Site
 

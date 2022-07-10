@@ -1,8 +1,8 @@
 import { DefaultSeo } from 'next-seo'
 import Header from '../components/header'
 import Wrapper from '../components/wrapper'
-import '../public/base.css'
-import '../public/theme.css'
+
+import '../public/output.css'
 
 export default function MyApp({ Component, pageProps }) {
     return (
@@ -39,66 +39,6 @@ export default function MyApp({ Component, pageProps }) {
 
                 <Component {...pageProps} />
             </Wrapper>
-
-            <style jsx global>{`
-                body {
-                    background: var(--warm-gray-900);
-                    color: var(--warm-gray-200);
-
-                    font-family: 'Red Hat Text', var(--font-default);
-                    font-weight: var(--fw-normal);
-                    font-size: var(--fs-lg);
-                }
-
-                h1,
-                h2,
-                h3,
-                h4,
-                h5,
-                h6 {
-                    font-family: 'MuseoModerno', var(--font-default);
-                    font-weight: var(--fw-bold);
-                }
-
-                svg {
-                    display: inline-block;
-                    width: 1.2rem;
-                    margin: 0 0 0 0.2rem;
-                }
-
-                a {
-                    background-image: linear-gradient(
-                        to right,
-                        var(--warm-gray-500),
-                        var(--warm-gray-500)
-                    );
-                    background-size: 100% 0.125rem;
-                    background-position: 0 100%;
-                    background-repeat: no-repeat;
-
-                    transition: 200ms;
-                }
-
-                a:hover {
-                    color: var(--warm-gray-500);
-                }
-
-                ::selection {
-                    background: var(--yellow-200);
-                    color: var(--warm-gray-900);
-                }
-
-                ::-webkit-scrollbar {
-                    width: 0.9375rem;
-                }
-
-                ::-webkit-scrollbar-thumb {
-                    border: 0.3125rem solid rgba(0, 0, 0, 0);
-                    background-clip: padding-box;
-                    border-radius: 1000rem;
-                    background-color: var(--yellow-200);
-                }
-            `}</style>
         </>
     )
 }

@@ -3,7 +3,7 @@ import Document, { Head, Html, Main, NextScript } from 'next/document'
 export default class MyDocument extends Document {
     render() {
         return (
-            <Html lang="en">
+            <Html lang="en" className="h-full">
                 <Head>
                     <link
                         rel="preconnect"
@@ -20,7 +20,7 @@ export default class MyDocument extends Document {
                     />
                 </Head>
 
-                <body>
+                <body className="h-full bg-stone-900 text-white text-lg">
                     <Main />
                     <NextScript />
                 </body>

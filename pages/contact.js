@@ -1,12 +1,15 @@
 import { NextSeo } from 'next-seo'
-import { Mail } from '../components/icons'
+import H1 from '../components/h1'
 import {
     GitHub,
     LinkedIn,
+    Mail,
     Reddit,
     StackOverflow,
     Twitter
 } from '../components/icons'
+import LinkWithIcon from '../components/link-with-icon'
+import P from '../components/p'
 
 export default function Contact() {
     return (
@@ -14,75 +17,75 @@ export default function Contact() {
             <NextSeo title="Contact" description="Get in touch." />
 
             <div>
-                <h1>Contact</h1>
+                <H1>Contact</H1>
 
-                <p>Get in touch.</p>
+                <P>Get in touch.</P>
 
-                <p>
-                    <a
+                <P>
+                    <LinkWithIcon
                         href="mailto:aryanbeezadhur@gmail.com"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         Email
                         <Mail />
-                    </a>
-                </p>
+                    </LinkWithIcon>
+                </P>
 
-                <p>
-                    <a
+                <P>
+                    <LinkWithIcon
                         href="https://twitter.com/AryanBeezadhur"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         Twitter
                         <Twitter />
-                    </a>
-                </p>
+                    </LinkWithIcon>
+                </P>
 
-                <p>
-                    <a
+                <P>
+                    <LinkWithIcon
                         href="https://github.com/AryanBeezadhur"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         GitHub
                         <GitHub />
-                    </a>
-                </p>
+                    </LinkWithIcon>
+                </P>
 
-                <p>
-                    <a
+                <P>
+                    <LinkWithIcon
                         href="https://stackoverflow.com/users/12860895"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         Stack Overflow
                         <StackOverflow />
-                    </a>
-                </p>
+                    </LinkWithIcon>
+                </P>
 
-                <p>
-                    <a
+                <P>
+                    <LinkWithIcon
                         href="https://www.linkedin.com/in/aryan-beezadhur-833b34171/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         LinkedIn
                         <LinkedIn />
-                    </a>
-                </p>
+                    </LinkWithIcon>
+                </P>
 
-                <p>
-                    <a
+                <P>
+                    <LinkWithIcon
                         href="https://www.reddit.com/user/realAryanBeezadhur"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         Reddit
                         <Reddit />
-                    </a>
-                </p>
+                    </LinkWithIcon>
+                </P>
             </div>
         </>
     )

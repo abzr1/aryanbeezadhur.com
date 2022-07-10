@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    a {
+        @apply bg-gradient-to-r;
+        @apply from-stone-500;
+        @apply to-stone-500;
+        background-size: 100% 0.125rem;
+        background-position: 0 100%;
+        @apply bg-no-repeat;
+
+        @apply duration-200;
+    }
+
+    a:hover {
+        @apply text-stone-500;
+    }
+
+    ::selection {
+        @apply bg-yellow-200;
+        @apply text-stone-900;
+    }
+
+    ::-webkit-scrollbar {
+        @apply w-4;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        @apply bg-yellow-200;
+        border: 0.3125rem solid rgba(0, 0, 0, 0);
+        @apply bg-clip-padding;
+        @apply rounded-full;
+    }
+}

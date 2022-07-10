@@ -1,5 +1,7 @@
 import { NextSeo } from 'next-seo'
+import H1 from '../components/h1'
 import Item from '../components/item'
+import P from '../components/p'
 
 export default function Snippets({ snippets }) {
     return (
@@ -9,12 +11,12 @@ export default function Snippets({ snippets }) {
                 description="A collection of code snippets I often use. Imported from the GitHub Gists REST API."
             />
 
-            <h1>Snippets</h1>
+            <H1>Snippets</H1>
 
-            <p>
+            <P>
                 A collection of code snippets I often use. Imported from the
                 GitHub Gists REST API.
-            </p>
+            </P>
 
             {snippets.map((snippet) => (
                 <Item

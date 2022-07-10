@@ -1,31 +1,11 @@
+import H1 from '../components/h1'
+
 export default function Custom404() {
     return (
-        <div>
-            <h1>404</h1>
-            <p>This page could not be found.</p>
+        <div className="flex justify-center items-center h-screen text-center">
+            <H1 className="text-2xl pr-5 border-r-2 border-r-gray-500">404</H1>
 
-            <style jsx>{`
-                div {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    min-height: 100vh;
-
-                    text-align: center;
-                }
-
-                h1 {
-                    padding-right: 1.25rem;
-
-                    border-right: 2px solid var(--gray-600);
-
-                    font-size: var(--fs-2xl);
-                }
-
-                p {
-                    padding-left: 1.25rem;
-                }
-            `}</style>
+            <p className="pl-5">This page could not be found.</p>
         </div>
     )
 }

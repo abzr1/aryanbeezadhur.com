@@ -44,7 +44,7 @@ export default function Item({ title, description, site, code }) {
                 }
 
                 a {
-                    display: inline-block;
+                    display: inline-flex;
                     margin: 0.5rem 0;
                 }
             `}</style>

@@ -12,10 +12,14 @@ export default function Item({ title, description, site, code }) {
 
             {site && (
                 <>
-                    <a href={site} target="_blank" rel="noopener noreferrer">
+                    <LinkWithIcon
+                        href={site}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         Site
                         <ExternalLink />
-                    </a>
+                    </LinkWithIcon>
 
                     <br />
                 </>

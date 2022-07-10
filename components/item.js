@@ -11,7 +11,7 @@ export default function Item({ title, description, site, code }) {
             <P>{description}</P>
 
             {site && (
-                <>
+                <P>
                     <LinkWithIcon
                         href={site}
                         target="_blank"
@@ -22,7 +22,7 @@ export default function Item({ title, description, site, code }) {
                     </LinkWithIcon>
 
                     <br />
-                </>
+                </P>
             )}
 
             <LinkWithIcon href={code} target="_blank" rel="noopener noreferrer">

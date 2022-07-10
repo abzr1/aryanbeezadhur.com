@@ -45,7 +45,7 @@ export default function MyApp({ Component, pageProps }) {
                     background: var(--warm-gray-900);
                     color: var(--warm-gray-200);
 
-                    font-family: 'IBM Plex Sans', var(--font-default);
+                    font-family: 'Red Hat Text', var(--font-default);
                     font-weight: var(--fw-normal);
                     font-size: var(--fs-lg);
                 }
@@ -56,7 +56,7 @@ export default function MyApp({ Component, pageProps }) {
                 h4,
                 h5,
                 h6 {
-                    font-family: 'Space Grotesk', var(--font-default);
+                    font-family: 'MuseoModerno', var(--font-default);
                     font-weight: var(--fw-bold);
                 }
 

@@ -1,3 +1,4 @@
+import LinkWithIcon from '../components/link-with-icon'
 import { NextSeo } from 'next-seo'
 import Link from 'next/link'
 import H1 from '../components/h1'
@@ -30,30 +31,24 @@ export default function Index() {
             <nav>
                 <ul>
                     <li className="py-4">
-                        <Link href="/portfolio">
-                            <a>
-                                Portfolio
-                                <ArrowRight />
-                            </a>
-                        </Link>
+                        <LinkWithIcon href="/portfolio">
+                            Portfolio
+                            <ArrowRight />
+                        </LinkWithIcon>
                     </li>
 
                     <li className="py-4">
-                        <Link href="/contact">
-                            <a>
-                                Contact
-                                <ArrowRight />
-                            </a>
-                        </Link>
+                        <LinkWithIcon href="/contact">
+                            Contact
+                            <ArrowRight />
+                        </LinkWithIcon>
                     </li>
 
                     <li className="py-4">
-                        <Link href="/snippets">
-                            <a>
-                                Snippets
-                                <ArrowRight />
-                            </a>
-                        </Link>
+                        <LinkWithIcon href="/snippets">
+                            Snippets
+                            <ArrowRight />
+                        </LinkWithIcon>
                     </li>
                 </ul>
             </nav>

@@ -5,7 +5,7 @@ import { Code, ExternalLink } from './icons'
 
 export default function Item({ title, description, site, code }) {
     return (
-        <div className="py-12 border-y border-y-stone-700">
+        <div className="my-12 border-y border-y-stone-700">
             <H4>{title}</H4>
 
             <P>{description}</P>

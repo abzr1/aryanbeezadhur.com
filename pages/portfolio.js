@@ -23,14 +23,11 @@ const data = [
 export default function Portfolio() {
     return (
         <>
-            <NextSeo
-                title="Portfolio"
-                description="Apps and sites I've built."
-            />
+            <NextSeo title="Portfolio" description="Projects I'm working on." />
 
             <H1>Portfolio</H1>
 
-            <P>Apps and sites I&apos;ve built.</P>
+            <P>Projects I&apos;m working on.</P>
 
             <Cards data={data} />
         </>

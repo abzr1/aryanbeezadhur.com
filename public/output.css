@@ -601,11 +601,6 @@ a:hover {
   --tw-backdrop-sepia:  ;
 }
 
-.my-12 {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -656,23 +651,23 @@ a:hover {
   gap: 0.25rem;
 }
 
+.divide-y > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-y-reverse: 0;
+  border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
+  border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
+}
+
+.divide-stone-500 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgb(120 113 108 / var(--tw-divide-opacity));
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
 
-.border-y {
-  border-top-width: 1px;
-  border-bottom-width: 1px;
-}
-
 .border-r-2 {
   border-right-width: 2px;
-}
-
-.border-y-stone-700 {
-  --tw-border-opacity: 1;
-  border-top-color: rgb(68 64 60 / var(--tw-border-opacity));
-  border-bottom-color: rgb(68 64 60 / var(--tw-border-opacity));
 }
 
 .border-r-gray-500 {

@@ -1,6 +1,6 @@
 import { NextSeo } from 'next-seo'
+import Cards from '../components/cards'
 import H1 from '../components/h1'
-import Item from '../components/item'
 import P from '../components/p'
 
 export default function Snippets({ snippets }) {
@@ -18,14 +18,7 @@ export default function Snippets({ snippets }) {
                 GitHub Gists REST API.
             </P>
 
-            {snippets.map((snippet) => (
-                <Item
-                    key={snippet.title}
-                    title={snippet.title}
-                    description={snippet.description}
-                    code={snippet.code}
-                />
-            ))}
+            <Cards data={snippets} />
         </>
     )
 }
@@ -42,7 +35,7 @@ export async function getStaticProps() {
         snippets.push({
             title: gist.files[Object.keys(gist.files)[0]].filename,
             description: gist.description,
-            code: gist.html_url
+            codeUrl: gist.html_url
         })
     })
 

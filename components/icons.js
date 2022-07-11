@@ -1,4 +1,4 @@
-import SVG from '../components/svg'
+import SVG from './svg'
 
 export function ArrowLeft() {
     return (

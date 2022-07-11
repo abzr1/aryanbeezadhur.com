@@ -20,7 +20,7 @@ export default class MyDocument extends Document {
                     />
                 </Head>
 
-                <body className="h-full bg-stone-900 text-stone-50 text-lg">
+                <body className="h-full bg-black text-gray-100 text-lg">
                     <Main />
                     <NextScript />
                 </body>

@@ -725,7 +725,7 @@ a:hover {
   font-weight: 700;
 }
 
-.text-white {
+.text-stone-50 {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(250 250 249 / var(--tw-text-opacity));
 }

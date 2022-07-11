@@ -16,14 +16,16 @@ export default function MyApp({ Component, pageProps }) {
                     type: 'website',
                     locale: 'en_GB',
                     url: 'https://www.aryanbeezadhur.com',
-                    site_name: 'AryanBeezadhur.com',
+                    title: 'AryanBeezadhur.com - Full-Stack Developer',
                     description: 'Full-Stack Developer',
+                    site_name: 'AryanBeezadhur.com',
                     images: [
                         {
-                            url: 'https://www.aryanbeezadhur.com/favicon.ico',
-                            width: 132,
-                            height: 137,
-                            alt: 'www.aryanbeezadhur.com'
+                            url: 'https://www.aryanbeezadhur.com/opengraph.png',
+                            width: 536,
+                            height: 285,
+                            alt: 'www.aryanbeezadhur.com',
+                            type: 'image/png'
                         }
                     ]
                 }}

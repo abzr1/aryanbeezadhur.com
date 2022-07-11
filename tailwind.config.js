@@ -6,7 +6,7 @@ module.exports = {
     theme: {
         extend: {},
         fontFamily: {
-            display: ['MuseoModerno', ...defaultTheme.fontFamily.sans],
+            display: ['Red Hat Display', ...defaultTheme.fontFamily.sans],
             sans: ['Red Hat Text', ...defaultTheme.fontFamily.sans]
         }
     },

@@ -594,14 +594,17 @@ a:hover {
   --tw-backdrop-sepia:  ;
 }
 
-.my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .inline-block {

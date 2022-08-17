@@ -28,7 +28,7 @@ export default function Index() {
 
             <P>Tech: Python, Django, Node.js, React, Next.js.</P>
 
-            <nav>
+            <nav className="mt-4">
                 <ul>
                     <li className="py-4">
                         <LinkWithIcon href="/portfolio">

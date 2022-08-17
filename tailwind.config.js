@@ -6,8 +6,11 @@ module.exports = {
     theme: {
         extend: {},
         fontFamily: {
-            display: ['MuseoModerno', ...defaultTheme.fontFamily.sans],
-            sans: ['Red Hat Text', ...defaultTheme.fontFamily.sans]
+            sans: ['Bahnschrift', ...defaultTheme.fontFamily.sans]
+        },
+        fontWeight: {
+            normal: 350,
+            semibold: 600
         }
     },
     plugins: []

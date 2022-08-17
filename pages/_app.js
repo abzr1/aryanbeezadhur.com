@@ -3,6 +3,7 @@ import Header from '../components/header'
 import Wrapper from '../components/wrapper'
 
 import '../public/output.css'
+import '../public/bahnschrift.css'
 
 export default function MyApp({ Component, pageProps }) {
     return (

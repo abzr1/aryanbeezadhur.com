@@ -1,6 +1,5 @@
 import LinkWithIcon from '../components/link-with-icon'
 import { NextSeo } from 'next-seo'
-import Link from 'next/link'
 import H1 from '../components/h1'
 import { ArrowRight } from '../components/icons'
 import P from '../components/p'

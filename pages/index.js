@@ -25,10 +25,7 @@ export default function Index() {
                 Heroku.
             </P>
 
-            <P>
-                Tech: Python, Django, Node.js, React, Next.js, C++, Unreal
-                Engine.
-            </P>
+            <P>Tech: Python, Django, Node.js, React, Next.js.</P>
 
             <nav className="mt-4">
                 <ul>

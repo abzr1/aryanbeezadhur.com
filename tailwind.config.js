@@ -6,11 +6,7 @@ module.exports = {
     theme: {
         extend: {},
         fontFamily: {
-            sans: ['Bahnschrift', ...defaultTheme.fontFamily.sans]
-        },
-        fontWeight: {
-            normal: 350,
-            semibold: 600
+            sans: ['Archivo', ...defaultTheme.fontFamily.sans]
         }
     },
     plugins: []

@@ -1,13 +1,6 @@
 import { NextSeo } from 'next-seo'
 import H1 from '../components/h1'
-import {
-    GitHub,
-    LinkedIn,
-    Mail,
-    Reddit,
-    StackOverflow,
-    Twitter
-} from '../components/icons'
+import { ArrowRight } from '../components/icons'
 import LinkWithIcon from '../components/link-with-icon'
 import P from '../components/p'
 
@@ -28,7 +21,7 @@ export default function Contact() {
                         rel="noopener noreferrer"
                     >
                         Email
-                        <Mail />
+                        <ArrowRight />
                     </LinkWithIcon>
                 </P>
 
@@ -39,7 +32,7 @@ export default function Contact() {
                         rel="noopener noreferrer"
                     >
                         Twitter
-                        <Twitter />
+                        <ArrowRight />
                     </LinkWithIcon>
                 </P>
 
@@ -50,7 +43,7 @@ export default function Contact() {
                         rel="noopener noreferrer"
                     >
                         GitHub
-                        <GitHub />
+                        <ArrowRight />
                     </LinkWithIcon>
                 </P>
 
@@ -61,7 +54,7 @@ export default function Contact() {
                         rel="noopener noreferrer"
                     >
                         Stack Overflow
-                        <StackOverflow />
+                        <ArrowRight />
                     </LinkWithIcon>
                 </P>
 
@@ -72,7 +65,7 @@ export default function Contact() {
                         rel="noopener noreferrer"
                     >
                         LinkedIn
-                        <LinkedIn />
+                        <ArrowRight />
                     </LinkWithIcon>
                 </P>
             </div>

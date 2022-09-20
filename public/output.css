@@ -730,3 +730,7 @@ a:hover {
   --tw-text-opacity: 1;
   color: rgb(243 244 246 / var(--tw-text-opacity));
 }
+
+.hover\:gap-2:hover {
+  gap: 0.5rem;
+}

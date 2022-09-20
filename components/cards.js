@@ -1,5 +1,5 @@
 import H4 from './h4'
-import { Code, ExternalLink } from './icons'
+import { ArrowRight } from './icons'
 import LinkWithIcon from './link-with-icon'
 import P from './p'
 
@@ -20,7 +20,7 @@ export default function Cards({ data }) {
                                 rel="noopener noreferrer"
                             >
                                 Site
-                                <ExternalLink />
+                                <ArrowRight />
                             </LinkWithIcon>
 
                             <br />
@@ -33,7 +33,7 @@ export default function Cards({ data }) {
                         rel="noopener noreferrer"
                     >
                         Code
-                        <Code />
+                        <ArrowRight />
                     </LinkWithIcon>
                 </div>
             ))}

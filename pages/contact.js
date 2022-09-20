@@ -75,17 +75,6 @@ export default function Contact() {
                         <LinkedIn />
                     </LinkWithIcon>
                 </P>
-
-                <P>
-                    <LinkWithIcon
-                        href="https://www.reddit.com/user/realAryanBeezadhur"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Reddit
-                        <Reddit />
-                    </LinkWithIcon>
-                </P>
             </div>
         </>
     )

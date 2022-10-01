@@ -6,10 +6,7 @@ module.exports = {
     theme: {
         extend: {},
         fontFamily: {
-            sans: ['Blinker', ...defaultTheme.fontFamily.sans]
-        },
-        fontWeight: {
-            bold: 600
+            sans: ['Fira Sans', ...defaultTheme.fontFamily.sans]
         }
     },
     plugins: []

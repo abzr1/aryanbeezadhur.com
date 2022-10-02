@@ -6,7 +6,7 @@ module.exports = {
     theme: {
         extend: {},
         fontFamily: {
-            sans: ['Fira Sans', ...defaultTheme.fontFamily.sans]
+            sans: ['Chakra Petch', ...defaultTheme.fontFamily.sans]
         }
     },
     plugins: []

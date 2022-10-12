@@ -7,14 +7,14 @@ const data = [
     {
         title: 'AryanBeezadhur',
         description:
-            'My portfolio site built with React and Next.js, deployed with Vercel',
+            'My portfolio site built with React and Next.js, deployed with Vercel.',
         link: 'https://www.aryanbeezadhur.com',
         codeUrl: 'https://github.com/AryanBeezadhur/AryanBeezadhur'
     },
     {
         title: 'Wordstats',
         description:
-            'A web tool that display text stats, built with Alpine.js and Tailwind CSS',
+            'A web tool that display text stats, built with Alpine.js and Tailwind CSS.',
         link: 'https://wordstats.vercel.app',
         codeUrl: 'https://github.com/AryanBeezadhur/wordstats'
     },

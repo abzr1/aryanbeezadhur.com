@@ -17,12 +17,6 @@ const data = [
             'A web tool that display text stats, built with Alpine.js and Tailwind CSS.',
         link: 'https://wordstats.vercel.app',
         codeUrl: 'https://github.com/AryanBeezadhur/wordstats'
-    },
-    {
-        title: 'Learning Rust',
-        description:
-            'This monorepo contains code I write whilst learning Rust.',
-        codeUrl: 'https://github.com/AryanBeezadhur/learning-rust'
     }
 ]
 

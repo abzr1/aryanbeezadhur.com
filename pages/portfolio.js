@@ -17,6 +17,11 @@ const data = [
             'A web tool that display text stats, built with Alpine.js and Tailwind CSS.',
         link: 'https://wordstats.vercel.app',
         codeUrl: 'https://github.com/AryanBeezadhur/wordstats'
+    },
+    {
+        title: 'project_euler',
+        description: 'My solutions to Project Euler',
+        codeUrl: 'https://github.com/AryanBeezadhur/project_euler'
     }
 ]
 

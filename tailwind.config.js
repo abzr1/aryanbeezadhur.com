@@ -6,7 +6,11 @@ module.exports = {
     theme: {
         extend: {},
         fontFamily: {
-            sans: ['Chakra Petch', ...defaultTheme.fontFamily.sans]
+            sans: ['General Sans', ...defaultTheme.fontFamily.sans]
+        },
+        fontWeight: {
+            normal: 500,
+            bold: 600
         }
     },
     plugins: []

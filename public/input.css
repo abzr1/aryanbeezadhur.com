@@ -3,6 +3,18 @@
 @tailwind utilities;
 
 @layer base {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-display;
+        @apply uppercase;
+        @apply tracking-wide;
+    }
+
     a {
         @apply bg-gradient-to-r;
         @apply from-gray-500;

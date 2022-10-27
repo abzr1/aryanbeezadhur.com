@@ -6,10 +6,11 @@ module.exports = {
     theme: {
         extend: {},
         fontFamily: {
-            sans: ['General Sans', ...defaultTheme.fontFamily.sans]
+            display: ['Clash Display', ...defaultTheme.fontFamily.sans],
+            sans: ['Switzer', ...defaultTheme.fontFamily.sans]
         },
         fontWeight: {
-            normal: 500,
+            normal: 400,
             bold: 600
         }
     },

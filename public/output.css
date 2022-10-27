@@ -42,7 +42,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: General Sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Switzer, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
 }
 
@@ -416,6 +416,17 @@ video {
   display: none;
 }
 
+h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+  font-family: Clash Display, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+}
+
 a {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
   --tw-gradient-from: #6b7280;
@@ -729,7 +740,7 @@ a:hover {
 }
 
 .font-normal {
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .text-gray-100 {

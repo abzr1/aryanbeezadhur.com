@@ -6,7 +6,7 @@ export default class MyDocument extends Document {
             <Html lang="en" className="h-full">
                 <Head>
                     <link
-                        href="https://api.fontshare.com/v2/css?f[]=switzer@400&f[]=clash-display@600&display=swap"
+                        href="https://api.fontshare.com/v2/css?f[]=general-sans@500&f[]=clash-display@600&display=swap"
                         rel="stylesheet"
                     />
                 </Head>

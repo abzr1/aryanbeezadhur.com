@@ -14,10 +14,7 @@ export default function Index() {
 
             <H1>Aryan Beezadhur</H1>
 
-            <P>
-                I am a young and dynamic full-stack developer based in London,
-                UK.
-            </P>
+            <P>I&apos;m a young software engineer based in London.</P>
 
             <P>
                 I had a 10-month work placement with the Sage Foundation as a

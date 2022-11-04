@@ -1,5 +1,5 @@
 # About Me
 
-I am a young and dynamic full-stack developer based in London, UK.
+I'm a young software engineer based in London.
 
-Portfolio: https://www.aryanbeezadhur.com
+https://www.aryanbeezadhur.com

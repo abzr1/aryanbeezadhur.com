@@ -8,8 +8,8 @@ export default function Index() {
     return (
         <>
             <NextSeo
-                title="Full-Stack Developer"
-                description="I am a young and dynamic full-stack developer."
+                title="Software Engineer"
+                description="I'm a young software engineer based in London."
             />
 
             <H1>Aryan Beezadhur</H1>

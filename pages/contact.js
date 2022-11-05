@@ -27,7 +27,7 @@ export default function Contact() {
 
                 <P>
                     <LinkWithIcon
-                        href="https://twitter.com/AryanBeezadhur"
+                        href="https://twitter.com/cobrexus"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -38,7 +38,7 @@ export default function Contact() {
 
                 <P>
                     <LinkWithIcon
-                        href="https://github.com/AryanBeezadhur"
+                        href="https://github.com/cobrexus"
                         target="_blank"
                         rel="noopener noreferrer"
                     >

@@ -24,9 +24,7 @@ export default function Snippets({ snippets }) {
 }
 
 export async function getStaticProps() {
-    const gists = await fetch(
-        'https://api.github.com/users/AryanBeezadhur/gists'
-    )
+    const gists = await fetch('https://api.github.com/users/cobrexus/gists')
     const gistsJson = await gists.json()
 
     const snippets = []

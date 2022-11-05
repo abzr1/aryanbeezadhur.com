@@ -11,13 +11,13 @@ export default function MyApp({ Component, pageProps }) {
                 titleTemplate="AryanBeezadhur.com - %s"
                 defaultTitle="AryanBeezadhur.com"
                 canonical="https://www.aryanbeezadhur.com"
-                description="I am a young and dynamic full-stack developer."
+                description="I'm a young software engineer based in London."
                 openGraph={{
                     type: 'website',
                     locale: 'en_GB',
                     url: 'https://www.aryanbeezadhur.com',
-                    title: 'AryanBeezadhur.com - Full-Stack Developer',
-                    description: 'Full-Stack Developer',
+                    title: 'Aryan Beezadhur - Software Engineer',
+                    description: 'Software Engineer',
                     site_name: 'AryanBeezadhur.com',
                     images: [
                         {

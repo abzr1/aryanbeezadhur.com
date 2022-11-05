@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { useRouter } from 'next/router'
-import icon from '../public/icon.jpg'
+import avatar from '../public/avatar.png'
 import { ArrowLeft } from './icons'
 import LinkWithIcon from './link-with-icon'
 
@@ -10,13 +10,7 @@ export default function Header() {
     return (
         <div className="py-12">
             {router.pathname === '/' ? (
-                <Image
-                    src={icon}
-                    alt="Icon"
-                    width={100}
-                    height={103.79}
-                    className="rounded-full"
-                />
+                <Image src={avatar} alt="Avatar" width={150} height={150} />
             ) : (
                 <LinkWithIcon href="/">
                     <ArrowLeft />

@@ -22,7 +22,7 @@ export default function MyApp({ Component, pageProps }) {
                     images: [
                         {
                             url: 'https://www.aryanbeezadhur.com/opengraph.png',
-                            width: 581,
+                            width: 578,
                             height: 321,
                             alt: 'www.aryanbeezadhur.com',
                             type: 'image/png'

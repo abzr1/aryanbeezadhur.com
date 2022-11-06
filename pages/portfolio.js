@@ -5,23 +5,23 @@ import P from '../components/p'
 
 const data = [
     {
-        title: 'cobrexus',
+        title: 'yadavkcbr',
         description:
             'My portfolio site built with React and Next.js, deployed with Vercel.',
         link: 'https://www.aryanbeezadhur.com',
-        codeUrl: 'https://github.com/cobrexus/cobrexus'
+        codeUrl: 'https://github.com/yadavkcbr/yadavkcbr'
     },
     {
         title: 'Wordstats',
         description:
             'A web tool that display text stats, built with Alpine.js and Tailwind CSS.',
         link: 'https://wordstats.vercel.app',
-        codeUrl: 'https://github.com/cobrexus/wordstats'
+        codeUrl: 'https://github.com/yadavkcbr/wordstats'
     },
     {
         title: 'project_euler',
         description: 'My solutions to Project Euler',
-        codeUrl: 'https://github.com/cobrexus/project_euler'
+        codeUrl: 'https://github.com/yadavkcbr/project_euler'
     }
 ]
 

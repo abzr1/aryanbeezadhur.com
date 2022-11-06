@@ -8,7 +8,7 @@ export default function MyApp({ Component, pageProps }) {
     return (
         <>
             <DefaultSeo
-                titleTemplate="AryanBeezadhur.com - %s"
+                titleTemplate="Aryan Beezadhur - %s"
                 defaultTitle="AryanBeezadhur.com"
                 canonical="https://www.aryanbeezadhur.com"
                 description="I'm a young software engineer based in London."

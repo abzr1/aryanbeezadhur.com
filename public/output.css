@@ -635,6 +635,10 @@ a:hover {
   border-color: rgb(107 114 128 / var(--tw-divide-opacity));
 }
 
+.rounded-full {
+  border-radius: 9999px;
+}
+
 .border-r-2 {
   border-right-width: 2px;
 }
@@ -652,6 +656,11 @@ a:hover {
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .py-4 {

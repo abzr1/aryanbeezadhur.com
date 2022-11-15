@@ -21,9 +21,9 @@ export default function MyApp({ Component, pageProps }) {
                     site_name: 'AryanBeezadhur.com',
                     images: [
                         {
-                            url: 'https://www.aryanbeezadhur.com/opengraph.png',
-                            width: 578,
-                            height: 321,
+                            url: 'https://www.aryanbeezadhur.com/avatar.jpg',
+                            width: 1982,
+                            height: 1982,
                             alt: 'www.aryanbeezadhur.com',
                             type: 'image/png'
                         }

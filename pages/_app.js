@@ -1,6 +1,6 @@
 import { DefaultSeo } from 'next-seo'
 import Header from '../components/header'
-import Wrapper from '../components/wrapper'
+import Layout from '../components/layout'
 
 import '../public/output.css'
 
@@ -18,16 +18,7 @@ export default function MyApp({ Component, pageProps }) {
                     url: 'https://www.aryanbeezadhur.com',
                     title: 'Aryan Beezadhur - Software Engineer',
                     description: 'Software Engineer',
-                    site_name: 'AryanBeezadhur.com',
-                    images: [
-                        {
-                            url: 'https://www.aryanbeezadhur.com/avatar.jpg',
-                            width: 1982,
-                            height: 1982,
-                            alt: 'www.aryanbeezadhur.com',
-                            type: 'image/png'
-                        }
-                    ]
+                    site_name: 'AryanBeezadhur.com'
                 }}
                 twitter={{
                     handle: '@AryanBeezadhur',
@@ -36,11 +27,11 @@ export default function MyApp({ Component, pageProps }) {
                 }}
             />
 
-            <Wrapper>
+            <Layout>
                 <Header />
 
                 <Component {...pageProps} />
-            </Wrapper>
+            </Layout>
         </>
     )
 }

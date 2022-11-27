@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.2.2 | MIT License | https://tailwindcss.com
+! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -566,18 +566,22 @@ a:hover {
   --tw-backdrop-sepia:  ;
 }
 
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
 
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .mt-4 {
@@ -604,12 +608,12 @@ a:hover {
   height: 100%;
 }
 
-.w-5 {
-  width: 1.25rem;
-}
-
 .w-4\/5 {
   width: 80%;
+}
+
+.w-5 {
+  width: 1.25rem;
 }
 
 .items-center {
@@ -635,10 +639,6 @@ a:hover {
   border-color: rgb(107 114 128 / var(--tw-divide-opacity));
 }
 
-.rounded-full {
-  border-radius: 9999px;
-}
-
 .border-r-2 {
   border-right-width: 2px;
 }
@@ -658,9 +658,9 @@ a:hover {
   padding-bottom: 3rem;
 }
 
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
 }
 
 .py-4 {

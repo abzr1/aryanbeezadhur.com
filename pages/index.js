@@ -14,14 +14,14 @@ export default function Index() {
 
             <H1>Aryan Beezadhur</H1>
 
-            <P>I&apos;m a young software engineer based in London.</P>
+            <P>I&apos;m a young programmer based in London.</P>
 
             <P>
                 I had a 10-month work placement with the Sage Foundation as a
                 full-stack web developer with Python, Flask and Heroku.
             </P>
 
-            <P>Tech: Python, Django, Flask, Node.js, React, Next.js.</P>
+            <P>Skills: Python, Django, Flask, Node.js, React, Next.js.</P>
 
             <nav className="mt-4">
                 <ul>

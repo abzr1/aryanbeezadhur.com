@@ -7,7 +7,7 @@ module.exports = {
         extend: {},
         fontFamily: {
             display: ['Clash Display', ...defaultTheme.fontFamily.sans],
-            sans: ['General Sans', ...defaultTheme.fontFamily.sans]
+            sans: ['Satoshi', ...defaultTheme.fontFamily.sans]
         },
         fontWeight: {
             normal: 500,

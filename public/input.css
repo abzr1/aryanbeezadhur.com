@@ -4,6 +4,10 @@
 
 @layer base {
 
+    body {
+        font-feature-settings: 'ss02' on;
+    }
+
     h1,
     h2,
     h3,

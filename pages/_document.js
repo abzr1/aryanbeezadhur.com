@@ -6,12 +6,21 @@ export default class MyDocument extends Document {
             <Html lang="en" className="h-full">
                 <Head>
                     <link
-                        href="https://api.fontshare.com/v2/css?f[]=satoshi@500&f[]=clash-display@600&display=swap"
+                        rel="preconnect"
+                        href="https://fonts.googleapis.com"
+                    />
+                    <link
+                        rel="preconnect"
+                        href="https://fonts.gstatic.com"
+                        crossOrigin="true"
+                    />
+                    <link
+                        href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz@0,6..72;1,6..72&display=swap"
                         rel="stylesheet"
                     />
                 </Head>
 
-                <body className="h-full bg-black text-gray-100 text-lg font-normal">
+                <body className="h-full bg-neutral-900 text-neutral-50 text-lg font-serif">
                     <Main />
                     <NextScript />
                 </body>

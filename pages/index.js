@@ -6,7 +6,7 @@ import P from '../components/p'
 
 export default function Index() {
     return (
-        <div className="mt-10">
+        <>
             <NextSeo
                 title="Programmer"
                 description="I'm a young programmer based in London."
@@ -47,6 +47,6 @@ export default function Index() {
                     </li>
                 </ul>
             </nav>
-        </div>
+        </>
     )
 }

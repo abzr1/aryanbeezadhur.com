@@ -4,24 +4,19 @@
 
 @layer base {
 
-    body {
-        font-feature-settings: 'ss02' on;
-    }
-
     h1,
     h2,
     h3,
     h4,
     h5,
     h6 {
-        @apply font-display;
-        @apply tracking-wide;
+        @apply italic;
     }
 
     a {
         @apply bg-gradient-to-r;
-        @apply from-gray-500;
-        @apply to-gray-500;
+        @apply from-neutral-500;
+        @apply to-neutral-500;
         background-size: 100% 0.125rem;
         background-position: 0 100%;
         @apply bg-no-repeat;
@@ -30,23 +25,12 @@
     }
 
     a:hover {
-        @apply text-gray-500;
+        @apply text-neutral-500;
     }
 
     ::selection {
-        @apply bg-gray-700;
-        @apply text-gray-100;
-    }
-
-    ::-webkit-scrollbar {
-        @apply w-4;
-    }
-
-    ::-webkit-scrollbar-thumb {
-        @apply bg-gray-500;
-        border: 0.3125rem solid rgba(0, 0, 0, 0);
-        @apply bg-clip-padding;
-        @apply rounded-full;
+        @apply bg-neutral-700;
+        @apply text-neutral-50;
     }
 
 }

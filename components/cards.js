@@ -5,7 +5,7 @@ import P from './p'
 
 export default function Cards({ data }) {
     return (
-        <div className="divide-y divide-gray-500">
+        <div className="divide-y divide-neutral-500">
             {data.map((datum) => (
                 <div key={datum.title} className="py-12">
                     <H4>{datum.title}</H4>

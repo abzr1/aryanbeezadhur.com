@@ -43,7 +43,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: Satoshi, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -419,26 +419,21 @@ video {
   display: none;
 }
 
-body {
-  font-feature-settings: 'ss02' on;
-}
-
 h1,
     h2,
     h3,
     h4,
     h5,
     h6 {
-  font-family: Clash Display, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  letter-spacing: 0.025em;
+  font-style: italic;
 }
 
 a {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
-  --tw-gradient-from: #6b7280;
-  --tw-gradient-to: rgb(107 114 128 / 0);
+  --tw-gradient-from: #737373;
+  --tw-gradient-to: rgb(115 115 115 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-  --tw-gradient-to: #6b7280;
+  --tw-gradient-to: #737373;
   background-size: 100% 0.125rem;
   background-position: 0 100%;
   background-repeat: no-repeat;
@@ -447,33 +442,21 @@ a {
 
 a:hover {
   --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity));
+  color: rgb(115 115 115 / var(--tw-text-opacity));
 }
 
 ::-moz-selection {
   --tw-bg-opacity: 1;
-  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+  background-color: rgb(64 64 64 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
-  color: rgb(243 244 246 / var(--tw-text-opacity));
+  color: rgb(250 250 250 / var(--tw-text-opacity));
 }
 
 ::selection {
   --tw-bg-opacity: 1;
-  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+  background-color: rgb(64 64 64 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
-  color: rgb(243 244 246 / var(--tw-text-opacity));
-}
-
-::-webkit-scrollbar {
-  width: 1rem;
-}
-
-::-webkit-scrollbar-thumb {
-  --tw-bg-opacity: 1;
-  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
-  border: 0.3125rem solid rgba(0, 0, 0, 0);
-  background-clip: padding-box;
-  border-radius: 9999px;
+  color: rgb(250 250 250 / var(--tw-text-opacity));
 }
 
 *, ::before, ::after {
@@ -584,10 +567,6 @@ a:hover {
   margin-top: 2rem;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
 .mt-4 {
   margin-top: 1rem;
 }
@@ -638,23 +617,14 @@ a:hover {
   border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
 }
 
-.divide-gray-500 > :not([hidden]) ~ :not([hidden]) {
+.divide-neutral-500 > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-opacity: 1;
-  border-color: rgb(107 114 128 / var(--tw-divide-opacity));
+  border-color: rgb(115 115 115 / var(--tw-divide-opacity));
 }
 
-.border-r-2 {
-  border-right-width: 2px;
-}
-
-.border-r-gray-500 {
-  --tw-border-opacity: 1;
-  border-right-color: rgb(107 114 128 / var(--tw-border-opacity));
-}
-
-.bg-black {
+.bg-neutral-900 {
   --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  background-color: rgb(23 23 23 / var(--tw-bg-opacity));
 }
 
 .py-12 {
@@ -684,6 +654,10 @@ a:hover {
   text-align: center;
 }
 
+.font-serif {
+  font-family: Newsreader, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
@@ -700,16 +674,12 @@ a:hover {
 }
 
 .font-bold {
-  font-weight: 600;
+  font-weight: 700;
 }
 
-.font-normal {
-  font-weight: 500;
-}
-
-.text-gray-100 {
+.text-neutral-50 {
   --tw-text-opacity: 1;
-  color: rgb(243 244 246 / var(--tw-text-opacity));
+  color: rgb(250 250 250 / var(--tw-text-opacity));
 }
 
 .hover\:gap-2:hover {

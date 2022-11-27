@@ -33,7 +33,7 @@ export async function getStaticProps() {
         snippets.push({
             title: gist.files[Object.keys(gist.files)[0]].filename,
             description: gist.description,
-            codeUrl: gist.html_url
+            url: gist.html_url
         })
     })
 

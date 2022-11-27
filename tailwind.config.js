@@ -6,7 +6,7 @@ module.exports = {
     theme: {
         extend: {},
         fontFamily: {
-            serif: ['Lora', ...defaultTheme.fontFamily.sans]
+            serif: ['Source Serif Pro', ...defaultTheme.fontFamily.sans]
         }
     },
     plugins: []

@@ -17,8 +17,8 @@ export default function Index() {
             <P>I&apos;m a young programmer based in London.</P>
 
             <P>
-                I had a 10-month work placement with the Sage Foundation as a
-                full-stack web developer with Python, Flask and Heroku.
+                I did a work placement with the Sage Foundation as a full-stack
+                web programmer with Python, Flask and Heroku.
             </P>
 
             <P>Skills: Python, Django, Flask, Node.js, React, Next.js.</P>

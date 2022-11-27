@@ -3,25 +3,23 @@ import Cards from '../components/cards'
 import H1 from '../components/h1'
 import P from '../components/p'
 
-const data = [
+const items = [
     {
         title: 'yadavkcbr',
         description:
             'My portfolio site built with React and Next.js, deployed with Vercel.',
-        link: 'https://www.aryanbeezadhur.com',
-        codeUrl: 'https://github.com/yadavkcbr/yadavkcbr'
+        url: 'https://github.com/yadavkcbr/yadavkcbr'
     },
     {
         title: 'Wordstats',
         description:
             'A web tool that display text stats, built with Alpine.js and Tailwind CSS.',
-        link: 'https://wordstats.vercel.app',
-        codeUrl: 'https://github.com/yadavkcbr/wordstats'
+        url: 'https://github.com/yadavkcbr/wordstats'
     },
     {
         title: 'project_euler',
         description: 'My solutions to Project Euler',
-        codeUrl: 'https://github.com/yadavkcbr/project_euler'
+        url: 'https://github.com/yadavkcbr/project_euler'
     }
 ]
 
@@ -34,7 +32,7 @@ export default function Portfolio() {
 
             <P>Projects I&apos;m working on.</P>
 
-            <Cards data={data} />
+            <Cards items={items} />
         </>
     )
 }

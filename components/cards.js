@@ -3,36 +3,21 @@ import { ArrowRight } from './icons'
 import LinkWithIcon from './link-with-icon'
 import P from './p'
 
-export default function Cards({ data }) {
+export default function Cards({ items }) {
     return (
         <div className="divide-y divide-neutral-500">
-            {data.map((datum) => (
-                <div key={datum.title} className="py-12">
-                    <H4>{datum.title}</H4>
+            {items.map((item) => (
+                <div key={item.title} className="py-12">
+                    <H4>{item.title}</H4>
 
-                    <P>{datum.description}</P>
-
-                    {datum.link && (
-                        <P>
-                            <LinkWithIcon
-                                href={datum.link}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                Site
-                                <ArrowRight />
-                            </LinkWithIcon>
-
-                            <br />
-                        </P>
-                    )}
+                    <P>{item.description}</P>
 
                     <LinkWithIcon
-                        href={datum.codeUrl}
+                        href={item.url}
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        Code
+                        Visit
                         <ArrowRight />
                     </LinkWithIcon>
                 </div>

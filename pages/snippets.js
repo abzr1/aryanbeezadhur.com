@@ -18,7 +18,7 @@ export default function Snippets({ snippets }) {
                 GitHub Gists REST API.
             </P>
 
-            <Cards data={snippets} />
+            <Cards items={snippets} />
         </>
     )
 }

@@ -6,7 +6,7 @@ module.exports = {
     theme: {
         extend: {},
         fontFamily: {
-            serif: ['Newsreader', ...defaultTheme.fontFamily.sans]
+            serif: ['Lora', ...defaultTheme.fontFamily.sans]
         }
     },
     plugins: []

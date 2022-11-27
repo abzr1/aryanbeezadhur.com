@@ -15,12 +15,12 @@ export default class MyDocument extends Document {
                         crossOrigin="true"
                     />
                     <link
-                        href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital@0;1&display=swap"
+                        href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Source+Serif+Pro:ital@0;1&display=swap"
                         rel="stylesheet"
                     />
                 </Head>
 
-                <body className="h-full bg-neutral-900 text-neutral-50 font-serif">
+                <body className="h-full bg-neutral-900 text-neutral-50">
                     <Main />
                     <NextScript />
                 </body>

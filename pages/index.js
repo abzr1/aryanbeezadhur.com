@@ -8,8 +8,8 @@ export default function Index() {
     return (
         <div className="mt-10">
             <NextSeo
-                title="Software Engineer"
-                description="I'm a young software engineer based in London."
+                title="Programmer"
+                description="I'm a young programmer based in London."
             />
 
             <H1>Aryan Beezadhur</H1>

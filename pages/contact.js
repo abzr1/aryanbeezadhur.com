@@ -27,17 +27,6 @@ export default function Contact() {
 
                 <P>
                     <LinkWithIcon
-                        href="https://twitter.com/yadavkcbr"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Twitter
-                        <ArrowRight />
-                    </LinkWithIcon>
-                </P>
-
-                <P>
-                    <LinkWithIcon
                         href="https://github.com/yadavkcbr"
                         target="_blank"
                         rel="noopener noreferrer"

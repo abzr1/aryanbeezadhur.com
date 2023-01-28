@@ -1,3 +1,11 @@
-I'm a young programmer based in London.
+<h1 align="center">
+    yadavkcbr
+</h1>
 
-https://www.aryanbeezadhur.com
+<p align="center">
+    I'm a young programmer based in London.
+</p>
+
+<p align="center">
+    <a href="https://www.aryanbeezadhur.com">www.aryanbeezadhur.com</a>
+</p>

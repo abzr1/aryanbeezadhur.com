@@ -11,7 +11,7 @@ const items = [
         url: 'https://github.com/yadavkcbr/yadavkcbr'
     },
     {
-        title: 'Wordstats',
+        title: 'wordstats',
         description:
             'A web tool that display text stats, built with Alpine.js and Tailwind CSS.',
         url: 'https://github.com/yadavkcbr/wordstats'

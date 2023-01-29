@@ -21,7 +21,7 @@ export default function Index() {
                 programmer with Python, Flask and Heroku.
             </P>
 
-            <P>Skills: Python, Django, Flask, Node.js, React, Next.js.</P>
+            <P>Skills: Git, Python, Django, Flask, Node.js, React, Next.js.</P>
 
             <nav className="mt-4">
                 <ul>

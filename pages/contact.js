@@ -27,7 +27,7 @@ export default function Contact() {
 
                 <P>
                     <LinkWithIcon
-                        href="https://github.com/yadavkcbr"
+                        href="https://github.com/AryanTYB"
                         target="_blank"
                         rel="noopener noreferrer"
                     >

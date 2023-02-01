@@ -5,21 +5,21 @@ import P from '../components/p'
 
 const items = [
     {
-        title: 'yadavkcbr',
+        title: 'AryanTYB',
         description:
             'My portfolio site built with React and Next.js, deployed with Vercel.',
-        url: 'https://github.com/yadavkcbr/yadavkcbr'
+        url: 'https://github.com/AryanTYB/AryanTYB'
     },
     {
         title: 'wordstats',
         description:
             'A web tool that display text stats, built with Alpine.js and Tailwind CSS.',
-        url: 'https://github.com/yadavkcbr/wordstats'
+        url: 'https://github.com/AryanTYB/wordstats'
     },
     {
         title: 'project_euler',
         description: 'My solutions to Project Euler',
-        url: 'https://github.com/yadavkcbr/project_euler'
+        url: 'https://github.com/AryanTYB/project_euler'
     }
 ]
 

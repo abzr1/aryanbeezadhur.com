@@ -27,7 +27,7 @@ export default function Contact() {
 
                 <P>
                     <LinkWithIcon
-                        href="https://github.com/ATYB4"
+                        href="https://github.com/atyb4"
                         target="_blank"
                         rel="noopener noreferrer"
                     >

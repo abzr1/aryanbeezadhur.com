@@ -37,7 +37,7 @@ export default function Index() {
 
                     <li className="py-4">
                         <LinkWithIcon href="/contact">
-                            Contact
+                            Contact/Social
                             <ArrowRight />
                         </LinkWithIcon>
                     </li>

@@ -41,13 +41,6 @@ export default function Index() {
                             <ArrowRight />
                         </LinkWithIcon>
                     </li>
-
-                    <li className="py-4">
-                        <LinkWithIcon href="/snippets">
-                            Snippets
-                            <ArrowRight />
-                        </LinkWithIcon>
-                    </li>
                 </ul>
             </nav>
         </>

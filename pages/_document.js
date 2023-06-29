@@ -6,16 +6,7 @@ export default class MyDocument extends Document {
             <Html lang="en" className="h-full">
                 <Head>
                     <link
-                        rel="preconnect"
-                        href="https://fonts.googleapis.com"
-                    />
-                    <link
-                        rel="preconnect"
-                        href="https://fonts.gstatic.com"
-                        crossOrigin="true"
-                    />
-                    <link
-                        href="https://fonts.googleapis.com/css2?family=Lora&family=Plus+Jakarta+Sans:wght@700&display=swap"
+                        href="https://api.fontshare.com/v2/css?f[]=general-sans@600&f[]=switzer@400&display=swap"
                         rel="stylesheet"
                     />
                 </Head>

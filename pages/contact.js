@@ -25,10 +25,10 @@ const items = [
 export default function Contact() {
     return (
         <>
-            <NextSeo title="Contact" description="Get in touch." />
+            <NextSeo title="Contact & Social" description="Get in touch." />
 
             <div>
-                <Heading size="h1">Contact</Heading>
+                <Heading size="h1">Contact & Social</Heading>
 
                 <Paragraph>Get in touch.</Paragraph>
 

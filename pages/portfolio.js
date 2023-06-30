@@ -1,7 +1,7 @@
 import { NextSeo } from 'next-seo'
-import Cards from '../components/cards'
-import H1 from '../components/h1'
-import P from '../components/p'
+import Heading from '../components/heading'
+import LinkWithIcon from '../components/link-with-icon'
+import Paragraph from '../components/paragraph'
 
 const items = [
     {
@@ -28,11 +28,28 @@ export default function Portfolio() {
         <>
             <NextSeo title="Portfolio" description="Projects I'm working on." />
 
-            <H1>Portfolio</H1>
+            <Heading size="h1">Portfolio</Heading>
 
-            <P>Projects I&apos;m working on.</P>
+            <Paragraph>Projects I&apos;m working on.</Paragraph>
 
-            <Cards items={items} />
+            <div className="divide-y divide-neutral-500">
+                {items.map((item) => (
+                    <div key={item.title} className="py-12">
+                        <Heading size="h4">{item.title}</Heading>
+
+                        <Paragraph>{item.description}</Paragraph>
+
+                        <LinkWithIcon
+                            direction="right"
+                            href={item.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Visit
+                        </LinkWithIcon>
+                    </div>
+                ))}
+            </div>
         </>
     )
 }

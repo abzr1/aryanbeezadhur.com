@@ -1,8 +1,26 @@
 import { NextSeo } from 'next-seo'
-import H1 from '../components/h1'
-import { ArrowRight } from '../components/icons'
+import Heading from '../components/heading'
 import LinkWithIcon from '../components/link-with-icon'
-import P from '../components/p'
+import Paragraph from '../components/paragraph'
+
+const items = [
+    {
+        name: 'Email',
+        url: 'mailto:aryanbeezadhur@gmail.com'
+    },
+    {
+        name: 'GitHub',
+        url: 'https://github.com/atyb4'
+    },
+    {
+        name: 'Stack Overflow',
+        url: 'https://stackoverflow.com/users/12860895'
+    },
+    {
+        name: 'LinkedIn',
+        url: 'https://www.linkedin.com/in/aryan-beezadhur-833b34171/'
+    }
+]
 
 export default function Contact() {
     return (
@@ -10,53 +28,22 @@ export default function Contact() {
             <NextSeo title="Contact" description="Get in touch." />
 
             <div>
-                <H1>Contact</H1>
+                <Heading size="h1">Contact</Heading>
 
-                <P>Get in touch.</P>
+                <Paragraph>Get in touch.</Paragraph>
 
-                <P>
-                    <LinkWithIcon
-                        href="mailto:aryanbeezadhur@gmail.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Email
-                        <ArrowRight />
-                    </LinkWithIcon>
-                </P>
-
-                <P>
-                    <LinkWithIcon
-                        href="https://github.com/atyb4"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        GitHub
-                        <ArrowRight />
-                    </LinkWithIcon>
-                </P>
-
-                <P>
-                    <LinkWithIcon
-                        href="https://stackoverflow.com/users/12860895"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Stack Overflow
-                        <ArrowRight />
-                    </LinkWithIcon>
-                </P>
-
-                <P>
-                    <LinkWithIcon
-                        href="https://www.linkedin.com/in/aryan-beezadhur-833b34171/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        LinkedIn
-                        <ArrowRight />
-                    </LinkWithIcon>
-                </P>
+                {items.map((item) => (
+                    <Paragraph key={item.name}>
+                        <LinkWithIcon
+                            direction="right"
+                            href={item.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            {item.name}
+                        </LinkWithIcon>
+                    </Paragraph>
+                ))}
             </div>
         </>
     )

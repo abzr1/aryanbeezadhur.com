@@ -1,8 +1,7 @@
 import LinkWithIcon from '../components/link-with-icon'
 import { NextSeo } from 'next-seo'
-import H1 from '../components/h1'
-import { ArrowRight } from '../components/icons'
-import P from '../components/p'
+import Heading from '../components/heading'
+import Paragraph from '../components/paragraph'
 
 export default function Index() {
     return (
@@ -12,33 +11,31 @@ export default function Index() {
                 description="I'm a young programmer based in London."
             />
 
-            <H1>Aryan Beezadhur</H1>
+            <Heading size="h1">Aryan Beezadhur</Heading>
 
-            <P>I&apos;m a young programmer based in London.</P>
+            <Paragraph>I&apos;m a young programmer based in London.</Paragraph>
 
-            <P>
+            <Paragraph>
                 I did a work placement with the Sage Foundation as a full-stack
                 programmer with Python, Flask and Heroku.
-            </P>
+            </Paragraph>
 
-            <P>
+            <Paragraph>
                 Skills: Git, Python, Django, Flask, JavaScript, Node.js, React,
                 Next.js.
-            </P>
+            </Paragraph>
 
             <nav className="mt-4">
                 <ul>
                     <li className="py-4">
-                        <LinkWithIcon href="/portfolio">
+                        <LinkWithIcon direction="right" href="/portfolio">
                             Portfolio
-                            <ArrowRight />
                         </LinkWithIcon>
                     </li>
 
                     <li className="py-4">
-                        <LinkWithIcon href="/contact">
+                        <LinkWithIcon direction="right" href="/contact">
                             Contact/Social
-                            <ArrowRight />
                         </LinkWithIcon>
                     </li>
                 </ul>

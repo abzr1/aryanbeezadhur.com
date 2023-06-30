@@ -3,39 +3,27 @@
 @tailwind utilities;
 
 @layer base {
-
-    * {
-        @apply font-body;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        @apply font-display;
-        @apply font-semibold;
-    }
-
-    a {
-        @apply bg-gradient-to-r;
-        @apply from-neutral-500;
-        @apply to-neutral-500;
-        background-size: 100% 0.125rem;
-        background-position: 0 100%;
-        @apply bg-no-repeat;
-
-        @apply duration-200;
-    }
-
-    a:hover {
-        @apply text-neutral-500;
+    :root {
+        color-scheme: dark;
     }
 
     ::selection {
         @apply bg-neutral-700;
-        @apply text-neutral-50;
     }
 
+    ::-webkit-scrollbar {
+        @apply w-3;
+    }
+
+    ::-webkit-scrollbar-track {
+        @apply bg-neutral-900;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        @apply bg-neutral-700;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        @apply bg-neutral-600;
+    }
 }

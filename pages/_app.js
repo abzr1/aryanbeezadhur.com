@@ -1,10 +1,14 @@
 import { DefaultSeo } from 'next-seo'
-import Header from '../components/header'
-import Layout from '../components/layout'
+import { useRouter } from 'next/router'
+import LinkWithIcon from '../components/link-with-icon'
 
+import '../public/fonts/general-sans.css'
+import '../public/fonts/switzer.css'
 import '../public/output.css'
 
 export default function MyApp({ Component, pageProps }) {
+    const router = useRouter()
+
     return (
         <>
             <DefaultSeo
@@ -21,11 +25,11 @@ export default function MyApp({ Component, pageProps }) {
                     site_name: 'AryanBeezadhur.com',
                     images: [
                         {
-                            url: 'https://www.aryanbeezadhur.com/profile.png',
+                            url: 'https://www.aryanbeezadhur.com/opengraph.jpg',
                             width: 1000,
                             height: 1000,
                             alt: 'www.aryanbeezadhur.com',
-                            type: 'image/png'
+                            type: 'image/jpg'
                         }
                     ]
                 }}
@@ -36,11 +40,17 @@ export default function MyApp({ Component, pageProps }) {
                 }}
             />
 
-            <Layout>
-                <Header />
+            <main className="w-4/5 md:w-3/5 mx-auto">
+                <div className="py-14">
+                    {router.pathname === '/' ? null : (
+                        <LinkWithIcon direction="left" href="/">
+                            Home
+                        </LinkWithIcon>
+                    )}
+                </div>
 
                 <Component {...pageProps} />
-            </Layout>
+            </main>
         </>
     )
 }

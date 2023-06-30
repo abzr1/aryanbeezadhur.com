@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import { DefaultSeo } from 'next-seo'
 import { useRouter } from 'next/router'
 import LinkWithIcon from '../components/link-with-icon'
@@ -50,6 +51,8 @@ export default function MyApp({ Component, pageProps }) {
                 </div>
 
                 <Component {...pageProps} />
+
+                <Analytics />
             </main>
         </>
     )

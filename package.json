@@ -16,6 +16,7 @@
         "css": "npx tailwindcss -i ./public/input.css -o ./public/output.css --watch"
     },
     "dependencies": {
+        "@vercel/analytics": "^1.0.1",
         "next": "^12.1.0",
         "next-seo": "^5.1.0",
         "react": "^17.0.2",

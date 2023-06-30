@@ -6,8 +6,8 @@ module.exports = {
     theme: {
         extend: {},
         fontFamily: {
-            display: ['General Sans', ...defaultTheme.fontFamily.sans],
-            body: ['Switzer', ...defaultTheme.fontFamily.serif]
+            display: ['GeneralSans-Semibold', ...defaultTheme.fontFamily.sans],
+            body: ['Switzer-Regular', ...defaultTheme.fontFamily.serif]
         }
     },
     plugins: []

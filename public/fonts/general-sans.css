@@ -1,0 +1,23 @@
+/**
+ * @license
+ *
+ * Font Family: General Sans
+ * Designed by: Frode Helland
+ * URL: https://www.fontshare.com/fonts/general-sans
+ * © 2023 Indian Type Foundry
+ *
+ * Font Style:
+ * General Sans Semibold
+ *
+*/
+
+
+@font-face {
+    font-family: 'GeneralSans-Semibold';
+    src: url('./GeneralSans-Semibold.woff2') format('woff2'),
+        url('./GeneralSans-Semibold.woff') format('woff'),
+        url('./GeneralSans-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+}

@@ -11,7 +11,8 @@ export default function Index() {
                 description="I'm a young programmer based in London."
             />
 
-            <Heading size="h1">Aryan Beezadhur</Heading>
+            <Heading size="h1">Aryan&nbsp;</Heading>
+            <Heading size="h1">Beezadhur</Heading>
 
             <Paragraph>I&apos;m a young programmer based in London.</Paragraph>
 

@@ -28,7 +28,8 @@ export default function Contact() {
             <NextSeo title="Contact & Social" description="Get in touch." />
 
             <div>
-                <Heading size="h1">Contact & Social</Heading>
+                <Heading size="h1">Contact &&nbsp;</Heading>
+                <Heading size="h1">Social</Heading>
 
                 <Paragraph>Get in touch.</Paragraph>
 

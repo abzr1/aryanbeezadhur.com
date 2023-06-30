@@ -13,30 +13,28 @@ export default function MyApp({ Component, pageProps }) {
     return (
         <>
             <DefaultSeo
-                titleTemplate="Aryan Beezadhur - %s"
-                defaultTitle="AryanBeezadhur.com"
+                titleTemplate="Aryan Beezadhur | %s"
+                defaultTitle="Aryan Beezadhur"
                 canonical="https://www.aryanbeezadhur.com"
                 description="I'm a young programmer based in London."
                 openGraph={{
                     type: 'website',
                     locale: 'en_GB',
                     url: 'https://www.aryanbeezadhur.com',
-                    title: 'Aryan Beezadhur - Programmer',
+                    title: 'Aryan Beezadhur | Programmer',
                     description: 'Programmer',
-                    site_name: 'AryanBeezadhur.com',
+                    site_name: 'Aryan Beezadhur',
                     images: [
                         {
                             url: 'https://www.aryanbeezadhur.com/opengraph.jpg',
-                            width: 1000,
-                            height: 1000,
+                            width: 4818,
+                            height: 4818,
                             alt: 'www.aryanbeezadhur.com',
                             type: 'image/jpg'
                         }
                     ]
                 }}
                 twitter={{
-                    handle: '@AryanBeezadhur',
-                    site: '@AryanBeezadhur',
                     cardType: 'summary_large_image'
                 }}
             />

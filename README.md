@@ -1,11 +1,5 @@
-<h1 align="center">
-    atyb4
-</h1>
+# Aryan Beezadhur
 
-<p align="center">
-    I'm a young programmer based in London.
-</p>
+I'm a young programmer based in London.
 
-<p align="center">
-    <a href="https://www.aryanbeezadhur.com">www.aryanbeezadhur.com</a>
-</p>
+[www.aryanbeezadhur.com](https://www.aryanbeezadhur.com)

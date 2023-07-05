@@ -10,7 +10,7 @@ const items = [
     },
     {
         name: 'GitHub',
-        url: 'https://github.com/atyb4'
+        url: 'https://github.com/no2reasons'
     },
     {
         name: 'Stack Overflow',

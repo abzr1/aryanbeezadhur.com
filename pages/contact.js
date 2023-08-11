@@ -10,11 +10,11 @@ const items = [
     },
     {
         name: 'Twitter',
-        url: 'https://twitter.com/no2reasons'
+        url: 'https://twitter.com/aryanbeezadhur'
     },
     {
         name: 'GitHub',
-        url: 'https://github.com/no2reasons'
+        url: 'https://github.com/aryanbeezadhur'
     },
     {
         name: 'Stack Overflow',

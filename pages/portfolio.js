@@ -5,20 +5,20 @@ import Paragraph from '../components/paragraph'
 
 const items = [
     {
-        title: 'no2reasons',
+        title: 'aryanbeezadhur',
         description: 'My personal site, built with Next.js.',
-        url: 'https://github.com/no2reasons/no2reasons'
+        url: 'https://github.com/aryanbeezadhur/aryanbeezadhur'
     },
     {
         title: 'wordstats',
         description:
             'A website that calculates text stats, built with Next.js.',
-        url: 'https://github.com/no2reasons/wordstats'
+        url: 'https://github.com/aryanbeezadhur/wordstats'
     },
     {
         title: 'project_euler',
         description: 'My solutions to Project Euler.',
-        url: 'https://github.com/no2reasons/project_euler'
+        url: 'https://github.com/aryanbeezadhur/project_euler'
     }
 ]
 

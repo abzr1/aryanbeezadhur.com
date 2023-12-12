@@ -9,10 +9,6 @@ const items = [
         url: 'mailto:aryanbeezadhur@gmail.com'
     },
     {
-        name: 'Twitter',
-        url: 'https://twitter.com/aryanbeezadhur'
-    },
-    {
         name: 'GitHub',
         url: 'https://github.com/aryanbeezadhur'
     },

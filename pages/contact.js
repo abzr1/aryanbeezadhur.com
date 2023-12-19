@@ -18,7 +18,7 @@ const items = [
     },
     {
         name: 'LinkedIn',
-        url: 'https://www.linkedin.com/in/aryan-beezadhur-833b34171/'
+        url: 'https://www.linkedin.com/in/aryanbeezadhur/'
     }
 ]
 

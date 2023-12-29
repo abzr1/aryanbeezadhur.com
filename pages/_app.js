@@ -3,8 +3,7 @@ import { DefaultSeo } from 'next-seo'
 import { useRouter } from 'next/router'
 import LinkWithIcon from '../components/link-with-icon'
 
-import '../public/fonts/general-sans.css'
-import '../public/fonts/switzer.css'
+import '../public/fonts/instrument-sans.css'
 import '../public/output.css'
 
 export default function MyApp({ Component, pageProps }) {

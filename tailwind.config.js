@@ -6,8 +6,11 @@ module.exports = {
     theme: {
         extend: {},
         fontFamily: {
-            display: ['GeneralSans-Semibold', ...defaultTheme.fontFamily.sans],
-            body: ['Switzer-Regular', ...defaultTheme.fontFamily.serif]
+            display: [
+                'Instrument Sans SemiBold',
+                ...defaultTheme.fontFamily.sans
+            ],
+            body: ['Instrument Sans Regular', ...defaultTheme.fontFamily.serif]
         }
     },
     plugins: []

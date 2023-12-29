@@ -16,9 +16,9 @@ const items = [
         url: 'https://github.com/aryanbeezadhur/wordstats'
     },
     {
-        title: 'project_euler',
+        title: 'project-euler',
         description: 'My solutions to Project Euler.',
-        url: 'https://github.com/aryanbeezadhur/project_euler'
+        url: 'https://github.com/aryanbeezadhur/project-euler'
     }
 ]
 

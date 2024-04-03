@@ -14,16 +14,13 @@ export default function Index() {
             <Heading size="h1">Aryan&nbsp;</Heading>
             <Heading size="h1">Beezadhur</Heading>
 
-            <Paragraph>I&apos;m a young programmer based in London.</Paragraph>
-
             <Paragraph>
-                I did a work placement with the Sage Foundation as a full-stack
-                programmer with Python, Flask and Heroku.
+                I am a young and dynamic programmer with a passion for learning.
             </Paragraph>
 
             <Paragraph>
-                Skills: Git, Python, Django, Flask, JavaScript, Node.js, React,
-                Next.js.
+                I have experience working with Git, Python, Django, Flask,
+                JavaScript, Node.js, React and Next.js.
             </Paragraph>
 
             <nav className="mt-4">

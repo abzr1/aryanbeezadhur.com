@@ -4,22 +4,11 @@
     "private": "true",
     "license": "UNLICENSED",
     "scripts": {
-        "dev": "next dev",
-        "build": "next build",
-        "start": "next start",
-        "lint": "next lint",
-        "css": "npx tailwindcss -i ./public/input.css -o ./public/output.css --watch"
-    },
-    "dependencies": {
-        "@vercel/analytics": "^1.0.1",
-        "next": "^12.1.0",
-        "next-seo": "^5.1.0",
-        "react": "^17.0.2",
-        "react-dom": "^17.0.2"
+        "dev": "npx serve src",
+        "css": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
     },
     "devDependencies": {
-        "eslint": "^8.9.0",
-        "eslint-config-next": "^12.1.0",
-        "tailwindcss": "^3.2.2"
+        "serve": "^14.2.1",
+        "tailwindcss": "^3.4.3"
     }
 }

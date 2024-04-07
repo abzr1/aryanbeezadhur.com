@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        color-scheme: dark;
+    }
+
+    ::selection {
+        @apply bg-neutral-700;
+    }
+
+    ::-webkit-scrollbar {
+        @apply w-3;
+    }
+
+    ::-webkit-scrollbar-track {
+        @apply bg-black;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        @apply bg-neutral-700;
+    }
+}

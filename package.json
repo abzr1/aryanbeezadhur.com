@@ -3,10 +3,6 @@
     "description": "My personal website.",
     "private": "true",
     "license": "UNLICENSED",
-    "author": {
-        "name": "Aryan Beezadhur",
-        "url": "https://www.aryanbeezadhur.com"
-    },
     "scripts": {
         "dev": "next dev",
         "build": "next build",

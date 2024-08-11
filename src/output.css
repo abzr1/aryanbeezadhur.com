@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.9 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -582,10 +582,6 @@ video {
   --tw-contain-style:  ;
 }
 
-.relative {
-  position: relative;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -596,47 +592,12 @@ video {
   margin-bottom: 2rem;
 }
 
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.inline-block {
-  display: inline-block;
-}
-
-.inline-flex {
-  display: inline-flex;
-}
-
 .h-full {
   height: 100%;
 }
 
 .w-4\/5 {
   width: 80%;
-}
-
-.items-center {
-  align-items: center;
-}
-
-.gap-0 {
-  gap: 0px;
-}
-
-.border-b-\[1px\] {
-  border-bottom-width: 1px;
-}
-
-.border-black {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
-}
-
-.border-white {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .bg-black {
@@ -654,34 +615,12 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.from-\[\#D5A789\] {
-  --tw-gradient-from: #D5A789 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(213 167 137 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
 .to-neutral-500 {
   --tw-gradient-to: #737373 var(--tw-gradient-to-position);
 }
 
-.to-\[\#D5A789\] {
-  --tw-gradient-to: #D5A789 var(--tw-gradient-to-position);
-}
-
 .bg-\[length\:100\%_0\.125rem\] {
   background-size: 100% 0.125rem;
-}
-
-.bg-\[length\:100\%_0\.1rem\] {
-  background-size: 100% 0.1rem;
-}
-
-.bg-\[length\:100\%_0\.5rem\] {
-  background-size: 100% 0.5rem;
-}
-
-.bg-\[length\:100\%_0\.3rem\] {
-  background-size: 100% 0.3rem;
 }
 
 .bg-\[0_100\%\] {
@@ -698,11 +637,11 @@ video {
 }
 
 .font-body {
-  font-family: Instrument Sans Regular, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: JetBrains Mono, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
 .font-display {
-  font-family: Instrument Sans SemiBold, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: JetBrains Mono, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .text-5xl {
@@ -710,12 +649,8 @@ video {
   line-height: 1;
 }
 
-.font-semibold {
-  font-weight: 600;
-}
-
-.uppercase {
-  text-transform: uppercase;
+.font-bold {
+  font-weight: 700;
 }
 
 .text-white {
@@ -723,88 +658,13 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-\[\#D5A789\] {
-  --tw-text-opacity: 1;
-  color: rgb(213 167 137 / var(--tw-text-opacity));
-}
-
-.duration-200 {
-  transition-duration: 200ms;
-}
-
 .duration-150 {
   transition-duration: 150ms;
-}
-
-.after\:absolute::after {
-  content: var(--tw-content);
-  position: absolute;
-}
-
-.after\:bottom-0::after {
-  content: var(--tw-content);
-  bottom: 0px;
-}
-
-.after\:left-0::after {
-  content: var(--tw-content);
-  left: 0px;
-}
-
-.after\:-z-10::after {
-  content: var(--tw-content);
-  z-index: -10;
-}
-
-.after\:h-3::after {
-  content: var(--tw-content);
-  height: 0.75rem;
-}
-
-.after\:w-full::after {
-  content: var(--tw-content);
-  width: 100%;
-}
-
-.after\:bg-neutral-300::after {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(212 212 212 / var(--tw-bg-opacity));
-}
-
-.after\:bg-white::after {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.after\:opacity-30::after {
-  content: var(--tw-content);
-  opacity: 0.3;
-}
-
-.after\:opacity-0::after {
-  content: var(--tw-content);
-  opacity: 0;
-}
-
-.after\:content-\[\'\'\]::after {
-  --tw-content: '';
-  content: var(--tw-content);
-}
-
-.hover\:gap-1:hover {
-  gap: 0.25rem;
 }
 
 .hover\:text-neutral-500:hover {
   --tw-text-opacity: 1;
   color: rgb(115 115 115 / var(--tw-text-opacity));
-}
-
-.hover\:text-\[\#D5A789\]:hover {
-  --tw-text-opacity: 1;
-  color: rgb(213 167 137 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {

@@ -7,10 +7,10 @@ module.exports = {
         extend: {},
         fontFamily: {
             display: [
-                'Instrument Sans SemiBold',
+                'JetBrains Mono',
                 ...defaultTheme.fontFamily.sans
             ],
-            body: ['Instrument Sans Regular', ...defaultTheme.fontFamily.serif]
+            body: ['JetBrains Mono', ...defaultTheme.fontFamily.serif]
         }
     },
     plugins: []

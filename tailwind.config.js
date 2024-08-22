@@ -6,11 +6,7 @@ module.exports = {
     theme: {
         extend: {},
         fontFamily: {
-            display: [
-                'JetBrains Mono',
-                ...defaultTheme.fontFamily.sans
-            ],
-            body: ['JetBrains Mono', ...defaultTheme.fontFamily.serif]
+            body: ['JetBrains Mono', ...defaultTheme.fontFamily.sans]
         }
     },
     plugins: []

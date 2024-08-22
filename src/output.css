@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.9 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.10 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -637,10 +637,6 @@ video {
 }
 
 .font-body {
-  font-family: JetBrains Mono, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
-.font-display {
   font-family: JetBrains Mono, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
